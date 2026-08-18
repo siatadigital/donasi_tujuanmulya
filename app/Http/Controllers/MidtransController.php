@@ -9,6 +9,7 @@ use App\Models\Zakat;
 use App\Models\Supporter;
 use App\Models\SupporterDetail;
 use App\Models\Option;
+use App\Models\Project;
 
 use Illuminate\Support\Facades\Crypt;
 
@@ -84,11 +85,32 @@ class MidtransController extends Controller
   public function submitMidtrans($type, Request $request)
   {
     $req = $request->all();
+    if (!in_array($type, ['donation', 'zakat', 'project'])) {
+      abort(404);
+    }
+    if (empty($req['payment_method'])) {
+      abort(422, 'Metode pembayaran wajib dipilih.');
+    }
+    if ($type == 'project') {
+      $req['money'] = preg_replace('/\D/', '', isset($req['money']) ? (string) $req['money'] : '');
+      if ((int) $req['money'] < 1) {
+        abort(422, 'Nominal donasi tidak valid.');
+      }
+    } else {
+      $req['amount'] = preg_replace('/\D/', '', isset($req['amount']) ? (string) $req['amount'] : '');
+      if ((int) $req['amount'] < 1) {
+        abort(422, 'Nominal donasi tidak valid.');
+      }
+    }
 
     \DB::transaction(function () use ($req, $type) {
       if ($type == 'donation') {
-        $req['amount'] = str_replace('.', '', $req['amount']);
-        $donation = Donation::create($req);
+        $donationData = $req;
+        foreach (['id', 'status', 'is_payment_confirmed', 'payment_confirm_at', 'snap_token', 'redirect_url', 'unique_code', 'va_number', 'expired_at', 'sent_expired_email', 'is_checked', 'check_note', 'doku_data'] as $field) {
+          unset($donationData[$field]);
+        }
+        $donationData['status'] = 'pending';
+        $donation = Donation::create($donationData);
         $date = date('Y-m-d H:i:s');
         $expiredAt = strtotime("+1440 minute", strtotime($date));
         $expiredAt = date('Y-m-d H:i:s', $expiredAt);
@@ -194,7 +216,7 @@ class MidtransController extends Controller
             $this->response['res'] = "";
           } else {
             // Midtrans
-            \PaymentNotif::payment_midtrans($donation, $req, $date, $type);
+            \PaymentNotif::payment_midtrans_snap($donation, $req, $date, $type);
 
             $this->response['data'] = $donation;
             $this->response['type'] = 'infak';
@@ -204,8 +226,12 @@ class MidtransController extends Controller
         }
       } else if ($type == 'zakat') {
         // Save zakat ke database
-        $req['amount'] = str_replace('.', '', $req['amount']);
-        $zakat = Zakat::create($req);
+        $zakatData = $req;
+        foreach (['id', 'status', 'is_payment_confirmed', 'payment_confirm_at', 'snap_token', 'redirect_url', 'unique_code', 'va_number', 'expired_at', 'sent_expired_email', 'is_checked', 'check_note'] as $field) {
+          unset($zakatData[$field]);
+        }
+        $zakatData['status'] = 'pending';
+        $zakat = Zakat::create($zakatData);
         $date = date('Y-m-d H:i:s');
         $expiredAt = strtotime("+1440 minute", strtotime($date));
         $expiredAt = date('Y-m-d H:i:s', $expiredAt);
@@ -334,7 +360,7 @@ class MidtransController extends Controller
             $this->response['typePayment'] = 'va_bca';
           } else {
             // Midtrans
-            \PaymentNotif::payment_midtrans($zakat, $req, $date, $type);
+            \PaymentNotif::payment_midtrans_snap($zakat, $req, $date, $type);
 
             $this->response['data'] = $zakat;
             $this->response['type'] = 'zakat';
@@ -344,26 +370,63 @@ class MidtransController extends Controller
         }
       } else if ($type == 'project') {
         // Save support project ke database
-        $req['money'] = str_replace('.', '', $req['money']);
+        $project = isset($req['project_id']) ? Project::find((int) $req['project_id']) : null;
+        if (!$project || $project->status != 'active' || strtotime($project->time_end) < time()) {
+          abort(422, 'Campaign sudah tidak menerima donasi.');
+        }
 
+        $rewardItems = [];
+        if (!empty($req['reward_id'])) {
+          $rewardList = json_decode($req['reward_id'], true);
+          if (!is_array($rewardList) || count($rewardList) < 1) {
+            abort(422, 'Pilihan campaign tidak valid.');
+          }
+
+          $rewardTotal = 0;
+          foreach ($rewardList as $item) {
+            $rewardId = isset($item['id']) ? (int) $item['id'] : 0;
+            $quantity = isset($item['qty']) ? (int) $item['qty'] : 0;
+            $reward = $rewardId > 0 ? $project->rewards()->where('id', $rewardId)->first() : null;
+            if (!$reward || $quantity < 1 || $quantity > 100) {
+              abort(422, 'Pilihan campaign tidak valid.');
+            }
+
+            $rewardTotal += ((int) $reward->price * $quantity);
+            $rewardItems[] = [
+              'project_id' => $project->id,
+              'name' => isset($item['name']) ? substr(strip_tags((string) $item['name']), 0, 500) : '',
+              'item' => $reward->content,
+              'price' => (int) $reward->price,
+              'quantity' => $quantity,
+            ];
+          }
+
+          if ((int) $req['money'] !== $rewardTotal) {
+            abort(422, 'Nominal pilihan campaign tidak cocok.');
+          }
+        }
+        if ((int) $req['money'] > ((int) $project->money_target - (int) $project->money_progress)) {
+          abort(422, 'Nominal melebihi sisa target campaign.');
+        }
+
+        $req['user_id'] = auth()->check() ? auth()->user()->id : 0;
         $req['noauth'] = true;
         if ($req['user_id'] != '') {
           $req['noauth'] = false;
         }
         $req['payment_method'] = $req['payment_method'];
-        $supporter = Supporter::create($req);
+        $supporterData = $req;
+        foreach (['id', 'status', 'has_confirm_payment', 'payment_confirm_at', 'snap_token', 'redirect_url', 'unique_code', 'va_number', 'expired_at', 'sent_expired_email', 'is_checked', 'check_note'] as $field) {
+          unset($supporterData[$field]);
+        }
+        $supporterData['status'] = 'pending';
+        $supporter = Supporter::create($supporterData);
 
-        if (isset($req['reward_id'])) {
-          $rewardList = json_decode($req['reward_id'], true);
-          foreach ($rewardList as $item) {
-            SupporterDetail::create([
+        if (count($rewardItems) > 0) {
+          foreach ($rewardItems as $rewardItem) {
+            SupporterDetail::create(array_merge($rewardItem, [
               'supporter_id' => $supporter->id,
-              'project_id' => $req['project_id'],
-              'name' => $item['name'],
-              'item' => $item['desc'],
-              'price' => str_replace('Rp ', '', str_replace('.', '', $item['price'])),
-              'quantity' => $item['qty'],
-            ]);
+            ]));
           }
         }
 
@@ -511,7 +574,7 @@ class MidtransController extends Controller
             $this->response['typePayment'] = 'va_bca';
           } else {
             // Midtrans
-            \PaymentNotif::payment_midtrans($supporter, $req, $date, $type);
+            \PaymentNotif::payment_midtrans_snap($supporter, $req, $date, $type);
 
             $this->response['data'] = $supporter;
             $this->response['type'] = 'infak';
@@ -526,6 +589,14 @@ class MidtransController extends Controller
     if (strpos($req['payment_method'], 'transfer_') !== false) {
       // manual transfer
       return view('contents.payment.modal-transfer', $this->response);
+    } elseif ($this->response['typePayment'] == 'midtrans') {
+      $transaction = $this->response['data'];
+      return response()->json([
+        'snap_token' => $transaction->snap_token,
+        'redirect_url' => $transaction->redirect_url,
+        'transaction_id' => $transaction->id,
+        'transaction_type' => $type,
+      ]);
     } else {
       // midtrans, xendit
       //return $this->response;
@@ -542,31 +613,77 @@ class MidtransController extends Controller
    */
   public function notificationHandler(Request $request)
   {
-    $notif =  $request->all();
-    // new \Veritrans_Notification();
+    $notif = $request->all();
     $data = null;
-    $transaction = $notif['transaction_status'];
-    $type = $notif['payment_type'];
-    $orderId = $notif['order_id'];
-    $fraud = $notif['fraud_status'];
-    $typeOrder = explode('-', $orderId)[1];
-    $orderId = explode('-', $orderId)[0];
-
-    if ($typeOrder == 'donation') {
-      $donation = Donation::findOrFail($orderId);
-    } else if ($typeOrder == 'zakat') {
-      $zakat = Zakat::findOrFail($orderId);
-    } else if ($typeOrder == 'project') {
-      $supporter = Supporter::findOrFail($orderId);
+    $required = ['order_id', 'status_code', 'gross_amount', 'signature_key', 'transaction_status', 'payment_type'];
+    foreach ($required as $field) {
+      if (!isset($notif[$field]) || $notif[$field] === '') {
+        return response()->json(['success' => false, 'message' => 'Notifikasi tidak lengkap.'], 400);
+      }
     }
 
-    \DB::transaction(function () use ($transaction, $typeOrder, $orderId) {
+    $signature = hash(
+      'sha512',
+      $notif['order_id'] . $notif['status_code'] . $notif['gross_amount'] . config('services.midtrans.serverKey')
+    );
+    if (!hash_equals($signature, (string) $notif['signature_key'])) {
+      \Log::warning('Midtrans notification signature mismatch.', [
+        'order_id' => $notif['order_id'],
+      ]);
+      return response()->json(['success' => false, 'message' => 'Notifikasi tidak valid.'], 403);
+    }
+
+    $orderParts = explode('-', (string) $notif['order_id'], 2);
+    if (count($orderParts) !== 2 || !ctype_digit($orderParts[0]) || (int) $orderParts[0] < 1) {
+      return response()->json(['success' => false, 'message' => 'Order ID tidak valid.'], 400);
+    }
+
+    $orderId = (int) $orderParts[0];
+    $typeOrder = $orderParts[1];
+    $transaction = $notif['transaction_status'];
+    $type = $notif['payment_type'];
+    $fraud = isset($notif['fraud_status']) ? $notif['fraud_status'] : '';
+
+    if (!in_array($typeOrder, ['donation', 'zakat', 'project'])) {
+      return response()->json(['success' => false, 'message' => 'Tipe order tidak valid.'], 400);
+    }
+
+    if ($typeOrder == 'donation') {
+      $donation = Donation::find($orderId);
+      $expectedAmount = $donation ? $donation->amount : null;
+    } else if ($typeOrder == 'zakat') {
+      $zakat = Zakat::find($orderId);
+      $expectedAmount = $zakat ? $zakat->amount : null;
+    } else {
+      $supporter = Supporter::find($orderId);
+      $expectedAmount = $supporter ? $supporter->money : null;
+    }
+
+    if (!$expectedAmount || !preg_match('/^\d+(\.\d{1,2})?$/', (string) $notif['gross_amount'])) {
+      return response()->json(['success' => false, 'message' => 'Transaksi tidak ditemukan.'], 404);
+    }
+
+    if (number_format((float) $notif['gross_amount'], 2, '.', '') !== number_format((float) $expectedAmount, 2, '.', '')) {
+      \Log::warning('Midtrans notification amount mismatch.', [
+        'order_id' => $notif['order_id'],
+      ]);
+      return response()->json(['success' => false, 'message' => 'Nominal transaksi tidak cocok.'], 403);
+    }
+
+    \DB::transaction(function () use ($transaction, $type, $fraud, $typeOrder, $orderId) {
       if ($typeOrder == 'donation') {
         $donation = Donation::findOrFail($orderId);
       } else if ($typeOrder == 'zakat') {
         $zakat = Zakat::findOrFail($orderId);
       } else if ($typeOrder == 'project') {
         $supporter = Supporter::findOrFail($orderId);
+      }
+
+      $alreadySettled = ($typeOrder == 'donation' && $donation->status == 'success')
+        || ($typeOrder == 'zakat' && $zakat->status == 'success')
+        || ($typeOrder == 'project' && $supporter->status == 'accept');
+      if ($alreadySettled && in_array($transaction, ['capture', 'settlement'])) {
+        return;
       }
 
       if ($transaction == 'capture') {

@@ -6,6 +6,113 @@ use Illuminate\Support\Facades\DB;
 
 class PaymentNotif
 {
+  /**
+   * Create a Midtrans Snap token for an already persisted pending transaction.
+   * The server key never leaves this method or the backend request.
+   */
+  public static function payment_midtrans_snap($model, $req, $now, $type)
+  {
+    $serverKey = config('services.midtrans.serverKey');
+    if (empty($serverKey)) {
+      throw new \RuntimeException('Midtrans server key belum dikonfigurasi.');
+    }
+
+    $amount = $type == 'project' ? $model->money : $model->amount;
+    $amount = (int) $amount;
+    if ($amount < 1) {
+      throw new \InvalidArgumentException('Nominal transaksi tidak valid.');
+    }
+
+    $campaignName = 'Donasi di tujuanmulia.id';
+    if ($type == 'project' && $model->project) {
+      $campaignName = $model->project->title;
+    } elseif ($type == 'zakat') {
+      $campaignName = 'Zakat di tujuanmulia.id';
+    } else {
+      $campaignName = 'Infak di tujuanmulia.id';
+    }
+
+    $payload = [
+      'transaction_details' => [
+        'order_id' => $model->id . '-' . $type,
+        'gross_amount' => $amount,
+      ],
+      'expiry' => [
+        'start_time' => date('Y-m-d H:i:s O', strtotime($now)),
+        'unit' => 'minute',
+        'duration' => 1440,
+      ],
+      'customer_details' => [
+        'first_name' => (string) $model->fullname,
+        'email' => (string) $model->email,
+        'phone' => (string) $model->phone,
+      ],
+      'item_details' => [
+        [
+          'id' => $type . '-' . $model->id,
+          'price' => $amount,
+          'quantity' => 1,
+          'name' => substr($campaignName, 0, 50),
+        ],
+      ],
+    ];
+
+    // Keep the selected legacy channel when Snap supports the same code.
+    $paymentMap = [
+      'gopay' => 'gopay',
+      'permata_va' => 'permata_va',
+      'echannel' => 'echannel',
+      'bni_va' => 'bni_va',
+      'bri_va' => 'bri_va',
+    ];
+    $paymentMethod = isset($req['payment_method']) ? $req['payment_method'] : '';
+    if (isset($paymentMap[$paymentMethod])) {
+      $payload['enabled_payments'] = [$paymentMap[$paymentMethod]];
+    }
+
+    $endpoint = config('services.midtrans.isProduction')
+      ? 'https://app.midtrans.com/snap/v1/transactions'
+      : 'https://app.sandbox.midtrans.com/snap/v1/transactions';
+
+    try {
+      $client = new \GuzzleHttp\Client([
+        'timeout' => 15,
+        'connect_timeout' => 5,
+        'verify' => true,
+      ]);
+      $res = $client->request('POST', $endpoint, [
+        'headers' => [
+          'Accept' => 'application/json',
+          'Content-Type' => 'application/json',
+        ],
+        'auth' => [$serverKey, ''],
+        'json' => $payload,
+      ]);
+      $response = json_decode($res->getBody()->getContents(), true);
+    } catch (\Exception $e) {
+      \Log::error('Midtrans Snap token request failed.', [
+        'type' => $type,
+        'transaction_id' => $model->id,
+        'message' => $e->getMessage(),
+      ]);
+      throw new \RuntimeException('Snap gagal membuat token pembayaran.', 0, $e);
+    }
+
+    if (!is_array($response) || empty($response['token'])) {
+      \Log::error('Midtrans Snap token response is invalid.', [
+        'type' => $type,
+        'transaction_id' => $model->id,
+      ]);
+      throw new \RuntimeException('Snap tidak mengembalikan token pembayaran.');
+    }
+
+    $model->snap_token = $response['token'];
+    $model->redirect_url = isset($response['redirect_url']) ? $response['redirect_url'] : null;
+    $model->save();
+
+    return $response;
+  }
+
   public static function payment_midtrans($model, $req, $now, $type)
   {
     try {

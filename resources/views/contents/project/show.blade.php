@@ -480,6 +480,22 @@
 	<script src="{{ !config('services.midtrans.isProduction') ? 'https://app.sandbox.midtrans.com/snap/snap.js' : 'https://app.midtrans.com/snap/snap.js' }}" data-client-key="{{ config('services.midtrans.clientKey') }}"></script>
 	<script src="{{ url('assets/admin/js/select2.full.js') }}"></script>
 	<script type="text/javascript">
+		function openSnapPayment(data) {
+			if (!data || !data.snap_token || typeof window.snap === 'undefined') {
+				alert('Pembayaran Snap belum siap. Silakan coba lagi.');
+				return;
+			}
+
+			window.snap.pay(data.snap_token, {
+				showOrderId: false,
+				language: 'id',
+				onSuccess: function () { location.reload(); },
+				onPending: function () { location.reload(); },
+				onError: function () { location.reload(); },
+				onClose: function () {}
+			});
+		}
+
 			function submitForm() {
 				// Kirim request ajax
 				$('#loading-donasi').show();
@@ -539,6 +555,10 @@
 
 						// if (paymentMethod.includes("transfer_")) {
 							// manual transfer
+							if (typeof data === 'object' && data.snap_token) {
+								openSnapPayment(data);
+								return;
+							}
 							$('#successPayment .modal-body').html(data);
 							$('#successPayment').modal('show');
 							$('#doaDonasi').modal('show');
