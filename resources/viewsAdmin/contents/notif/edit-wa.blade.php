@@ -42,7 +42,7 @@
 						butuh bantuan? silakan chatting WA dengan admin kami https://api.whatsapp.com/send?phone=6285711122646";
 						<br><br>
 						Salam, <br>
-						https://tujuanmulia.id | *Yukdonasi*
+						Tujuan Mulia
 						@elseif ($notif->type == 'confirm_success' or $notif->type == 'qurban_confirm_success' or $notif->type == 'zakat_fitrah_confirm_success')
 						*KONFIRMASI INFAK/ZAKAT BERHASIL*
 						<br><br>
@@ -57,7 +57,7 @@
 						Terimakasih atas kepercayaannya. Untuk informasi program infak/zakat lainnya, silahkan kunjungi https://tujuanmulia.id atau WA official : https://api.whatsapp.com/send?phone=6285711122646<br>
 						<br>
 						Salam,<br>
-						https://tujuanmulia.id | *Yukdonasi*
+						Tujuan Mulia
 						@elseif ($notif->type == 'confirm_expired' or $notif->type == 'qurban_confirm_expired' or $notif->type == 'zakat_fitrah_confirm_expired')
 						*KONFIRMASI INFAK/ZAKAT TELAH LEWAT BATAS WAKTU*
 						<br><br>
@@ -68,7 +68,7 @@
 						Apabila ada pertanyaan, silahkan WA admin official di https://api.whatsapp.com/send?phone=6285711122646<br>
 						<br>
 						Salam,<br>
-						https://tujuanmulia.id | *Yukdonasi*
+						Tujuan Mulia
 						@elseif ($notif->type == 'crm_offer')
 						*PENAWARAN DARI ZAKAT KITA*
 						<br><br>
@@ -78,7 +78,7 @@
 						Apabila ada pertanyaan, silahkan WA admin official di https://api.whatsapp.com/send?phone=6285711122646
 						<br><br>
 						Salam,<br>
-						https://tujuanmulia.id | *Yukdonasi*
+						Tujuan Mulia
 						@endif
 					</div>
 				</div>

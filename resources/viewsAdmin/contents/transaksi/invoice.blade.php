@@ -142,11 +142,212 @@
 </style>
 @section('content')
 
-<div class="nav-tabs-custom">
+<style>
+	.invoice-admin {
+		border-top: 4px solid #ea8e26;
+		border-radius: 8px;
+		background: #fff;
+		box-shadow: 0 8px 24px rgba(23, 48, 59, .08);
+	}
+
+	.invoice-admin .tab-content {
+		padding: 24px;
+	}
+
+	.invoice-page-heading {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		margin-bottom: 24px;
+		padding-bottom: 18px;
+		border-bottom: 1px solid #e6edef;
+	}
+
+	.invoice-page-heading .heading-icon {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 42px;
+		height: 42px;
+		border-radius: 10px;
+		background: #fff2e3;
+		color: #ea8e26;
+		font-size: 18px;
+	}
+
+	.invoice-page-heading h1 {
+		margin: 0;
+		color: #17303b;
+		font-size: 22px;
+		font-weight: 700;
+	}
+
+	.invoice-page-heading p {
+		margin: 3px 0 0;
+		color: #6d7b80;
+		font-size: 12px;
+	}
+
+	.invoice-filters {
+		padding: 18px;
+		border: 1px solid #e6edef;
+		border-radius: 6px;
+		background: #f8fafb;
+	}
+
+	.invoice-filters .form-control {
+		border-color: #d7e1e5;
+		border-radius: 5px;
+		box-shadow: none;
+	}
+
+	.invoice-filters .form-control:focus {
+		border-color: #ea8e26;
+		box-shadow: 0 0 0 2px rgba(234, 142, 38, .12);
+	}
+
+	.invoice-admin .btn-brand {
+		border-color: #ea8e26;
+		background: #ea8e26;
+		color: #fff;
+	}
+
+	.invoice-admin .btn-brand:hover,
+	.invoice-admin .btn-brand:focus {
+		border-color: #d97b17;
+		background: #d97b17;
+		color: #fff;
+	}
+
+	.invoice-admin .btn-outline-brand {
+		border: 1px solid #ea8e26;
+		background: #fff;
+		color: #ea8e26;
+	}
+
+	.invoice-admin .btn-outline-brand:hover,
+	.invoice-admin .btn-outline-brand:focus {
+		background: #fff2e3;
+		color: #c96d12;
+	}
+
+	.invoice-total {
+		margin: 22px 0 4px;
+		color: #17303b;
+		font-size: 22px;
+		font-weight: 700;
+	}
+
+	.invoice-count {
+		margin: 0 0 10px;
+		color: #6d7b80;
+		font-size: 12px;
+	}
+
+	.invoice-admin #datatable {
+		overflow: hidden;
+		border: 1px solid #e1e9ec;
+		border-radius: 6px;
+	}
+
+	.invoice-admin #datatable thead th {
+		border-color: #17303b;
+		background: #17303b;
+		color: #fff;
+		font-size: 11px;
+		font-weight: 600;
+	}
+
+	.invoice-admin #datatable tbody td {
+		border-color: #e6edef;
+		color: #3d4d53;
+		vertical-align: middle;
+	}
+
+	.invoice-admin #datatable tbody tr:hover {
+		background: #fffaf4;
+	}
+
+	.invoice-admin #datatable label {
+		color: #17303b;
+		font-size: 11px;
+	}
+
+	.invoice-modal-header {
+		padding: 14px 18px;
+		border-bottom: 1px solid #e6edef;
+		background: #17303b;
+	}
+
+	.invoice-modal-header .btn-outline-light {
+		border-color: rgba(255, 255, 255, .55);
+		color: #fff;
+	}
+
+	.invoice-modal-header .btn-outline-light:hover {
+		background: rgba(255, 255, 255, .12);
+		color: #fff;
+	}
+
+	#inventory-invoice .invoice {
+		min-height: 0;
+		padding: 24px;
+		border-top: 6px solid #ea8e26;
+		border-radius: 6px;
+		background: #fff;
+		color: #17303b;
+	}
+
+	#inventory-invoice .invoice .company-details .name,
+	#inventory-invoice .invoice .invoice-details .invoice-id,
+	#inventory-invoice .invoice table td h3 {
+		color: #ea8e26;
+	}
+
+	#inventory-invoice .invoice table.invtable th {
+		background: #17303b;
+		color: #fff;
+	}
+
+	#inventory-invoice .invoice table.invtable td {
+		background: #f8fafb;
+	}
+
+	#inventory-invoice .invoice table .total {
+		background: #ea8e26 !important;
+		color: #fff;
+	}
+
+	#inventory-invoice .invoice main .notices {
+		border-left-color: #ea8e26;
+		background: #fff8ef;
+	}
+
+	#inventory-invoice .invoice footer {
+		border-top-color: #e6edef;
+		color: #6d7b80;
+	}
+
+	@media (max-width: 767px) {
+		.invoice-admin .tab-content { padding: 16px; }
+		.invoice-page-heading { align-items: flex-start; }
+		.invoice-page-heading h1 { font-size: 18px; }
+		.invoice-filters [class*="col-"] { margin-bottom: 10px; }
+		#inventory-invoice .invoice { padding: 14px; }
+	}
+</style>
+
+<div class="nav-tabs-custom invoice-admin">
 
 	<div class="tab-content">
-		<br />
-		<form action="{{ route("admin.transaksi.getSuccessTransaksiExport") }}" method="post">
+		<div class="invoice-page-heading">
+			<div class="heading-icon"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>
+			<div>
+				<h1>Invoice Transaksi</h1>
+				<p>Kelola, lihat, dan cetak bukti transaksi donasi.</p>
+			</div>
+		</div>
+		<form class="invoice-filters" action="{{ route("admin.transaksi.getSuccessTransaksiExport") }}" method="post">
 			{{ csrf_field() }}
 			<div class="row">
 				<div class="input-daterange">
@@ -193,17 +394,14 @@
 			</div>
 			<br>
 			<div>
-				<a name="filter" id="filter" class="btn btn-primary">Filter</a>
+				<a name="filter" id="filter" class="btn btn-brand"><i class="fa fa-filter" aria-hidden="true"></i> Filter</a>
 				{{-- <input type="submit" id="export" value="Export Excel" class="btn btn-success"> --}}
-				<a name="refresh" id="refresh" class="btn btn-default">Refresh</a>
+				<a name="refresh" id="refresh" class="btn btn-outline-brand"><i class="fa fa-refresh" aria-hidden="true"></i> Refresh</a>
 			</div>
 		</form>
-		<br><br>
-		<h2 class="pull-left">Total Transaksi {{ priceFormat($total) }}</h2>
-		<br><br><br>
-		<hr>
-		<p class="text-right">{{ $count }} transaksi ditemukan</p>
-		<table id="datatable" class="table table-bordered table-striped table-hover">
+		<h2 class="invoice-total">Total Transaksi {{ priceFormat($total) }}</h2>
+		<p class="invoice-count">{{ $count }} transaksi ditemukan</p>
+		<table id="datatable" class="table table-bordered table-striped table-hover invoice-table-admin">
 			<thead>
 				<tr>
 					<th style="width: 15%;">Kode Invoice</th>
@@ -239,11 +437,11 @@
 						</div>
 						@endif
 					</td>
-					<td>{{ strtoupper($item['status']="ACCEPT"?"SUCCESS":$item['status']) }}</td>
+				<td>{{ strtolower($item['status']) === 'accept' ? 'SUCCESS' : strtoupper($item['status']) }}</td>
 					<td>{{ formatTime($item['created_at'], 'd F Y, H:i') }}</td>
 					<td>
-						<span class="btn btn-success btn-sm ViewData" data-token="{{Crypt::encrypt($item['id']."-".$item['endpoint'])}}"> <i class="fa fa-file-o"> </i> Lihat</span>
-						<a class="btn btn-primary btn-sm" href="/invoice/{{Crypt::encrypt($item['id']."-".$item['endpoint'])}}" target="_blank"> <span class="fa fa-print"></span> Cetak</a>
+						<span class="btn btn-outline-brand btn-sm ViewData" data-token="{{Crypt::encrypt($item['id']."-".$item['endpoint'])}}"> <i class="fa fa-file-o"> </i> Lihat</span>
+						<a class="btn btn-brand btn-sm" href="/invoice/{{Crypt::encrypt($item['id']."-".$item['endpoint'])}}" target="_blank"> <span class="fa fa-print"></span> Cetak</a>
 					</td>
 				</tr>
 				@endforeach
@@ -258,25 +456,25 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content modal-lg ">
-			<div class="modal-header text-right">
-				<a class="btn btn-primary btn-sm PrintView" href="#" target="_blank"> <span class="fa fa-print"></span> Cetak</a>
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			<div class="modal-header invoice-modal-header text-right">
+				<a class="btn btn-brand btn-sm PrintView" href="#" target="_blank"> <span class="fa fa-print"></span> Cetak</a>
+				<button type="button" class="btn btn-outline-light btn-sm" data-dismiss="modal">Tutup</button>
 			</div>
 			<div class="modal-body">
 				<div id="inventory-invoice">
 
 					<div class="invoice overflow-auto">
-						<div style="border-bottom: #9c8816 2px solid; margin-bottom:15px">
+						<div style="border-bottom: #ea8e26 2px solid; margin-bottom:15px">
 							<table>
 								<tr class="row">
 									<td>
-										<img src="https://tujuanmulia.id/public/images/logo_n1.png" alt="peduli" width="200px" class="pull-left mx-auto">
+									<img src="{{ asset('images/logo-nh.png') }}" alt="Tujuan Mulia" width="200px" class="pull-left mx-auto">
 									</td>
 									<td style="width: 50%">
 										<div class="col company-details">
-											<h2 class="name">yukdonas.org </h2>
-											<div>Al Barokah Block. C No. 11 RT. 006 Rw. 009 Lebakwangi Sepatin Timur Kab. Tangerang Banten</div>
-											<div>WhatsApp : +6285711122646</div>
+										<h2 class="name">Tujuan Mulia</h2>
+										<div>Platform kebaikan untuk berbagi dan berdampak.</div>
+										<div>{{ request()->getHost() }}</div>
 										</div>
 									</td>
 								</tr>
@@ -336,7 +534,7 @@
 												<h3 class="Donasi"></h3>
 												<div class="descript"></div>
 											</td>
-											<td class="total" style="background-color: #9c8816"> </td>
+											<td class="total" style="background-color: #ea8e26"> </td>
 										</tr>
 									</tbody>
 								</table>

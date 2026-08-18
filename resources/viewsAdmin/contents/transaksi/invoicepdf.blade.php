@@ -1,241 +1,137 @@
+<?php
+    $baseAmount = (float) $transactions->amount;
+    $uniqueCode = (float) ($transactions->unique_code ?: 0);
+    $totalAmount = $baseAmount + $uniqueCode;
+    $transactionStatus = strtolower((string) $transactions->status) === 'accept'
+        ? 'SUCCESS'
+        : strtoupper((string) $transactions->status);
+    $recipientName = $transactions->fullname ?: 'Donatur';
+    $campaignName = $transactions->project_title ?: 'Donasi umum';
+    $logoPath = str_replace('\\', '/', public_path('images/logo-nh.png'));
+?>
 <style>
-    #inventory-invoice a {
-        text-decoration: none ! important;
-    }
-
-    .invoice {
-        position: relative;
-        background-color: #FFF;
-        min-height: 680px;
-    }
-
-    .invoice header {
-        padding: 10px 0;
-        margin-bottom: 20px;
-        border-bottom: 1px solid #998306
-    }
-
-    .company-details {
-        text-align: right;
-        /* max-width:400px; */
-    }
-
-    .company-details .name {
-        margin-top: 0;
-        margin-bottom: 0;
-        color: #998306
-    }
-
-    .invoice .contacts {
-        margin-bottom: 20px
-    }
-
-    .invoice .invoice-to {
-        text-align: left
-    }
-
-    .invoice .invoice-to .to {
-        margin-top: 0;
-        margin-bottom: 0
-    }
-
-    .invoice .invoice-details {
-        text-align: right
-    }
-
-    .invoice .invoice-details .invoice-id {
-        margin-top: 0;
-        color: #998306
-    }
-
-    .invoice main {
-        padding-bottom: 50px
-    }
-
-    .invoice main .thanks {
-        margin-top: -100px;
-        font-size: 2em;
-        margin-bottom: 50px
-    }
-
-    .invoice main .notices {
-        padding-left: 6px;
-        border-left: 6px solid #998306
-    }
-
-    .invoice main .notices .notice {
-        font-size: 1em
-    }
-
-    .invoice table {
-        width: 100%;
-        border-collapse: collapse;
-        border-spacing: 0;
-        margin-bottom: 20px
-    }
-
-    .invoice table.invtable td,
-    .invoice table th {
-        padding: 15px;
-        background: #eee;
-    }
-
-    .invoice table th {
-        white-space: nowrap;
-        font-weight: 400;
-        font-size: 16px;
-        border: 1px solid #fff;
-    }
-
-    .invoice table td {
-        border: 1px solid #fff;
-    }
-
-    .invoice table td h3 {
-        margin: 0;
-        font-weight: 400;
-        color: #998306;
-        font-size: 1em
-    }
-
-    .invoice table .tax,
-    .invoice table .total,
-    .invoice table .unit {
-        text-align: right;
-        font-size: 1em
-    }
-
-    .invoice table .no {
-        color: #fff;
-        font-size: 1.6em;
-        background: #9c8816
-    }
-
-    .invoice table .unit {
-        background: #ddd
-    }
-
-    .invoice table .total {
-        background: #9c8816;
-        color: #fff;
-        font-size: 1.6em;
-    }
-
-    .invoice table tfoot td {
-        background: 0 0;
-        border-bottom: none;
-        white-space: nowrap;
-        text-align: right;
-        padding: 10px 20px;
-        font-size: 1.4em;
-        border-top: 1px solid #aaa
-    }
-
-    .invoice footer {
-        width: 100%;
-        text-align: center;
-        color: #777;
-        border-top: 1px solid #aaa;
-        padding: 8px 0
-    }
+    @page { margin: 24px; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: #fff; color: #17303b; font-family: DejaVu Sans, Arial, sans-serif; font-size: 12px; line-height: 1.5; }
+    #inventory-invoice { width: 100%; }
+    #inventory-invoice a { color: #ea8e26; text-decoration: none; }
+    .invoice-shell { overflow: hidden; border: 1px solid #d9e1e5; border-top: 7px solid #ea8e26; background: #fff; }
+    .invoice-header { width: 100%; padding: 24px 28px; background: #17303b; color: #fff; }
+    .invoice-header table, .invoice-body table { width: 100%; border-collapse: collapse; }
+    .invoice-header td { vertical-align: middle; }
+    .brand-logo { display: block; width: 198px; height: auto; padding: 7px 10px; border-radius: 6px; background: #fff; }
+    .brand-caption { padding-top: 8px; color: #d8e5e9; font-size: 10px; letter-spacing: .4px; }
+    .header-meta { text-align: right; color: #d8e5e9; font-size: 10px; line-height: 1.7; }
+    .header-meta strong { display: block; color: #fff; font-size: 13px; }
+    .invoice-body { padding: 26px 28px 20px; }
+    .invoice-title { margin: 0; color: #17303b; font-size: 24px; font-weight: 700; }
+    .invoice-number { margin-top: 4px; color: #ea8e26; font-size: 13px; font-weight: 700; }
+    .invoice-date { color: #6d7b80; font-size: 10px; text-align: right; }
+    .invoice-date strong { color: #17303b; }
+    .info-grid { margin-top: 24px; }
+    .info-grid td { width: 50%; padding: 16px; vertical-align: top; border: 1px solid #e3eaed; background: #f8fafb; }
+    .info-grid td + td { border-left: 0; }
+    .eyebrow { margin-bottom: 6px; color: #ea8e26; font-size: 9px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+    .recipient-name { margin: 0 0 7px; color: #17303b; font-size: 15px; font-weight: 700; }
+    .muted, .detail-label { color: #6d7b80; }
+    .detail-row { padding: 2px 0; }
+    .detail-label { display: inline-block; width: 54px; }
+    .detail-value { color: #17303b; }
+    .invoice-table { width: 100%; margin-top: 24px; border-collapse: collapse; }
+    .invoice-table th { padding: 11px 14px; color: #fff; background: #17303b; font-size: 10px; font-weight: 700; letter-spacing: .6px; text-align: left; text-transform: uppercase; }
+    .invoice-table th:last-child, .invoice-table td:last-child { text-align: right; }
+    .invoice-table td { padding: 15px 14px; border: 1px solid #e3eaed; vertical-align: top; }
+    .transaction-type { margin-bottom: 4px; color: #ea8e26; font-size: 11px; font-weight: 700; }
+    .campaign-name { color: #17303b; font-size: 12px; }
+    .amount-cell { color: #17303b; font-size: 15px; font-weight: 700; white-space: nowrap; }
+    .summary-table { width: 100%; margin-top: 18px; border-collapse: collapse; }
+    .summary-table td { padding: 7px 0; border-bottom: 1px solid #edf1f2; }
+    .summary-table td:last-child { color: #17303b; font-weight: 700; text-align: right; }
+    .summary-table .grand-total td { padding-top: 12px; border-bottom: 0; color: #ea8e26; font-size: 16px; }
+    .status-row { margin-top: 18px; }
+    .status-row td { width: 50%; padding: 14px 16px; border: 1px solid #e3eaed; vertical-align: top; }
+    .status-value { color: #2f8f5b; font-size: 13px; font-weight: 700; }
+    .notice { margin-top: 22px; padding: 13px 16px; border-left: 4px solid #ea8e26; background: #fff8ef; color: #526269; font-size: 10px; }
+    .notice strong { display: block; margin-bottom: 3px; color: #17303b; font-size: 10px; text-transform: uppercase; }
+    .invoice-footer { padding: 16px 28px 20px; border-top: 1px solid #e3eaed; color: #6d7b80; font-size: 9px; text-align: center; }
+    .invoice-footer strong { color: #17303b; }
 </style>
+
 <div id="inventory-invoice">
-    <div style="border-bottom: #9c8816 2px solid; margin-bottom:15px">
-        <table>
-            <tr class="row">
-                <td>
-                    <img src="https://tujuanmulia.id/public/images/logo_n1.png" alt="peduli" width="200px" class="pull-left mx-auto">
-                </td>
-                <td>
-                    <div class="col company-details">
-											<h2 class="name">yukdonas.org </h2>
-											<div>Al Barokah Block. C No. 11 RT. 006 Rw. 009 Lebakwangi Sepatin Timur Kab. Tangerang Banten</div>
-											<div>WhatsApp : +6285711122646</div>
-                    </div>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="invoice overflow-auto">
-        <div style="min-width: 600px">
-            <main>
-                <table>
+    <div class="invoice-shell">
+        <div class="invoice-header">
+            <table>
+                <tr>
+                    <td>
+                        <img class="brand-logo" src="{{ $logoPath }}" alt="Tujuan Mulia">
+                        <div class="brand-caption">Platform kebaikan untuk berbagi dan berdampak.</div>
+                    </td>
+                    <td class="header-meta">
+                        <strong>BUKTI TRANSAKSI</strong>
+                        Tujuan Mulia<br>
+                        Dokumen resmi pembayaran donasi
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="invoice-body">
+            <table>
+                <tr>
+                    <td>
+                        <h1 class="invoice-title">Invoice Donasi</h1>
+                        <div class="invoice-number">#MH{{ $transactions->id }}</div>
+                    </td>
+                    <td class="invoice-date">Tanggal transaksi<br><strong>{{ formatTime($transactions->created_at, 'd F Y, H:i') }}</strong></td>
+                </tr>
+            </table>
+
+            <table class="info-grid">
+                <tr>
+                    <td>
+                        <div class="eyebrow">Donatur</div>
+                        <h2 class="recipient-name">{{ $recipientName }}</h2>
+                        <div class="detail-row"><span class="detail-label">Kota</span><span class="detail-value">{{ $transactions->city ?: '-' }}</span></div>
+                        <div class="detail-row"><span class="detail-label">Email</span><span class="detail-value">{{ $transactions->email ?: '-' }}</span></div>
+                        <div class="detail-row"><span class="detail-label">Telepon</span><span class="detail-value">{{ $transactions->phone ?: '-' }}</span></div>
+                    </td>
+                    <td>
+                        <div class="eyebrow">Penerima manfaat</div>
+                        <h2 class="recipient-name">{{ $campaignName }}</h2>
+                        <div class="muted">Terima kasih telah ikut mendukung program kebaikan melalui Tujuan Mulia.</div>
+                    </td>
+                </tr>
+            </table>
+
+            <table class="invoice-table">
+                <thead><tr><th>Detail donasi</th><th>Nominal</th></tr></thead>
+                <tbody>
                     <tr>
-                        <td>
-                            <div class="col invoice-to">
-                                <div class="text-gray-light">INVOICE TO:</div>
-                                <h2 class="to">{{ $transactions->fullname }}</h2>
-                                <table style="border:0" cellspacing="0" cellpadding="0">
-                                    <tr>
-                                        <td>Kota</td>
-                                        <td>:</td>
-                                        <td>
-                                            <div class="address">{{ $transactions->city }}</div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Email</td>
-                                        <td>:</td>
-                                        <td>
-                                            <div class="email"><a href="mailto:{{ $transactions->email }}">{{ $transactions->email }}</a></div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Telepon</td>
-                                        <td>:</td>
-                                        <td>
-                                            <div class="email">{{ $transactions->phone }}</div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="col invoice-details">
-                                <h1 class="invoice-id">INVOICE #MH{{ $transactions->id }}</h1>
-                                <div class="date">Tanggal Invoice: {{ formatTime($transactions->created_at, 'd F Y, H:i') }} </div>
-                            </div>
-                        </td>
+                        <td><div class="transaction-type">{{ $transactions->akad }}</div><div class="campaign-name">{{ $campaignName }}</div></td>
+                        <td class="amount-cell">Rp {{ number_format($baseAmount, 0, ',', '.') }}</td>
                     </tr>
-                </table>
-                <table class="invtable" border="0" cellspacing="0" cellpadding="0">
-                    <thead>
-                        <tr>
-                            <th style="text-align:left">NAMA DONASI</th>
-                            <th style="text-align:right">NOMINAL</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="text-left">
-                                <h3>{{ $transactions->akad }}</h3>{{ $transactions->project_title }}
-                            </td>
-                            <td class="total"> {{ number_format($transactions->amount, 0, ",", ".") }}</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table>
-                    <tr>
-                        <td style="text-align: left">
-                            <div>Metode Pembayaran</div>
-                            <h3>{{ $transactions->data_payment_method }}</h3>
-                        </td>
-                        <td style="text-align: right">
-                            <div>Status Pembayaran</div>
-                            <h3>{{ strtoupper($transactions->status="ACCEPT"?"SUCCESS":$transactions->status) }}</h3>
-                        </td>
-                    </tr>
-                </table>
-                <div class="notices">
-                    <div>NOTICE:</div>
-                    <div class="notice">Semoga Allah memberi pahala atas apa yang telah Anda berikan, menjadikannya sebagai penyuci untuk Anda, dan memberkahi untuk Anda apa yang masih tersisa.</div>
-                </div>
-            </main>
-            <div style=" font-size: 1em;text-align:center;margin-bottom:10px">Terimakasih atas kepercayaannya. Untuk informasi program infak/zakat lainnya, silahkan kunjungi <span class="email"><a href="{{ url() }}">tujuanmulia.id</a></span>
-            </div>
-            <footer>
-                Invoice was generated on a computer and is valid without the signature and seal.
-            </footer>
+                </tbody>
+            </table>
+
+            <table class="summary-table">
+                <tr><td>Nominal donasi</td><td>Rp {{ number_format($baseAmount, 0, ',', '.') }}</td></tr>
+                <tr><td>Kode unik</td><td>Rp {{ number_format($uniqueCode, 0, ',', '.') }}</td></tr>
+                <tr class="grand-total"><td>Total dibayarkan</td><td>Rp {{ number_format($totalAmount, 0, ',', '.') }}</td></tr>
+            </table>
+
+            <table class="status-row">
+                <tr>
+                    <td><div class="eyebrow">Metode pembayaran</div><strong>{{ $transactions->data_payment_method ?: '-' }}</strong></td>
+                    <td><div class="eyebrow">Status pembayaran</div><div class="status-value">{{ $transactionStatus }}</div></td>
+                </tr>
+            </table>
+
+            <div class="notice"><strong>Catatan</strong>Semoga Allah menerima kebaikan ini, memberikan keberkahan, dan menjadikan donasi ini bermanfaat bagi penerima.</div>
+        </div>
+
+        <div class="invoice-footer">
+            Terima kasih atas kepercayaan Anda kepada <strong>Tujuan Mulia</strong>.<br>
+            Dokumen ini dibuat otomatis dan sah tanpa tanda tangan atau stempel.
         </div>
     </div>
 </div>
