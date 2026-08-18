@@ -264,11 +264,23 @@ class PageController extends Controller
 
         $countTransactions = $countTransactionsSuccess + $countTransactionsFailed;
 
-        $dashboardPrivileges = auth()->user()->dashboardPrivileges->where('can_access', 1);
-        $isChartAreaAccessible = $dashboardPrivileges->where('dashboard_item_id', 1)->count() > 0;
-        $isChartAkadAccessible = $dashboardPrivileges->where('dashboard_item_id', 2)->count() > 0;
-        $isChartMethodAccessible = $dashboardPrivileges->where('dashboard_item_id', 3)->count() > 0;
-        $isChartTotalAccessible = $dashboardPrivileges->where('dashboard_item_id', 4)->count() > 0;
+        $user = auth()->user();
+        $allDashboardPrivileges = $user->dashboardPrivileges;
+        $dashboardPrivileges = $allDashboardPrivileges->where('can_access', 1);
+
+        // Older admin accounts may not have dashboard privilege rows yet.
+        // Superadmins retain access until those rows are configured explicitly.
+        if ($user->is_superadmin && $allDashboardPrivileges->isEmpty()) {
+            $isChartAreaAccessible = true;
+            $isChartAkadAccessible = true;
+            $isChartMethodAccessible = true;
+            $isChartTotalAccessible = true;
+        } else {
+            $isChartAreaAccessible = $dashboardPrivileges->where('dashboard_item_id', 1)->count() > 0;
+            $isChartAkadAccessible = $dashboardPrivileges->where('dashboard_item_id', 2)->count() > 0;
+            $isChartMethodAccessible = $dashboardPrivileges->where('dashboard_item_id', 3)->count() > 0;
+            $isChartTotalAccessible = $dashboardPrivileges->where('dashboard_item_id', 4)->count() > 0;
+        }
         // var_dump($periodsArtikel).die();
         $data = [
             'title' => 'Dashboard',
