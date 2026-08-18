@@ -6,7 +6,7 @@ return [
     'biller_code_mandiri' => '70012',
     'midtrans_gopay_qrcode_url' => 'https://api.midtrans.com/v2/gopay/KODE/qr-code',
 
-    'username_blacklist' => ['team', 'about', 'search', 'blog', 'assets', 'static', 'admin', 'explore', 'project', 'projects', 'yukdonasi.org', 'yukdonasi.org'],
+    'username_blacklist' => ['team', 'about', 'search', 'blog', 'assets', 'static', 'admin', 'explore', 'project', 'projects', 'tujuanmulia.id', 'tujuanmulia.id'],
 
     'bank' => [
         'mandiri' => [

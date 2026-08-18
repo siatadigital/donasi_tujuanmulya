@@ -481,7 +481,7 @@
                 id="emb-email-header"><a style="text-decoration: none;transition: opacity 0.1s ease-in;color: #c3ced9;"
                   href="{{ url('images/logo.png') }}" target="_blank"><img
                     style="height: auto;width: 100%;border: 0;max-width: 141px;" src="{{ url('images/logo.png') }}"
-                    alt="yukdonasi.org" width="141" height="141"></a></div>
+                    alt="tujuanmulia.id" width="141" height="141"></a></div>
             </div>
           </td>
         </tr>

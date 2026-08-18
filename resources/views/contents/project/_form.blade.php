@@ -221,19 +221,19 @@
 					@if(Route::current()->getName() == "project.getCreate")
 						<label for="slug">Custom Slug <small>(opsional)</small></label>
 						<div class="input-group">
-							<span class="input-group-addon">yukdonasi.org/</span>
+							<span class="input-group-addon">tujuanmulia.id/</span>
 							<input type="text" name="slug" class="form-control" id="custom_slug" onkeyup="custom_slugs(this)">
 						</div>
 					@else
 						<label for="slug">Slug</label>
 						<div class="input-group">
-							<span class="input-group-addon">yukdonasi.org/</span>
+							<span class="input-group-addon">tujuanmulia.id/</span>
 							<input type="text" name="slug" value="{{ $project['slug'] }}" class="form-control" readonly>
 						</div>
 						<br>
 						<label for="slug">Edit Custom Slug <small>(opsional)</small></label>
 						<div class="input-group">
-							<span class="input-group-addon">yukdonasi.org/</span>
+							<span class="input-group-addon">tujuanmulia.id/</span>
 							<input type="text" name="edit_slug" class="form-control" id="custom_slug" onkeyup="custom_slugs(this)">
 						</div>
 					@endif

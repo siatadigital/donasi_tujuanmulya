@@ -38,7 +38,7 @@
       <div class="form-group">
         <label for="slug">Link Galang Dana</label>
         <div class="input-group">
-          <span class="input-group-addon">yukdonasi.org/</span>
+          <span class="input-group-addon">tujuanmulia.id/</span>
           <input type="text" name="slug" class="form-control" id="custom_slug" onkeyup="custom_slugs(this)">
         </div>
       </div>

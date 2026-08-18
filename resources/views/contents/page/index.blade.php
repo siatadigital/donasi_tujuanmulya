@@ -272,7 +272,7 @@
     	<div class="container-mobile" >
 			<hr>
 			
-			<div class="text-center" style="font-size:10pt">Copyright © <?= date("Y"); ?> yukdonasi.org. All Rights Reserved</span>
+			<div class="text-center" style="font-size:10pt">Copyright © <?= date("Y"); ?> tujuanmulia.id. All Rights Reserved</span>
 		</div>
     </div> 
  

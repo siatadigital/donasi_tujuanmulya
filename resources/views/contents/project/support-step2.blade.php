@@ -130,7 +130,7 @@
 								<i class="fa fa-facebook"></i> facebook
 							</a>
 							<a type="button" class="btn btn-info" href="https://twitter.com/home?status=Saya telah mendukung Project Zakat Kita{{ URL::route(
-								'project.newGetShow', $project['slug']) }} #yukdonasi.org" target="_blank">
+								'project.newGetShow', $project['slug']) }} #tujuanmulia.id" target="_blank">
 								<i class="fa fa-twitter"></i> twitter
 							</a>
 							<a type="button" class="btn btn-danger" href="https://plus.google.com/share?url={{ URL::route(

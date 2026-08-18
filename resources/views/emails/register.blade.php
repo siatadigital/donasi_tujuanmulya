@@ -731,7 +731,7 @@ a{color:#202020}.logo div a:hover{color:#202020 !important}.divider .bullet{back
       <table class="header centered" style="border-collapse: collapse;border-spacing: 0;Margin-left: auto;Margin-right: auto;width: 560px;color: #bbb">
         <tbody><tr>
           <td class="logo emb-logo-padding-box" style="padding: 0;vertical-align: top;mso-line-height-rule: at-least;font-size: 24px;padding-top: 2px;padding-bottom: 27px">
-            <div class="logo-center" style="font-family: Merriweather,Georgia,serif;color: #202020;font-weight: bold;text-align: center;font-size: 0px !important;line-height: 0 !important" align="center" id="emb-email-header"><a style="transition: opacity 0.2s ease-in;text-decoration: none;color: #bbb" href="{{ url('images/logo.png') }}"><img style="border: 0;-ms-interpolation-mode: bicubic;display: block;Margin-left: auto;Margin-right: auto;max-width: 211px" src="{{ url('images/logo.png') }}" alt="yukdonasi.org" width="141" height="141"></a></div>
+            <div class="logo-center" style="font-family: Merriweather,Georgia,serif;color: #202020;font-weight: bold;text-align: center;font-size: 0px !important;line-height: 0 !important" align="center" id="emb-email-header"><a style="transition: opacity 0.2s ease-in;text-decoration: none;color: #bbb" href="{{ url('images/logo.png') }}"><img style="border: 0;-ms-interpolation-mode: bicubic;display: block;Margin-left: auto;Margin-right: auto;max-width: 211px" src="{{ url('images/logo.png') }}" alt="tujuanmulia.id" width="141" height="141"></a></div>
           </td>
         </tr>
       </tbody></table>

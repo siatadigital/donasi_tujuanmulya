@@ -1260,7 +1260,7 @@ class CrmController extends Controller
                     ];
 
                     Mail::queue('emails.crm-message', $data, function ($message) use ($email) {
-                        $message->to($email)->subject('Penawaran dari yukdonasi.org');
+                        $message->to($email)->subject('Penawaran dari tujuanmulia.id');
                     });
                 }
 

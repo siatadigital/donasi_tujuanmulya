@@ -41,7 +41,7 @@
 
             <div class="col-md-4">
                 <p>
-                    Masuk ke setting dan pastikan akun anda telah terverifikasi, atau jika tidak masuk ke yukdonasi.org/username/validate dan kirim foto hasil scan KTP.
+                    Masuk ke setting dan pastikan akun anda telah terverifikasi, atau jika tidak masuk ke tujuanmulia.id/username/validate dan kirim foto hasil scan KTP.
                 </p>
 
                 <p>

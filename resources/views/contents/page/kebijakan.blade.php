@@ -27,11 +27,11 @@
             <div class="col-md-2"></div>
             <div class="col-md-8">
                 <p>
-                  Dalam halaman ini akan memaparkan berbagai ketentuan-ketentuan yang telah dibuat menyangkut data pengguna situs yukdonasi.org untuk diperhatikan dan wajib dipatuhi yang diberikan Pengelola Situs terhadap Pengguna Situs ini tanpa terkecuali. Berikut ini ketentuan yang telah dibuat:
+                  Dalam halaman ini akan memaparkan berbagai ketentuan-ketentuan yang telah dibuat menyangkut data pengguna situs tujuanmulia.id untuk diperhatikan dan wajib dipatuhi yang diberikan Pengelola Situs terhadap Pengguna Situs ini tanpa terkecuali. Berikut ini ketentuan yang telah dibuat:
                 </p>
 
                 <ol>
-                  <li>Untuk menjamin dan menjaga seluruh data dari para pengguna situs yangdiberikan kepada pengelola situs dalam rangka penggunaan layanan dan fasilitas kami. Zakat Kita sepenuhnya menjamin berbagai informasi seperti halnya: Informasi (contohnya; nama, email dan alamat postal, nomer telepon dan domisili pengguna), username dan password anda yang telah tegrabung dengan website kami, detail permintaan atau transaksi yang bersangkutan dengan layanan web kami, Informasi tentang aktivitas anda dalam mengakses web kami (IP adress dan perangkat yang anda gunakan) dan segala bentuk komentar dan pertanyaan terhadap yukdonasi.org akan kami jaga.</li>
+                  <li>Untuk menjamin dan menjaga seluruh data dari para pengguna situs yangdiberikan kepada pengelola situs dalam rangka penggunaan layanan dan fasilitas kami. Zakat Kita sepenuhnya menjamin berbagai informasi seperti halnya: Informasi (contohnya; nama, email dan alamat postal, nomer telepon dan domisili pengguna), username dan password anda yang telah tegrabung dengan website kami, detail permintaan atau transaksi yang bersangkutan dengan layanan web kami, Informasi tentang aktivitas anda dalam mengakses web kami (IP adress dan perangkat yang anda gunakan) dan segala bentuk komentar dan pertanyaan terhadap tujuanmulia.id akan kami jaga.</li>
 
                   <li>
                     Selaku pihak pengelola tidak menjamin kerahasian data penguna situs jika pengelola situs dipaksa mengikuti ketentuan hukum dan/atau aparat-aparat berwenang untuk membuka data pengguna tersebut

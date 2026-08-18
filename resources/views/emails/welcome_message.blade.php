@@ -498,7 +498,7 @@
               style="font-size: 26px;line-height: 32px;Margin-top: 6px;Margin-bottom: 20px;color: #c3ced9;font-family: Roboto,Tahoma,sans-serif;">
               <div class="logo-center" style="font-size:0px !important;line-height:0 !important;" align="center"
                 id="emb-email-header"><a style="text-decoration: none;transition: opacity 0.1s ease-in;color: #c3ced9;"
-                  href="http://yukdonasi.org"><img style="height: auto;width: 100%;border: 0;max-width: 141px;"
+                  href="http://tujuanmulia.id"><img style="height: auto;width: 100%;border: 0;max-width: 141px;"
                     src="http://res.cloudinary.com/dt2mntbmf/image/upload/c_scale,h_150/v1453716328/zakatkita_czxoot.png"
                     alt="Zakat Kita" width="141" height="141" /></a></div>
             </div>
@@ -603,7 +603,7 @@
                                 width="26" height="26" /></a></td>
                           <td class="emb-web-links" style="padding: 0 0 0 3px;" width="26"><a
                               style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #bbb;"
-                              href="http://yukdonasi.org"><img style="border: 0;"
+                              href="http://tujuanmulia.id"><img style="border: 0;"
                                 src="https://i6.createsend1.com/static/eb/master/13-the-blueprint-3/images/website.png"
                                 width="26" height="26" /></a></td>
                         </tr>

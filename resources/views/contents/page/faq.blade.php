@@ -52,7 +52,7 @@
 						</li>
 						<div class="well collapse" id="4">
 							<p>
-								Kamu tinggal masuk ke link <a href="http://yukdonasi.org/auth/register">http://yukdonasi.org/auth/register</a> dan mengisi semua form pendaftaran.
+								Kamu tinggal masuk ke link <a href="http://tujuanmulia.id/auth/register">http://tujuanmulia.id/auth/register</a> dan mengisi semua form pendaftaran.
 							</p>
 
 							<p>Setelah itu kamu harus masuk ke setting dan memvalidasi identitas anda dengan mengirim foto KTP.</p>
@@ -99,7 +99,7 @@
 						</li>
 						<div class="well collapse" id="9">
 							<p>
-								Kirim email ke <a mailto="crew@yukdonasi.org">crew@yukdonasi.org</a>
+								Kirim email ke <a mailto="crew@tujuanmulia.id">crew@tujuanmulia.id</a>
 							</p>
 						</div>
 					</ul>

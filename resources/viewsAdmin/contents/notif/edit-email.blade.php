@@ -26,7 +26,7 @@
 									<span style="color:#131814">Terima Kasih Sahabat <strong>[fullname]</strong></span>
 									</p>
 									<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
-									<span style="color:#131814">Semoga Allah ta'ala memudahkan niat baik Anda untuk Infak/Zakat di <a href="https://yukdonasi.org" target="_blank" style="color: #847e3c;">yukdonasi.org</a></span>
+									<span style="color:#131814">Semoga Allah ta'ala memudahkan niat baik Anda untuk Infak/Zakat di <a href="https://tujuanmulia.id" target="_blank" style="color: #847e3c;">tujuanmulia.id</a></span>
 									</p>
 									<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 									<span style="color:#131814">Silahkan melanjutkan transaksi Infak/Zakat <strong>#ID [id]</strong> dengan Transfer <strong>[amount]</strong> ke</span>
@@ -56,13 +56,13 @@
 									</p>
 									<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 									<span style="color:#131814">Butuh bantuan? Silahkan hubungi kami dengan klik</span><br>
-									<a  href="https://api.whatsapp.com/send?phone=6285711122646" target="_blank" style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">Tanya yukdonasi.org</a>
+									<a  href="https://api.whatsapp.com/send?phone=6285711122646" target="_blank" style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">Tanya tujuanmulia.id</a>
 									</p>
 									<p class="size-16" style="Margin-top: 40px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 									<span style="color:#131814">Salam,</span><br>
 									</p>
 									<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
-									<span style="color:#131814"><a href="https://yukdonasi.org" target="_blank" style="color: #847e3c;">yukdonasi.org</a> </span><br>
+									<span style="color:#131814"><a href="https://tujuanmulia.id" target="_blank" style="color: #847e3c;">tujuanmulia.id</a> </span><br>
 									</p>
 								</div>
 							@elseif($notif->type == "confirm_success" or $notif->type == 'qurban_confirm_success' or $notif->type == 'zakat_fitrah_confirm_success')
@@ -71,7 +71,7 @@
 								  <span style="color:#131814">Terima Kasih, Sahabat <strong>[fullname]</strong></span>
 								</p>
 								<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
-								  <span style="color:#131814">Alhamdulillah Infak/Zakat <strong>#ID [id]</strong>, melalui <a href="https://yukdonasi.org" target="_blank" style="color: #847e3c;">yukdonasi.org</a> sejumlah <strong>[amount]</strong>, melalui <strong>Transfer [bank_name]</strong>, pada tanggal [date_transfer], telah kami terima.</span>
+								  <span style="color:#131814">Alhamdulillah Infak/Zakat <strong>#ID [id]</strong>, melalui <a href="https://tujuanmulia.id" target="_blank" style="color: #847e3c;">tujuanmulia.id</a> sejumlah <strong>[amount]</strong>, melalui <strong>Transfer [bank_name]</strong>, pada tanggal [date_transfer], telah kami terima.</span>
 								</p>
 								<p class="size-16" style="Margin-top: 40px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;text-align: right;color: #333;">
 								  آجَرَكَ اللهُ فِيْمَا اَعْطَيْتَ، وَبَارَكَ فِيْمَا اَبْقَيْتَ وَجَعَلَهُ لَكَ طَهُوْرًا
@@ -81,13 +81,13 @@
 								</p>
 								<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 								  <span style="color:#131814">Terima kasih atas kepercayaannya. Untuk informasi program Infak/Zakat lainnya, silahkan kunjungi</span>
-								  <a  href="https://yukdonasi.org" target="_blank" style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">yukdonasi.org</a>
+								  <a  href="https://tujuanmulia.id" target="_blank" style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">tujuanmulia.id</a>
 								</p>
 								<p class="size-16" style="Margin-top: 40px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 								  <span style="color:#131814">Salam,</span><br>
 								</p>
 								<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
-								  <span style="color:#131814"><a href="https://yukdonasi.org" target="_blank" style="color: #847e3c;">yukdonasi.org</a> </span><br>
+								  <span style="color:#131814"><a href="https://tujuanmulia.id" target="_blank" style="color: #847e3c;">tujuanmulia.id</a> </span><br>
 								</p>
 							  </div>
 							@elseif($notif->type == "confirm_expired" or $notif->type == 'qurban_confirm_expired' or $notif->type == 'zakat_fitrah_confirm_expired')
@@ -106,11 +106,11 @@
 								</p>
 								<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 									<span style="color:#131814">Silakan mengulang lagi transaksi infak/zakat Anda di</span>
-									<a  href="https://yukdonasi.org" target="_blank" style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">yukdonasi.org</a>
+									<a  href="https://tujuanmulia.id" target="_blank" style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">tujuanmulia.id</a>
 								</p>
 								<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 									<span style="color:#131814">Apabila ada pertanyaan, silahkan WA admin official di</span>
-									<a  href="https://api.whatsapp.com/send?phone=6285711122646" target="_blank" style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">Tanya yukdonasi.org</a>
+									<a  href="https://api.whatsapp.com/send?phone=6285711122646" target="_blank" style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">Tanya tujuanmulia.id</a>
 								</p>
 								<p class="size-16" style="Margin-top: 40px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 								<span style="color:#131814">Salam,</span>
@@ -118,7 +118,7 @@
 								</p>
 								<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 									<span style="color:#131814">
-										<a href="https://yukdonasi.org" target="_blank" style="color: #847e3c;">yukdonasi.org</a> 
+										<a href="https://tujuanmulia.id" target="_blank" style="color: #847e3c;">tujuanmulia.id</a> 
 									</span>
 									<br>
 									</p>
@@ -167,7 +167,7 @@
 												border-radius: 8px;
 											"
 										>
-											Tanya yukdonasi.org
+											Tanya tujuanmulia.id
 										</a>
 									</p>
 									<p
@@ -191,8 +191,8 @@
 										"
 									>
 										<span style="color: #131814;">
-											<a href="https://yukdonasi.org" target="_blank" style="color: #847e3c;">
-												yukdonasi.org
+											<a href="https://tujuanmulia.id" target="_blank" style="color: #847e3c;">
+												tujuanmulia.id
 											</a>
 											
 										</span>
@@ -343,15 +343,15 @@
 									<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 										<span style="color:#131814">Terima kasih atas kepercayaannya. Untuk informasi program Infak/Zakat
 											lainnya, silahkan kunjungi</span>
-										<a href="https://yukdonasi.org" target="_blank"
-											style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">yukdonasi.org</a>
+										<a href="https://tujuanmulia.id" target="_blank"
+											style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">tujuanmulia.id</a>
 									</p>
 									<p class="size-16" style="Margin-top: 40px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 										<span style="color:#131814">Salam,</span><br>
 									</p>
 									<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
-										<span style="color:#131814"><a href="https://yukdonasi.org" target="_blank"
-												style="color: #847e3c;">yukdonasi.org</a> </span><br>
+										<span style="color:#131814"><a href="https://tujuanmulia.id" target="_blank"
+												style="color: #847e3c;">tujuanmulia.id</a> </span><br>
 									</p>
 								</div>
 							@elseif($notif->type == "supporter_donate")
@@ -379,15 +379,15 @@
 									<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 										<span style="color:#131814">Terima kasih atas kepercayaannya. Untuk informasi program Infak/Zakat
 											lainnya, silahkan kunjungi</span>
-										<a href="https://yukdonasi.org" target="_blank"
-											style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">yukdonasi.org</a>
+										<a href="https://tujuanmulia.id" target="_blank"
+											style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">tujuanmulia.id</a>
 									</p>
 									<p class="size-16" style="Margin-top: 40px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 										<span style="color:#131814">Salam,</span><br>
 									</p>
 									<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
-										<span style="color:#131814"><a href="https://yukdonasi.org" target="_blank"
-												style="color: #847e3c;">yukdonasi.org</a> </span><br>
+										<span style="color:#131814"><a href="https://tujuanmulia.id" target="_blank"
+												style="color: #847e3c;">tujuanmulia.id</a> </span><br>
 									</p>
 								</div>
 							@elseif($notif->type == "project_activated")
@@ -417,15 +417,15 @@
 									<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 										<span style="color:#131814">Terima kasih atas kepercayaannya. Untuk informasi program Infak/Zakat
 											lainnya, silahkan kunjungi</span>
-										<a href="https://yukdonasi.org" target="_blank"
-											style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">yukdonasi.org</a>
+										<a href="https://tujuanmulia.id" target="_blank"
+											style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">tujuanmulia.id</a>
 									</p>
 									<p class="size-16" style="Margin-top: 40px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 										<span style="color:#131814">Salam,</span><br>
 									</p>
 									<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
-										<span style="color:#131814"><a href="https://yukdonasi.org" target="_blank"
-												style="color: #847e3c;">yukdonasi.org</a> </span><br>
+										<span style="color:#131814"><a href="https://tujuanmulia.id" target="_blank"
+												style="color: #847e3c;">tujuanmulia.id</a> </span><br>
 									</p>
 								</div>
 							@elseif($notif->type == "project_withdraw")
@@ -454,15 +454,15 @@
 									<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 										<span style="color:#131814">Terima kasih atas kepercayaannya. Untuk informasi program Infak/Zakat
 											lainnya, silahkan kunjungi</span>
-										<a href="https://yukdonasi.org" target="_blank"
-											style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">yukdonasi.org</a>
+										<a href="https://tujuanmulia.id" target="_blank"
+											style="background: #847e3c;color: white;padding: 15px 20px;display: inline-block;border-radius: 8px;">tujuanmulia.id</a>
 									</p>
 									<p class="size-16" style="Margin-top: 40px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
 										<span style="color:#131814">Salam,</span><br>
 									</p>
 									<p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 18px;line-height: 26px;">
-										<span style="color:#131814"><a href="https://yukdonasi.org" target="_blank"
-												style="color: #847e3c;">yukdonasi.org</a> </span><br>
+										<span style="color:#131814"><a href="https://tujuanmulia.id" target="_blank"
+												style="color: #847e3c;">tujuanmulia.id</a> </span><br>
 									</p>
 								</div>
 							@elseif($notif->type == "user_verify")

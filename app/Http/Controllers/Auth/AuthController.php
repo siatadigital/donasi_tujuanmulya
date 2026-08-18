@@ -158,7 +158,7 @@ class AuthController extends Controller
         ];
         try {
             \Mail::send('emails.welcome_message', $data, function ($message) use ($auth) {
-                $message->to($auth['email'])->subject('Selamat datang di yukdonasi.org');
+                $message->to($auth['email'])->subject('Selamat datang di tujuanmulia.id');
             });
         } catch (\Exception $e) {
             // failed send email

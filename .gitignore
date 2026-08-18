@@ -4,7 +4,7 @@
 /storage/*.key
 /vendor
 /backupan
-/develop.yukdonasi.org
+/develop.tujuanmulia.id
 /storage/*
 .env
 .htaccess

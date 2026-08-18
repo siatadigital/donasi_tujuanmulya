@@ -1,7 +1,7 @@
 <?php
 return [
     'title' => 'Daftar Akun Baru',
-    'title_head' => 'Gabung dengan yukdonasi.org',
+    'title_head' => 'Gabung dengan tujuanmulia.id',
     'desc_head' => 'Menjadi donatur tetap dan semangat sedekah',
     'fullname' => 'Nama Lengkap',
     'fullname_placeholder' => 'Ketik nama lengkap disini...',

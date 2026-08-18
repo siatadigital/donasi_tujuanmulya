@@ -270,7 +270,7 @@
 							<table>
 								<tr class="row">
 									<td>
-										<img src="https://yukdonasi.org/public/images/logo_n1.png" alt="peduli" width="200px" class="pull-left mx-auto">
+										<img src="https://tujuanmulia.id/public/images/logo_n1.png" alt="peduli" width="200px" class="pull-left mx-auto">
 									</td>
 									<td style="width: 50%">
 										<div class="col company-details">
@@ -357,7 +357,7 @@
 									<div class="notice">Semoga Allah memberi pahala atas apa yang telah Anda berikan, menjadikannya sebagai penyuci untuk Anda, dan memberkahi untuk Anda apa yang masih tersisa.</div>
 								</div>
 							</main>
-							<div style=" font-size: 1em;text-align:center;margin-bottom:10px">Terimakasih atas kepercayaannya. Untuk informasi program infak/zakat lainnya, silahkan kunjungi <span><a href="{{ url() }}">yukdonasi.org</a></span>
+							<div style=" font-size: 1em;text-align:center;margin-bottom:10px">Terimakasih atas kepercayaannya. Untuk informasi program infak/zakat lainnya, silahkan kunjungi <span><a href="{{ url() }}">tujuanmulia.id</a></span>
 							</div>
 							<footer>
 								Invoice was generated on a computer and is valid without the signature and seal.

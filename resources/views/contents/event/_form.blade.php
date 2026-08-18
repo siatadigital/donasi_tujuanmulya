@@ -26,7 +26,7 @@
 </div>
 <div class="form-group">
 	<label>Location Name</label>
-	{!! Form::text('location',null,['class'=>'form-control','placeholder'=>'Nama lokasi contoh : kantor Yukdonasi.org','required']) !!}
+	{!! Form::text('location',null,['class'=>'form-control','placeholder'=>'Nama lokasi contoh : kantor tujuanmulia.id','required']) !!}
 </div>
 <div class="form-group">
 	<label>Mark location on maps. (optional)</label>

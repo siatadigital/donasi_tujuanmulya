@@ -13,7 +13,7 @@
           <div class="row">
             <div class="col-md-4">
               <label for="link">Link</label>
-              <input id="link" name="link" type="text" class="form-control" placeholder="Wajib ada http:// (contoh: http://yukdonasi.org/) " required>
+              <input id="link" name="link" type="text" class="form-control" placeholder="Wajib ada http:// (contoh: http://tujuanmulia.id/) " required>
             </div>
             <div class="col-md-4">
               <label for="photo">Foto</label>

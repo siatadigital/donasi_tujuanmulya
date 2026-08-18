@@ -28,7 +28,12 @@ class ProjectController extends Controller
         $this->middleware('auth', [
             'only' => [
                 // 'getCreate', 'postCreate', 'getEdit', 'putEdit','getUpdate','postUpdate'
-                'getEdit', 'putEdit', 'getUpdate', 'postUpdate', 'getFundraiser', 'postFundraiser'
+                'getEdit',
+                'putEdit',
+                'getUpdate',
+                'postUpdate',
+                'getFundraiser',
+                'postFundraiser'
             ],
         ]);
     }
@@ -217,7 +222,7 @@ class ProjectController extends Controller
         ];
         try {
             \Mail::queue('emails.welcome_message', $data, function ($message) use ($auth) {
-                $message->to($auth['email'])->subject('Selamat datang di donasimaffaz');
+                $message->to($auth['email'])->subject('Selamat datang di tujuanmulia.id');
             });
         } catch (\Exception $e) {
             // failed send email
@@ -267,7 +272,7 @@ class ProjectController extends Controller
                 $message->to($email)->subject("Update Info Galang Dana \"{$project->title}\"");
             });
         }
- 
+
 
         return redirect()->route('project.showUpdate', $update['id']);
     }

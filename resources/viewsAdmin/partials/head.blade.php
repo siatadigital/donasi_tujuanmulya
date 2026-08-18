@@ -1,4 +1,4 @@
-<title>{{ $title or 'yukdonasi.org' }} | Admin</title>
+<title>{{ $title or 'tujuanmulia.id' }} | Admin</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/AdminLTE.min.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/skins/skin-yellow-light.min.css') }}">

@@ -6,7 +6,7 @@
 		<!-- mini logo for sidebar mini 50x50 pixels -->
 		<span class="logo-mini"><b>S</b>M</span>
 		<!-- logo for regular state and mobile devices -->
-		<span class="logo-lg"><b>Sedekah</b>Maffaz</span>
+		<span class="logo-lg"><b>tujuanmulia.id/b>tujuanmulia.id</span>
 	</a>
 
 	<!-- Header Navbar -->
@@ -27,7 +27,7 @@
 					<!-- Menu Toggle Button -->
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 						<!-- The user image in the navbar-->
-						<img src="{{ media($auth['avatar'], 'small') }}" class="user-image" alt="User Image"/>
+						<img src="{{ media($auth['avatar'], 'small') }}" class="user-image" alt="User Image" />
 						<!-- hidden-xs hides the username on small devices so only the image appears. -->
 						<span class="hidden-xs">{{ $auth['name'] }}</span>
 					</a>

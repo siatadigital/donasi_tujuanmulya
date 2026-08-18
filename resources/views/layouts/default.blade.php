@@ -12,9 +12,9 @@
 	<meta name="asset-url" content="{{ url('images/logo-nh.jpg') }}">
 	<meta name="root-url" content="{{ URL::Route('page.getIndex') }}">
 	<meta name="csrf-token" content="{{ csrf_token() }}">
-	<meta content="@section('title') {{ $title or '' }} yukdonasi.org - @show" property="og:title" />
-	<meta content="yukdonasi.org" property="og:site_name" />
-	<title>yukdonasi.org - @section('title') {{ $title or '' }} @show</title>
+	<meta content="@section('title') {{ $title or '' }} tujuanmulia.id - @show" property="og:title" />
+	<meta content="tujuanmulia.id" property="og:site_name" />
+	<title>tujuanmulia.id - @section('title') {{ $title or '' }} @show</title>
 	<link href="{{ asset('lib/owl-carousel/owl.carousel.css') }}" rel="stylesheet">
 	<link href="{{ asset('lib/owl-carousel/owl.theme.css') }}" rel="stylesheet">
 	<link href="{{ asset('lib/wowjs/animate.css') }}" rel="stylesheet">
@@ -32,16 +32,16 @@
 	<meta name="description" content="{{ getOption('site_quotes') }}" />
 
 	<meta property="og:locale" content="en_US" />
-	<meta property="og:site_name" content="yukdonasi.org" />
+	<meta property="og:site_name" content="tujuanmulia.id" />
 	<meta property="og:url" content="{{ url('/') }}" />
-	<meta name="author" content="yukdonasi.org">
-	<meta property="og:title" content="yukdonasi.org - @section('title') {{ $title or '' }} @show" />
+	<meta name="author" content="tujuanmulia.id">
+	<meta property="og:title" content="tujuanmulia.id - @section('title') {{ $title or '' }} @show" />
 	<meta property="og:description" content="{{ getOption('site_quotes') }}" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="{{ asset('images/logo.png') }}" />
 
 	<meta name="twitter:site" content="{{ getOption('official_twitter') }}">
-	<meta name="twitter:title" content="yukdonasi.org - @section('title') {{ $title or '' }} @show">
+	<meta name="twitter:title" content="tujuanmulia.id - @section('title') {{ $title or '' }} @show">
 	<meta name="twitter:description" content="{{ getOption('site_quotes') }}">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image" content="{{ asset('images/logo.png') }}">
@@ -177,7 +177,7 @@
 
 	@if (Route::currentRouteName() != 'blog.getIndex' and Route::currentRouteName() != 'blog.getShow')
 	<div class="wa-box">
-		<a target="_blank" href="https://api.whatsapp.com/send?phone=+6285711122646&text=Assalamualaikum, ingin bertanya tentang yukdonasi.org." id="contact-wa">
+		<a target="_blank" href="https://api.whatsapp.com/send?phone=+6285711122646&text=Assalamualaikum, ingin bertanya tentang tujuanmulia.id." id="contact-wa">
 			<i class="fa fa-whatsapp"></i>
 		</a>
 		<p>Chat WA</p>

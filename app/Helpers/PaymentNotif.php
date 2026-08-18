@@ -30,7 +30,7 @@ class PaymentNotif
             'id'       => 1,
             'price'    => $type == "project" ? $model->money : $model->amount,
             'quantity' => 1,
-            'name'     => $type == "zakat" ? 'Zakat di yukdonasi.org' : 'Infak di yukdonasi.org'
+            'name'     => $type == "zakat" ? 'Zakat di tujuanmulia.id' : 'Infak di tujuanmulia.id'
           ]
         ]
       ];

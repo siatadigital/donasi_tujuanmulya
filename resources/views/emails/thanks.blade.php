@@ -237,7 +237,7 @@ body,.wrapper{background-color:#fff}.wrapper h1{color:#fff}.wrapper h1{}.wrapper
         <tbody><tr>
           <td style="padding: 0;" width="600">
             <div class="header__logo emb-logo-margin-box" style="font-size: 26px;line-height: 32px;Margin-top: 6px;Margin-bottom: 20px;color: #c3ced9;font-family: Roboto,Tahoma,sans-serif;">
-              <div class="logo-center" style="font-size:0px !important;line-height:0 !important;" align="center" id="emb-email-header"><a style="text-decoration: none;transition: opacity 0.1s ease-in;color: #c3ced9;" href="{{ url('images/logo.png') }}" target="_blank"><img style="height: auto;width: 100%;border: 0;max-width: 141px;" src="{{ url('images/logo.png') }}" alt="yukdonasi.org" width="141" height="141"></a></div>
+              <div class="logo-center" style="font-size:0px !important;line-height:0 !important;" align="center" id="emb-email-header"><a style="text-decoration: none;transition: opacity 0.1s ease-in;color: #c3ced9;" href="{{ url('images/logo.png') }}" target="_blank"><img style="height: auto;width: 100%;border: 0;max-width: 141px;" src="{{ url('images/logo.png') }}" alt="tujuanmulia.id" width="141" height="141"></a></div>
             </div>
           </td>
         </tr>
