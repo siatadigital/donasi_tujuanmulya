@@ -1,0 +1,30 @@
+[26-Oct-2021 21:07:57 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/ParserTest.php:10
+Stack trace:
+#0 /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Parser/Php7Test.php(8): require_once()
+#1 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/ParserTest.php on line 10
+[26-Oct-2021 21:07:58 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/ParserTest.php:10
+Stack trace:
+#0 /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Parser/Php7Test.php(8): require_once()
+#1 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/ParserTest.php on line 10
+[26-Oct-2021 21:09:06 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/ParserTest.php:10
+Stack trace:
+#0 /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Parser/Php5Test.php(8): require_once()
+#1 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/ParserTest.php on line 10
+[26-Oct-2021 21:09:07 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/ParserTest.php:10
+Stack trace:
+#0 /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Parser/Php5Test.php(8): require_once()
+#1 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/ParserTest.php on line 10
+[26-Oct-2021 21:09:08 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/ParserTest.php:10
+Stack trace:
+#0 /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Parser/MultipleTest.php(12): require_once()
+#1 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/ParserTest.php on line 10
+[26-Oct-2021 21:09:09 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/ParserTest.php:10
+Stack trace:
+#0 /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Parser/MultipleTest.php(12): require_once()
+#1 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/ParserTest.php on line 10

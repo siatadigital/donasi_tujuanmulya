@@ -1,0 +1,152 @@
+[26-Oct-2021 21:11:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/CalledClassPassTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/CalledClassPassTest.php on line 17
+[26-Oct-2021 21:11:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/CalledClassPassTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/CalledClassPassTest.php on line 17
+[26-Oct-2021 21:11:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/StaticConstructorPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/StaticConstructorPassTest.php on line 16
+[26-Oct-2021 21:11:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/StaticConstructorPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/StaticConstructorPassTest.php on line 16
+[26-Oct-2021 21:11:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/UseStatementPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/UseStatementPassTest.php on line 16
+[26-Oct-2021 21:11:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/UseStatementPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/UseStatementPassTest.php on line 16
+[26-Oct-2021 21:11:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ImplicitReturnPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ImplicitReturnPassTest.php on line 16
+[26-Oct-2021 21:11:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ImplicitReturnPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ImplicitReturnPassTest.php on line 16
+[26-Oct-2021 21:11:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/StrictTypesPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/StrictTypesPassTest.php on line 16
+[26-Oct-2021 21:11:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/StrictTypesPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/StrictTypesPassTest.php on line 16
+[26-Oct-2021 21:11:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/LegacyEmptyPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/LegacyEmptyPassTest.php on line 16
+[26-Oct-2021 21:11:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/LegacyEmptyPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/LegacyEmptyPassTest.php on line 16
+[26-Oct-2021 21:11:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/NamespacePassTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/NamespacePassTest.php on line 17
+[26-Oct-2021 21:11:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/NamespacePassTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/NamespacePassTest.php on line 17
+[26-Oct-2021 21:11:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/InstanceOfPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/InstanceOfPassTest.php on line 16
+[26-Oct-2021 21:11:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/InstanceOfPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/InstanceOfPassTest.php on line 16
+[26-Oct-2021 21:11:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ExitPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ExitPassTest.php on line 16
+[26-Oct-2021 21:11:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ExitPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ExitPassTest.php on line 16
+[26-Oct-2021 21:11:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ValidFunctionNamePassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ValidFunctionNamePassTest.php on line 16
+[26-Oct-2021 21:11:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ValidFunctionNamePassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ValidFunctionNamePassTest.php on line 16
+[26-Oct-2021 21:11:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ValidConstantPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ValidConstantPassTest.php on line 16
+[26-Oct-2021 21:11:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ValidConstantPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ValidConstantPassTest.php on line 16
+[26-Oct-2021 21:11:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/CodeCleanerTestCase.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/CodeCleanerTestCase.php on line 21
+[26-Oct-2021 21:11:46 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/CodeCleanerTestCase.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/CodeCleanerTestCase.php on line 21
+[26-Oct-2021 21:11:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/FunctionReturnInWriteContextPassTest.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/FunctionReturnInWriteContextPassTest.php on line 18
+[26-Oct-2021 21:11:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/FunctionReturnInWriteContextPassTest.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/FunctionReturnInWriteContextPassTest.php on line 18
+[26-Oct-2021 21:11:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/AbstractClassPassTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/AbstractClassPassTest.php on line 17
+[26-Oct-2021 21:11:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/AbstractClassPassTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/AbstractClassPassTest.php on line 17
+[26-Oct-2021 21:11:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/LeavePsyshAlonePassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/LeavePsyshAlonePassTest.php on line 16
+[26-Oct-2021 21:11:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/LeavePsyshAlonePassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/LeavePsyshAlonePassTest.php on line 16
+[26-Oct-2021 21:11:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/AssignThisVariablePassTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/AssignThisVariablePassTest.php on line 17
+[26-Oct-2021 21:11:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/AssignThisVariablePassTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/AssignThisVariablePassTest.php on line 17
+[26-Oct-2021 21:11:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ValidClassNamePassTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ValidClassNamePassTest.php on line 17
+[26-Oct-2021 21:11:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ValidClassNamePassTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/ValidClassNamePassTest.php on line 17
+[26-Oct-2021 21:12:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/CallTimePassByReferencePassTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/CallTimePassByReferencePassTest.php on line 17
+[26-Oct-2021 21:12:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/CallTimePassByReferencePassTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/CallTimePassByReferencePassTest.php on line 17
+[26-Oct-2021 21:12:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/MagicConstantsPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/MagicConstantsPassTest.php on line 16
+[26-Oct-2021 21:12:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Psy\Test\CodeCleaner\CodeCleanerTestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/MagicConstantsPassTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/CodeCleaner/MagicConstantsPassTest.php on line 16

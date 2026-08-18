@@ -1,0 +1,28 @@
+[28-Dec-2021 16:41:43 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\Cast' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Object_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Object_.php on line 7
+[28-Dec-2021 16:41:43 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\Cast' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Unset_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Unset_.php on line 7
+[28-Dec-2021 16:41:43 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\Cast' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Bool_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Bool_.php on line 7
+[28-Dec-2021 16:41:43 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\Cast' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Double.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Double.php on line 7
+[28-Dec-2021 16:41:43 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\Cast' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Int_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Int_.php on line 7
+[28-Dec-2021 16:41:43 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\Cast' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/String_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/String_.php on line 7
+[28-Dec-2021 16:41:44 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\Cast' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Array_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Array_.php on line 7

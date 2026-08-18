@@ -1,0 +1,14 @@
+[25-Sep-2021 11:38:33 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Support\Arrayable' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Fluent.php on line 10
+[25-Sep-2021 11:38:34 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Support\Arrayable' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Fluent.php on line 10
+[12-Oct-2021 06:56:22 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Support\Arrayable' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Fluent.php on line 10
+[12-Oct-2021 06:56:23 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Support\Arrayable' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Fluent.php on line 10
+[26-Oct-2021 21:06:58 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Support\Arrayable' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Fluent.php on line 10
+[26-Oct-2021 21:07:00 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Support\Arrayable' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Fluent.php on line 10
+[19-Nov-2021 17:36:22 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Support\Arrayable' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Fluent.php on line 10
+[19-Nov-2021 17:36:23 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Support\Arrayable' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Fluent.php on line 10
+[03-Dec-2021 10:26:52 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Support\Arrayable' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Fluent.php on line 10
+[03-Dec-2021 10:26:53 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Support\Arrayable' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Fluent.php on line 10
+[17-Dec-2021 00:08:23 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Support\Arrayable' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Fluent.php on line 10
+[17-Dec-2021 00:08:24 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Support\Arrayable' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Fluent.php on line 10
+[23-Dec-2021 03:42:31 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Support\Arrayable' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Fluent.php on line 10
+[23-Dec-2021 03:42:32 UTC] PHP Fatal error:  Interface 'Illuminate\Contracts\Support\Arrayable' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Fluent.php on line 10

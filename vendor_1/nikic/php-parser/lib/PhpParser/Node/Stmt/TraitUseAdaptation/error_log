@@ -1,0 +1,8 @@
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt\TraitUseAdaptation' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[28-Dec-2021 16:41:43 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt\TraitUseAdaptation' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php on line 7

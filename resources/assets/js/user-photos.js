@@ -1,0 +1,9 @@
+$(function(){
+	$("#justifiedPhotos").justifiedGallery({
+		rowHeight : 250,
+		lastRow : 'justify',
+		margins : 3
+	});
+
+	$("#justifiedPhotos a").colorbox({rel:'group',transition:'fade'});
+});

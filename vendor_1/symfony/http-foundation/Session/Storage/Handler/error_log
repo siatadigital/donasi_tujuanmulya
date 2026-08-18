@@ -1,0 +1,16 @@
+[12-Oct-2021 07:21:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeSessionHandler' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Handler/NativeFileSessionHandler.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Handler/NativeFileSessionHandler.php on line 19
+[12-Oct-2021 07:21:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeSessionHandler' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Handler/NativeFileSessionHandler.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Handler/NativeFileSessionHandler.php on line 19
+[26-Oct-2021 21:13:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeSessionHandler' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Handler/NativeFileSessionHandler.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Handler/NativeFileSessionHandler.php on line 19
+[26-Oct-2021 21:13:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeSessionHandler' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Handler/NativeFileSessionHandler.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Handler/NativeFileSessionHandler.php on line 19

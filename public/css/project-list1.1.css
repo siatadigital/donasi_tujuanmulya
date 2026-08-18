@@ -1,0 +1,304 @@
+.form-donasi-subtitle,
+.project-detail-title {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    color: #333
+}
+
+.project-list-content {
+    margin: 62px 0;
+    padding: 0 20px
+}
+
+.img-detail-banner {
+    width: 100%;
+    border-radius: 5px
+}
+
+.form-donasi-container {
+    padding: 64px 105px 0 0
+}
+
+.form-donasi-wrapper {
+    width: 100%;
+    background: #FFF;
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 30px
+}
+
+.space-margin {
+    margin-top: 20px
+}
+
+.form-donasi-subtitle {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: .03em
+}
+
+.row-margin {
+    margin-right: 0
+}
+
+.project-detail-title {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: .03em
+}
+
+.small-label,
+.small-label-grey {
+    font-weight: 400;
+    font-family: Raleway;
+    font-style: normal;
+    letter-spacing: .03em
+}
+
+.project-detail-content-wrapper {
+    padding: 0 16px 0 0
+}
+
+.small-label {
+    font-size: 12px;
+    line-height: 16px;
+    color: #000
+}
+
+.padding-left-0 {
+    padding-left: 0
+}
+
+.padding-right-0 {
+    padding-right: 0
+}
+
+.detail-galang-dana-wrapper {
+    padding-top: 15px
+}
+
+.detail-galang-dana-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%
+}
+
+.detail-galang-dana-name-wrapper {
+    padding: 10px 0 0 5px
+}
+
+.small-label-grey {
+    font-size: 10px;
+    line-height: 12px;
+    color: #999
+}
+
+.small-label-bold {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: .03em;
+    color: #333
+}
+
+.blue-title-600 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: .03em;
+    color: #ea8e26
+}
+
+.small-label-grey-14 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 6px;
+    letter-spacing: .03em;
+    color: #999
+}
+
+.small-title-600 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: .03em;
+    color: #333
+}
+
+.margin-0 {
+    margin: 0
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px
+}
+
+.padding-top-5 {
+    padding-top: 5px
+}
+
+.padding-right-5 {
+    padding-right: 5px
+}
+
+.padding-right-10,
+.tab-description-content-wrapper {
+    padding-right: 10px
+}
+
+.width-27 {
+    width: 27%
+}
+
+.width-31 {
+    width: 31%
+}
+
+.small-progress-bar {
+    height: 5px;
+    width: 155px;
+    background-color: #EDEDED;
+    border-radius: 5px
+}
+
+.share-icon {
+    font-size: 21px
+}
+
+.detail-tab-header-wrapper {
+    width: 100%;
+    border: none
+}
+
+.detail-tab-header {
+    text-align: center;
+    margin: 20px 0;
+    border: 1px solid #eee
+}
+
+.detail-tab-header-left {
+    border-radius: 5px 0 0 5px
+}
+
+.detail-tab-header-right {
+    border-radius: 0 5px 5px 0
+}
+
+.nav-tabs>.detail-tab-header-left.active>a,
+.nav-tabs>.detail-tab-header-left.active>a:focus,
+.nav-tabs>.detail-tab-header-left.active>a:hover {
+    border: 1px solid #ea8e26;
+    margin-right: 0;
+    background: #ea8e26;
+    border-radius: 5px 0 0 5px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .03em;
+    color: #fff
+}
+
+.nav-tabs>.detail-tab-header-center.active>a,
+.nav-tabs>.detail-tab-header-center.active>a:focus,
+.nav-tabs>.detail-tab-header-center.active>a:hover {
+    border: 1px solid #ea8e26;
+    margin-right: 0;
+    border-radius: 0;
+    background: #ea8e26;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .03em;
+    color: #fff
+}
+
+.nav-tabs>.detail-tab-header-right.active>a,
+.nav-tabs>.detail-tab-header-right.active>a:focus,
+.nav-tabs>.detail-tab-header-right.active>a:hover {
+    border: 1px solid #ea8e26;
+    margin-right: 0;
+    border-radius: 0 5px 5px 0;
+    background: #ea8e26;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .03em;
+    color: #fff
+}
+
+.detail-tab-content-wrapper {
+    margin: 20px 0 50px 12px
+}
+
+.tab-info-content-wrapper {
+    padding: 0 15px
+}
+
+.node-info {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #C4C4C4
+}
+
+.info-wrapper,
+.line-info {
+    height: 100%
+}
+
+.line-info {
+    background-color: #CCC;
+    width: 2px;
+    margin-left: 20px
+}
+
+.donatur-info-bar,
+.info-bar {
+    background: #F5F6F8;
+    border-radius: 5px
+}
+
+.donatur-info-bar {
+    padding: 20px
+}
+
+.padding-top-12 {
+    padding-top: 12px
+}
+
+.info-bar {
+    padding: 20px
+}
+
+.btn-share {
+    color: #333
+}
+
+.btn-share:hover {
+    color: #ea8e26;
+    text-decoration: none
+}
+
+.padding-top-25 {
+    padding-top: 25px
+}
+
+.padding-0 {
+    padding: 0
+}

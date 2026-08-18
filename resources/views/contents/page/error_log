@@ -1,0 +1,32 @@
+[27-Jul-2021 13:38:31 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\Option' not found in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php:776
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php on line 776
+[27-Jul-2021 13:38:32 UTC] PHP Fatal error:  Uncaught Error: Class "App\Models\Option" not found in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php.old:814
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php.old on line 814
+[14-Aug-2021 23:14:26 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\Option' not found in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php:776
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php on line 776
+[14-Aug-2021 23:14:29 UTC] PHP Fatal error:  Uncaught Error: Class "App\Models\Option" not found in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php.old:814
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php.old on line 814
+[28-Aug-2021 19:03:11 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\Option' not found in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php:776
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php on line 776
+[28-Aug-2021 19:03:13 UTC] PHP Fatal error:  Uncaught Error: Class "App\Models\Option" not found in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php.old:814
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php.old on line 814
+[11-Sep-2021 14:50:27 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Models\Option' not found in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php:776
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php on line 776
+[11-Sep-2021 14:50:28 UTC] PHP Fatal error:  Uncaught Error: Class "App\Models\Option" not found in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php.old:814
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/page/index.blade.php.old on line 814

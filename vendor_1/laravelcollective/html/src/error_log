@@ -1,0 +1,9 @@
+[28-Dec-2021 16:41:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Facade' not found in /home/zakatkit/public_html/vendor/laravelcollective/html/src/HtmlFacade.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/laravelcollective/html/src/HtmlFacade.php on line 10
+[28-Dec-2021 16:41:19 UTC] PHP Fatal error:  Trait 'Illuminate\Support\Traits\Macroable' not found in /home/zakatkit/public_html/vendor/laravelcollective/html/src/HtmlBuilder.php on line 10
+[28-Dec-2021 16:41:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Facade' not found in /home/zakatkit/public_html/vendor/laravelcollective/html/src/FormFacade.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/laravelcollective/html/src/FormFacade.php on line 10

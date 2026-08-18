@@ -1,0 +1,4 @@
+[28-Dec-2021 16:41:24 UTC] PHP Fatal error:  Interface 'Doctrine\Inflector\WordInflector' not found in /home/zakatkit/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/RulesetInflector.php on line 19
+[28-Dec-2021 16:41:25 UTC] PHP Fatal error:  Interface 'Doctrine\Inflector\WordInflector' not found in /home/zakatkit/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/CachedWordInflector.php on line 7
+[28-Dec-2021 16:41:25 UTC] PHP Fatal error:  Interface 'Doctrine\Inflector\WordInflector' not found in /home/zakatkit/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/NoopWordInflector.php on line 7
+[28-Dec-2021 16:41:25 UTC] PHP Fatal error:  Interface 'Doctrine\Inflector\LanguageInflectorFactory' not found in /home/zakatkit/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/GenericLanguageInflectorFactory.php on line 10

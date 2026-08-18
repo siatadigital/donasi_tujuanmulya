@@ -1,0 +1,52 @@
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Writer_Excel2007_WriterPart' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Drawing.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Drawing.php on line 28
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Writer_Excel2007_WriterPart' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Workbook.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Workbook.php on line 28
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Writer_Excel2007_WriterPart' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/RelsVBA.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/RelsVBA.php on line 28
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Writer_Excel2007_WriterPart' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Chart.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Chart.php on line 28
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Writer_Excel2007_WriterPart' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Theme.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Theme.php on line 36
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Writer_Excel2007_WriterPart' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Worksheet.php on line 36
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Writer_Excel2007_WriterPart' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Comments.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Comments.php on line 28
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Writer_Excel2007_WriterPart' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/ContentTypes.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/ContentTypes.php on line 28
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Writer_Excel2007_WriterPart' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/DocProps.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/DocProps.php on line 28
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Writer_Excel2007_WriterPart' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/StringTable.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/StringTable.php on line 28
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Writer_Excel2007_WriterPart' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Rels.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Rels.php on line 28
+[28-Dec-2021 16:41:43 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Writer_Excel2007_WriterPart' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Style.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/Style.php on line 28
+[28-Dec-2021 16:41:43 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Writer_Excel2007_WriterPart' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/RelsRibbon.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Writer/Excel2007/RelsRibbon.php on line 28

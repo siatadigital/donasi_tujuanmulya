@@ -1,0 +1,32 @@
+[12-Oct-2021 07:20:47 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/AttributeBagTest.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/AttributeBagTest.php on line 22
+[12-Oct-2021 07:20:48 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/AttributeBagTest.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/AttributeBagTest.php on line 22
+[12-Oct-2021 07:21:47 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/NamespacedAttributeBagTest.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/NamespacedAttributeBagTest.php on line 22
+[12-Oct-2021 07:21:48 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/NamespacedAttributeBagTest.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/NamespacedAttributeBagTest.php on line 22
+[26-Oct-2021 21:13:27 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/NamespacedAttributeBagTest.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/NamespacedAttributeBagTest.php on line 22
+[26-Oct-2021 21:13:28 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/NamespacedAttributeBagTest.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/NamespacedAttributeBagTest.php on line 22
+[26-Oct-2021 21:14:49 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/AttributeBagTest.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/AttributeBagTest.php on line 22
+[26-Oct-2021 21:14:50 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/AttributeBagTest.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Attribute/AttributeBagTest.php on line 22

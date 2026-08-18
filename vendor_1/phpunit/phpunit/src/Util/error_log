@@ -1,0 +1,5 @@
+[29-Oct-2022 11:10:31 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_Exception' not found in /home/zakatkit/public_html/vendor/phpunit/phpunit/src/Framework/Error.php:16
+Stack trace:
+#0 /home/zakatkit/public_html/vendor/phpunit/phpunit/src/Util/ErrorHandler.php(14): require_once()
+#1 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpunit/phpunit/src/Framework/Error.php on line 16

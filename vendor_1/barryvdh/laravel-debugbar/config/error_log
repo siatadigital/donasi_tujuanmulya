@@ -1,0 +1,4 @@
+[28-Dec-2021 16:41:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/config/debugbar.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/config/debugbar.php on line 15

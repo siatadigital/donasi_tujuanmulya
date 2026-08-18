@@ -1,0 +1,172 @@
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Unset_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Unset_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php on line 8
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/DeclareDeclare.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/DeclareDeclare.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php on line 8
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php on line 8
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Switch_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Switch_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 6
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Use_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Use_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php on line 8
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Const_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Const_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt\ClassLike' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php on line 8
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 8
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt\ClassLike' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php on line 9
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt\ClassLike' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Trait_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Trait_.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php on line 8
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Throw_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Throw_.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php on line 8
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Stmt' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 7

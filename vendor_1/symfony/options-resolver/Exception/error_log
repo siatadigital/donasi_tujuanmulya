@@ -1,0 +1,11 @@
+[28-Dec-2021 16:41:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\OptionsResolver\Exception\InvalidArgumentException' not found in /home/zakatkit/public_html/vendor/symfony/options-resolver/Exception/InvalidOptionsException.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/options-resolver/Exception/InvalidOptionsException.php on line 21
+[28-Dec-2021 16:41:21 UTC] PHP Fatal error:  Interface 'Symfony\Component\OptionsResolver\Exception\ExceptionInterface' not found in /home/zakatkit/public_html/vendor/symfony/options-resolver/Exception/AccessException.php on line 20
+[28-Dec-2021 16:41:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\OptionsResolver\Exception\InvalidArgumentException' not found in /home/zakatkit/public_html/vendor/symfony/options-resolver/Exception/UndefinedOptionsException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/options-resolver/Exception/UndefinedOptionsException.php on line 22
+[28-Dec-2021 16:41:21 UTC] PHP Fatal error:  Interface 'Symfony\Component\OptionsResolver\Exception\ExceptionInterface' not found in /home/zakatkit/public_html/vendor/symfony/options-resolver/Exception/OptionDefinitionException.php on line 19
+[28-Dec-2021 16:41:21 UTC] PHP Fatal error:  Interface 'Symfony\Component\OptionsResolver\Exception\ExceptionInterface' not found in /home/zakatkit/public_html/vendor/symfony/options-resolver/Exception/InvalidArgumentException.php on line 19

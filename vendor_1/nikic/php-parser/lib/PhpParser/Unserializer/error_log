@@ -1,0 +1,1 @@
+[28-Dec-2021 16:41:26 UTC] PHP Fatal error:  Interface 'PhpParser\Unserializer' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Unserializer/XML.php on line 9

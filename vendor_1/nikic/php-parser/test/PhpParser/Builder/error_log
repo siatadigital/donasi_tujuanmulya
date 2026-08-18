@@ -1,0 +1,72 @@
+[26-Oct-2021 21:07:26 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/TraitTest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/TraitTest.php on line 10
+[26-Oct-2021 21:07:28 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/TraitTest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/TraitTest.php on line 10
+[26-Oct-2021 21:08:29 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/PropertyTest.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/PropertyTest.php on line 11
+[26-Oct-2021 21:08:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/PropertyTest.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/PropertyTest.php on line 11
+[26-Oct-2021 21:08:48 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/UseTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/UseTest.php on line 7
+[26-Oct-2021 21:08:49 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/UseTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/UseTest.php on line 7
+[26-Oct-2021 21:08:50 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/ParamTest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/ParamTest.php on line 9
+[26-Oct-2021 21:08:51 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/ParamTest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/ParamTest.php on line 9
+[26-Oct-2021 21:08:52 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/FunctionTest.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/FunctionTest.php on line 11
+[26-Oct-2021 21:08:53 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/FunctionTest.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/FunctionTest.php on line 11
+[26-Oct-2021 21:08:54 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/ClassTest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/ClassTest.php on line 10
+[26-Oct-2021 21:08:55 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/ClassTest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/ClassTest.php on line 10
+[26-Oct-2021 21:08:56 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/NamespaceTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/NamespaceTest.php on line 8
+[26-Oct-2021 21:08:58 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/NamespaceTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/NamespaceTest.php on line 8
+[26-Oct-2021 21:08:59 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/MethodTest.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/MethodTest.php on line 11
+[26-Oct-2021 21:09:00 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/MethodTest.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/MethodTest.php on line 11
+[26-Oct-2021 21:09:01 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/InterfaceTest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/InterfaceTest.php on line 10
+[26-Oct-2021 21:09:02 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/InterfaceTest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Builder/InterfaceTest.php on line 10

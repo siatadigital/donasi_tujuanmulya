@@ -1,0 +1,24 @@
+[26-Oct-2021 21:12:04 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Readline/TransientTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Readline/TransientTest.php on line 16
+[26-Oct-2021 21:12:06 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Readline/TransientTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Readline/TransientTest.php on line 16
+[26-Oct-2021 21:12:07 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Readline/LibeditTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Readline/LibeditTest.php on line 16
+[26-Oct-2021 21:12:08 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Readline/LibeditTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Readline/LibeditTest.php on line 16
+[26-Oct-2021 21:12:09 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Readline/GNUReadlineTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Readline/GNUReadlineTest.php on line 16
+[26-Oct-2021 21:12:10 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Readline/GNUReadlineTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Readline/GNUReadlineTest.php on line 16

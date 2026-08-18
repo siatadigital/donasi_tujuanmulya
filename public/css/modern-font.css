@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Keep the application typography consistent across the legacy and current layouts. */
+html,
+body,
+body *:not(.fa):not([class^="fa-"]):not([class*=" fa-"]):not(.glyphicon):not([class^="glyphicon-"]):not([class*=" glyphicon-"]):not(.material-icons):not(.icon):not([class^="icon-"]):not([class*=" icon-"]) {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif !important;
+}
+
+body code,
+body pre,
+body kbd,
+body samp,
+body .note-codable {
+  font-family: Consolas, 'Liberation Mono', monospace !important;
+}

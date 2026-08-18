@@ -1,0 +1,196 @@
+[30-Jun-2021 12:43:31 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/BlogController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/BlogController.php on line 11
+[30-Jun-2021 12:43:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Controller.php on line 10
+[30-Jun-2021 12:43:33 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/EventController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/EventController.php on line 10
+[30-Jun-2021 12:43:34 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/MidtransController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/MidtransController.php on line 11
+[30-Jun-2021 12:43:35 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/PageController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/PageController.php on line 15
+[30-Jun-2021 12:43:36 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/ProjectController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/ProjectController.php on line 19
+[30-Jun-2021 12:43:37 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/UserController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/UserController.php on line 15
+[13-Jul-2021 13:46:41 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/BlogController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/BlogController.php on line 11
+[13-Jul-2021 13:46:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Controller.php on line 10
+[13-Jul-2021 13:46:43 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/EventController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/EventController.php on line 10
+[13-Jul-2021 13:46:44 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/MidtransController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/MidtransController.php on line 11
+[13-Jul-2021 13:46:46 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/PageController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/PageController.php on line 15
+[13-Jul-2021 13:46:47 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/ProjectController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/ProjectController.php on line 19
+[13-Jul-2021 13:46:48 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/UserController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/UserController.php on line 15
+[15-Jul-2021 15:37:16 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/BlogController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/BlogController.php on line 11
+[15-Jul-2021 15:37:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Controller.php on line 10
+[15-Jul-2021 15:37:18 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/EventController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/EventController.php on line 10
+[15-Jul-2021 15:37:19 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/MidtransController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/MidtransController.php on line 11
+[15-Jul-2021 15:37:20 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/PageController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/PageController.php on line 15
+[15-Jul-2021 15:37:22 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/ProjectController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/ProjectController.php on line 19
+[15-Jul-2021 15:37:23 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/UserController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/UserController.php on line 15
+[27-Jul-2021 13:34:13 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/BlogController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/BlogController.php on line 12
+[27-Jul-2021 13:34:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Controller.php on line 10
+[27-Jul-2021 13:34:14 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/EventController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/EventController.php on line 10
+[27-Jul-2021 13:34:15 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/MidtransController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/MidtransController.php on line 11
+[27-Jul-2021 13:34:16 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/PageController.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/PageController.php on line 16
+[27-Jul-2021 13:34:17 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/ProjectController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/ProjectController.php on line 20
+[27-Jul-2021 13:34:18 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/UserController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/UserController.php on line 15
+[14-Aug-2021 23:09:56 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/BlogController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/BlogController.php on line 12
+[14-Aug-2021 23:09:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Controller.php on line 10
+[14-Aug-2021 23:09:58 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/EventController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/EventController.php on line 10
+[14-Aug-2021 23:09:59 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/MidtransController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/MidtransController.php on line 11
+[14-Aug-2021 23:10:00 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/PageController.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/PageController.php on line 16
+[14-Aug-2021 23:10:01 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/ProjectController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/ProjectController.php on line 20
+[14-Aug-2021 23:10:02 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/UserController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/UserController.php on line 15
+[28-Aug-2021 18:58:34 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/BlogController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/BlogController.php on line 12
+[28-Aug-2021 18:58:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Controller.php on line 10
+[28-Aug-2021 18:58:36 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/EventController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/EventController.php on line 10
+[28-Aug-2021 18:58:37 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/MidtransController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/MidtransController.php on line 11
+[28-Aug-2021 18:58:38 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/PageController.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/PageController.php on line 16
+[28-Aug-2021 18:58:39 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/ProjectController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/ProjectController.php on line 20
+[28-Aug-2021 18:58:40 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/UserController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/UserController.php on line 15
+[11-Sep-2021 14:45:26 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/BlogController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/BlogController.php on line 12
+[11-Sep-2021 14:45:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Controller.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Controller.php on line 10
+[11-Sep-2021 14:45:28 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/EventController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/EventController.php on line 10
+[11-Sep-2021 14:45:29 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/MidtransController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/MidtransController.php on line 11
+[11-Sep-2021 14:45:30 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/PageController.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/PageController.php on line 16
+[11-Sep-2021 14:45:31 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/ProjectController.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/ProjectController.php on line 20
+[11-Sep-2021 14:45:32 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/UserController.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/UserController.php on line 15

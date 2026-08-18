@@ -1,0 +1,28 @@
+[30-Jun-2021 12:55:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function first() on null in /home/zakatkit/public_html/resources/viewsAdmin/contents/user/edit-admin.blade.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/viewsAdmin/contents/user/edit-admin.blade.php on line 168
+[13-Jul-2021 13:55:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function first() on null in /home/zakatkit/public_html/resources/viewsAdmin/contents/user/edit-admin.blade.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/viewsAdmin/contents/user/edit-admin.blade.php on line 168
+[15-Jul-2021 15:44:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function first() on null in /home/zakatkit/public_html/resources/viewsAdmin/contents/user/edit-admin.blade.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/viewsAdmin/contents/user/edit-admin.blade.php on line 168
+[27-Jul-2021 13:40:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function first() on null in /home/zakatkit/public_html/resources/viewsAdmin/contents/user/edit-admin.blade.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/viewsAdmin/contents/user/edit-admin.blade.php on line 168
+[14-Aug-2021 23:17:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function first() on null in /home/zakatkit/public_html/resources/viewsAdmin/contents/user/edit-admin.blade.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/viewsAdmin/contents/user/edit-admin.blade.php on line 168
+[28-Aug-2021 19:06:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function first() on null in /home/zakatkit/public_html/resources/viewsAdmin/contents/user/edit-admin.blade.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/viewsAdmin/contents/user/edit-admin.blade.php on line 168
+[11-Sep-2021 14:53:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function first() on null in /home/zakatkit/public_html/resources/viewsAdmin/contents/user/edit-admin.blade.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/viewsAdmin/contents/user/edit-admin.blade.php on line 168

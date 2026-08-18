@@ -1,0 +1,28 @@
+[30-Jun-2021 12:45:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/zakatkit/public_html/database/factories/ModelFactory.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/factories/ModelFactory.php on line 15
+[13-Jul-2021 13:49:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/zakatkit/public_html/database/factories/ModelFactory.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/factories/ModelFactory.php on line 15
+[15-Jul-2021 15:39:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/zakatkit/public_html/database/factories/ModelFactory.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/factories/ModelFactory.php on line 15
+[27-Jul-2021 13:36:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/zakatkit/public_html/database/factories/ModelFactory.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/factories/ModelFactory.php on line 15
+[14-Aug-2021 23:11:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/zakatkit/public_html/database/factories/ModelFactory.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/factories/ModelFactory.php on line 15
+[28-Aug-2021 19:00:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/zakatkit/public_html/database/factories/ModelFactory.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/factories/ModelFactory.php on line 15
+[11-Sep-2021 14:47:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/zakatkit/public_html/database/factories/ModelFactory.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/factories/ModelFactory.php on line 15

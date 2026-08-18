@@ -1,0 +1,32 @@
+[11-Oct-2022 10:19:45 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php on line 13
+[11-Oct-2022 10:19:46 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php on line 13
+[26-Oct-2022 07:15:08 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php on line 13
+[26-Oct-2022 07:15:09 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php on line 13
+[29-Oct-2022 08:50:57 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php on line 13
+[29-Oct-2022 08:50:58 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php on line 13
+[12-Nov-2022 03:36:48 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php on line 13
+[12-Nov-2022 03:36:49 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PDO/PDOCollector.php on line 13

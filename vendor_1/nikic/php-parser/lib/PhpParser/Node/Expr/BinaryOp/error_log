@@ -1,0 +1,108 @@
+[28-Dec-2021 16:41:44 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/LogicalOr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/LogicalOr.php on line 7
+[28-Dec-2021 16:41:44 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Div.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Div.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/BooleanAnd.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/BooleanAnd.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/BooleanOr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/BooleanOr.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/BitwiseOr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/BitwiseOr.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/SmallerOrEqual.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/SmallerOrEqual.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Greater.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Greater.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Equal.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Equal.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/ShiftLeft.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/ShiftLeft.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Concat.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Concat.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/ShiftRight.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/ShiftRight.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/NotIdentical.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/NotIdentical.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/LogicalAnd.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/LogicalAnd.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Coalesce.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Coalesce.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Plus.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Plus.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/BitwiseAnd.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/BitwiseAnd.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Spaceship.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Spaceship.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Smaller.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Smaller.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Mul.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Mul.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/NotEqual.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/NotEqual.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/LogicalXor.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/LogicalXor.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/BitwiseXor.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/BitwiseXor.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Pow.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Pow.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Identical.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Identical.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Minus.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Minus.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Mod.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/Mod.php on line 7
+[28-Dec-2021 16:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr\BinaryOp' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/GreaterOrEqual.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp/GreaterOrEqual.php on line 7

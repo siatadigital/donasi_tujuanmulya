@@ -1,0 +1,5 @@
+[28-Dec-2021 16:41:21 UTC] PHP Fatal error:  Interface 'League\Fractal\Pagination\CursorInterface' not found in /home/zakatkit/public_html/vendor/league/fractal/src/Pagination/Cursor.php on line 20
+[28-Dec-2021 16:41:21 UTC] PHP Fatal error:  Interface 'League\Fractal\Pagination\PaginatorInterface' not found in /home/zakatkit/public_html/vendor/league/fractal/src/Pagination/PhalconFrameworkPaginatorAdapter.php on line 21
+[28-Dec-2021 16:41:21 UTC] PHP Fatal error:  Interface 'League\Fractal\Pagination\PaginatorInterface' not found in /home/zakatkit/public_html/vendor/league/fractal/src/Pagination/PagerfantaPaginatorAdapter.php on line 21
+[28-Dec-2021 16:41:22 UTC] PHP Fatal error:  Interface 'League\Fractal\Pagination\PaginatorInterface' not found in /home/zakatkit/public_html/vendor/league/fractal/src/Pagination/ZendFrameworkPaginatorAdapter.php on line 21
+[28-Dec-2021 16:41:22 UTC] PHP Fatal error:  Interface 'League\Fractal\Pagination\PaginatorInterface' not found in /home/zakatkit/public_html/vendor/league/fractal/src/Pagination/IlluminatePaginatorAdapter.php on line 22

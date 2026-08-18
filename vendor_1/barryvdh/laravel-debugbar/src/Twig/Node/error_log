@@ -1,0 +1,4 @@
+[28-Dec-2021 16:41:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Node' not found in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/Twig/Node/StopwatchNode.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/Twig/Node/StopwatchNode.php on line 8

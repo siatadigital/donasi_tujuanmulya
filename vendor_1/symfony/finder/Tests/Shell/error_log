@@ -1,0 +1,40 @@
+[25-Sep-2021 11:45:11 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php on line 17
+[25-Sep-2021 11:45:12 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php on line 17
+[12-Oct-2021 07:20:24 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php on line 17
+[12-Oct-2021 07:20:25 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php on line 17
+[26-Oct-2021 21:13:21 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php on line 17
+[26-Oct-2021 21:13:22 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php on line 17
+[19-Nov-2021 17:47:49 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php on line 17
+[19-Nov-2021 17:47:50 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php on line 17
+[03-Dec-2021 10:42:56 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php on line 17
+[03-Dec-2021 10:42:58 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/finder/Tests/Shell/CommandTest.php on line 17

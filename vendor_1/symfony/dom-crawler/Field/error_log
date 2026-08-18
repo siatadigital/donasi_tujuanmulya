@@ -1,0 +1,8 @@
+[28-Dec-2021 16:41:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\DomCrawler\Field\FormField' not found in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Field/InputFormField.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Field/InputFormField.php on line 22
+[28-Dec-2021 16:41:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\DomCrawler\Field\FormField' not found in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Field/TextareaFormField.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Field/TextareaFormField.php on line 19

@@ -1,0 +1,24 @@
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Fracture/ClassNotFoundExceptionSpec.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Fracture/ClassNotFoundExceptionSpec.php on line 7
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Fracture/InterfaceNotImplementedExceptionSpec.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Fracture/InterfaceNotImplementedExceptionSpec.php on line 7
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Fracture/MethodNotVisibleExceptionSpec.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Fracture/MethodNotVisibleExceptionSpec.php on line 8
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Fracture/MethodNotFoundExceptionSpec.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Fracture/MethodNotFoundExceptionSpec.php on line 7
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Fracture/PropertyNotFoundExceptionSpec.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Fracture/PropertyNotFoundExceptionSpec.php on line 7
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Fracture/NamedConstructorNotFoundExceptionSpec.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Fracture/NamedConstructorNotFoundExceptionSpec.php on line 8

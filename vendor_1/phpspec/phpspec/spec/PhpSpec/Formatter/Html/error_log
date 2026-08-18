@@ -1,0 +1,28 @@
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Html/TemplateSpec.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Html/TemplateSpec.php on line 10
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Html/HtmlPresenterSpec.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Html/HtmlPresenterSpec.php on line 12
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Html/IOSpec.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Html/IOSpec.php on line 10
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Html/ReportPassedItemSpec.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Html/ReportPassedItemSpec.php on line 11
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Html/ReportFailedItemSpec.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Html/ReportFailedItemSpec.php on line 12
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Html/ReportItemFactorySpec.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Html/ReportItemFactorySpec.php on line 12
+[28-Dec-2021 16:41:34 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Html/ReportPendingItemSpec.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Html/ReportPendingItemSpec.php on line 11

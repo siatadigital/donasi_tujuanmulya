@@ -1,0 +1,21 @@
+[28-Dec-2021 16:41:30 UTC] PHP Fatal error:  Interface 'PhpParser\Node' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[28-Dec-2021 16:41:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\NodeAbstract' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 7
+[28-Dec-2021 16:41:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar.php on line 5
+[28-Dec-2021 16:41:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\NodeAbstract' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Const_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Const_.php on line 7
+[28-Dec-2021 16:41:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\NodeAbstract' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php on line 8
+[28-Dec-2021 16:41:31 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\NodeAbstract' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7

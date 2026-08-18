@@ -1,0 +1,30 @@
+[28-Dec-2021 16:41:18 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/MockObjectComparatorTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/MockObjectComparatorTest.php on line 17
+[28-Dec-2021 16:41:18 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/DateTimeComparatorTest.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/DateTimeComparatorTest.php on line 21
+[28-Dec-2021 16:41:20 UTC] PHP Warning:  require(/home/zakatkit/public_html/vendor/sebastian/comparator/tests/../vendor/autoload.php): failed to open stream: No such file or directory in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/bootstrap.php on line 2
+[28-Dec-2021 16:41:20 UTC] PHP Fatal error:  require(): Failed opening required '/home/zakatkit/public_html/vendor/sebastian/comparator/tests/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/bootstrap.php on line 2
+[28-Dec-2021 16:41:20 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/FactoryTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/FactoryTest.php on line 17
+[28-Dec-2021 16:41:20 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/ArrayComparatorTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/ArrayComparatorTest.php on line 17
+[28-Dec-2021 16:41:20 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/ExceptionComparatorTest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/ExceptionComparatorTest.php on line 20
+[28-Dec-2021 16:41:20 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/ObjectComparatorTest.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/ObjectComparatorTest.php on line 19
+[28-Dec-2021 16:41:20 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/DOMNodeComparatorTest.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/sebastian/comparator/tests/DOMNodeComparatorTest.php on line 20

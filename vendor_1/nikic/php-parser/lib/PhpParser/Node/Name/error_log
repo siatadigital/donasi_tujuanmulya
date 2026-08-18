@@ -1,0 +1,8 @@
+[28-Dec-2021 16:41:34 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Name' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name/FullyQualified.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name/FullyQualified.php on line 5
+[28-Dec-2021 16:41:34 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Name' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name/Relative.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Name/Relative.php on line 5

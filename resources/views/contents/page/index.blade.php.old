@@ -1,0 +1,1092 @@
+@extends('layouts.default')
+@section('title',trans('homepage.title'))
+@section('after-header')
+	{{-- @include('partials.home-banner') --}}
+@stop
+@section('head')
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/select2.css') }}">
+@stop
+@section('content')
+	<section class="new-artist prisec">
+		<div id="slider-box" class="slider-box">
+			@foreach($banners as $item)
+			<a href="{{ $item->link }}" target="_blank">
+				<div class="slider-box-item">
+					<div class="slider-box-item-bg" style="background: url('{{ media($item->photo,'large') }}') left top;"></div>
+				</div>
+			</a>
+			@endforeach
+		</div>
+	</section>
+
+	<div class="main-form-donasi">
+		<div class="main-form-donasi-wrapper">
+			<ul class="nav nav-tabs tabs-wrapper">
+			  <li class="nav tabs-header tabs-header-left {{ ((request('active') and request('active') == 'infak') or !request('active')) ? 'active' : '' }}"><a data-toggle="tab" href="#donasi">{{ trans('homepage.infak') }}</a></li>
+			  <li class="nav tabs-header tabs-header-right {{ (request('active') and (request('active') == 'zakat' or request('active') == 'kalkulator-zakat')) ? 'in active' : '' }}"><a data-toggle="tab" href="#zakat">{{ trans('homepage.zakat') }}</a></li>
+			</ul>
+			<div class="tab-content form-donasi-content-wrapper">
+			  <div class="tab-pane fade {{ ((request('active') and request('active') == 'infak') or !request('active')) ? 'in active' : '' }}" id="donasi">
+					@if (auth()->check() && auth()->user()->is_internal)
+					<p class="form-donasi-title">{{ trans('homepage.link_referral') }}</p>
+					<a>{{ url() . '/?r=' . auth()->user()->code_referral }}</a>
+					<br><br>
+					<button type="button" class="btn btn-primary btn-copy-referral">{{ trans('homepage.salin') }}</button>
+					<br><br><br>
+					@endif
+					<form class="form-horizontal" method="post" onsubmit="return submitFormInfak();">
+						<p class="form-donasi-title">{{ trans('homepage.ingin_infak') }}</p>
+						<!-- <button type="button" class="btn-nominal" value="10000">10.000</button>
+						<button type="button" class="btn-nominal" value="25000">25.000</button>
+						<button type="button" class="btn-nominal" value="50000">50.000</button>
+						<button type="button" class="btn-nominal" value="100000">100.000</button> -->
+						<input type="hidden" name="code_referral" id="code-referral" value="{{ request('r') }}">
+						<div class="input-donasi-wrapper">
+							<div class="row">
+								<div class="col-sm-12 col-md-12">
+									<div class="row">
+										<div class="col-xs-6 col-md-6">
+											<label class="label-donasi" for="nominalDonasi">{{ trans('homepage.nominal_infak') }}</label>
+											<input type="number" class="form-control input-nominal-donasi input-donasi-text" name="amount" id="nominalDonasi" placeholder="{{ trans('homepage.placeholder_infak') }}" min="1" required>
+											<label class="label-donasi" for="phoneDonasi">{{ trans('homepage.phone') }}</label>
+											<input type="text" class="form-control input-data-donasi input-donasi-text" id="phoneDonasi" name="phone" placeholder="{{ trans('homepage.placeholder_phone') }}" required>
+										</div>
+										<div class="col-xs-6 col-md-6 pl-0">
+											<label class="label-donasi" for="fullnameDonasi">{{ trans('homepage.fullname') }}</label>
+											<input type="text" class="form-control input-data-donasi input-donasi-text" id="fullnameDonasi" name="fullname" placeholder="{{ trans('homepage.placeholder_fullname') }}" required>
+											<label class="label-donasi" for="emailDonasi">{{ trans('homepage.email') }}</label>
+											<input type="text" class="form-control input-data-donasi input-donasi-text" id="emailDonasi" name="email" placeholder="{{ trans('homepage.placeholder_email') }}" required>
+										</div>
+										<div class="col-xs-12 col-md-12">
+											<label class="label-donasi" for="paymentMethodDonasi">{{ trans('homepage.paymentMethod') }}</label>
+											<div>
+											<select class="form-control input-data-donasi input-donasi-text" id="paymentMethodDonasi" name="paymentMethod" style="width: 100%;" required>
+												<option value="">{{ trans('homepage.placeholder_paymentMethod') }}</option>
+												<!-- <optgroup label="Mobile">
+													<option value="CIMB Click" data-img="{{ asset('images/payment_methods/cimb_clicks.png') }}">
+														OCTO Click (CIMB Click)
+													</option>
+													<option value="KlikBCA" data-img="{{ asset('images/payment_methods/klik_bca.jpg') }}">KlikBCA</option>
+												</optgroup> -->
+												<optgroup label="E-Wallet">
+													<option value="OVO" data-img="{{ asset('images/payment_methods/ovo.png') }}">OVO</option>
+													<!-- <option value="JeniusPay" data-img="{{ asset('images/payment_methods/jenius_pay.png') }}">JeniusPay</option>
+													<option value="LinkAja" data-img="{{ asset('images/payment_methods/link_aja.png') }}">LinkAja</option> -->
+													<option value="gopay" data-img="{{ asset('images/payment_methods/gopay.png') }}">Gopay</option>
+													<option value="DANA" data-img="{{ asset('images/payment_methods/dana.png') }}">DANA</option>
+													<option value="SA" data-img="{{ asset('images/payment_methods/shopee_pay.png') }}">Shopee Pay</option>
+												</optgroup>
+												<optgroup label="Virtual Account">
+													<!-- <option value="permata_va">VA Permata</option> -->
+													<option value="echannel" data-img="{{ asset('images/payment_methods/bank_mandiri.png') }}">VA Mandiri</option>
+													<option value="other_va">VA Universal</option>
+												</optgroup>
+												<optgroup label="Manual Transfer">
+													@foreach(config('web.bank') as $key => $item)
+														@if ($item['show'])
+															<option value="transfer_{{ $key }}" data-img="{{ asset('images/payment_methods/bank_'. $key .'.png') }}">{{ $item['bank'] }}</option>
+														@endif
+													@endforeach
+												</optgroup>
+											</select>
+											</div>
+										</div>
+									</div>
+									<div class="check-donasi-wrapper">
+										<input type="checkbox" class="check-donasi" id="is_anonim_infak" value="1">
+										<label class="form-check-label label-donasi" for="is_anonim_infak">{{ trans('homepage.hamba_allah_donasi') }}</label>
+									</div>
+									<div class="button-donasi-wrapper text-center">
+										<img src="{{ asset('loading.gif') }}" id="loading-infak" style="display: none;">
+										<button type="submit" class="btn btn-blue-large" data-toggle="modal" data-target="#doaInfak" id="btn-infak">{{ trans('homepage.infak_sekarang') }}</button>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-12">
+									<div class="row">
+										<div class="col-xs-6 text-center">
+											<div class="link-title-wrapper">
+												<a class="link-title" href="#" data-toggle="modal" data-target="#donaturTerakhir">
+													<img src="{{ url('images/Icon_Infak_Umum_Donatur.png') }}" alt="gambar" class="center-block img-responsif media-object" height="40">
+													{{ trans('homepage.lihat_donatur_terakhir') }}
+												</a>
+											</div>
+										</div>
+										<div class="col-xs-6 text-center">
+											<div class="link-title-wrapper">
+												<a class="link-title" href="#" data-toggle="modal" data-target="#updateTerakhir">
+													<img src="{{ url('images/Icon_Zakat_Muzakki.png') }}" alt="gambar" class="center-block img-responsif media-object" height="40">
+													{{ trans('homepage.lihat_update_terakhir') }}
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+			  </div>
+			  <div class="tab-pane fade {{ (request('active') and (request('active') == 'zakat' or request('active') == 'kalkulator-zakat')) ? 'in active' : '' }}" id="zakat">
+					@if (auth()->check() && auth()->user()->is_internal)
+					<p class="form-donasi-title">{{ trans('homepage.link_referral') }}</p>
+					<a>{{ url() . '/?r=' . auth()->user()->code_referral }}</a>
+					<br><br>
+					<button type="button" class="btn btn-primary btn-copy-referral">{{ trans('homepage.salin') }}</button>
+					<br><br><br>
+					@endif
+					<form class="form-horizontal" method="post" onsubmit="return submitFormZakat();">
+						<p class="form-donasi-title">{{ trans('homepage.jenis_zakat') }}</p>
+						<button type="button" class="btn-jenis-zakat" value="Penghasilan">{{ trans('homepage.penghasilan') }}</button>
+						<button type="button" class="btn-jenis-zakat" value="Tabungan">{{ trans('homepage.tabungan') }}</button>
+						<button type="button" class="btn-jenis-zakat" value="Perdagangan">{{ trans('homepage.perdagangan') }}</button>
+						<button type="button" class="btn-jenis-zakat" value="Emas">{{ trans('homepage.emas') }}</button>
+						<input type="text" name="type" id="jenisZakat" style="opacity: 0;margin-top: -25px;display:block;position: absolute;z-index: -1;" required>
+						<div class="input-donasi-wrapper">
+							<div class="row">
+								<div class="col-sm-12 col-md-12">
+									<div class="row">
+										<div class="col-xs-6 col-md-6">
+											<label class="label-donasi" for="nominalZakat">{{ trans('homepage.nominal_zakat') }}</label>
+											<input type="number" class="form-control input-nominal-donasi input-donasi-text" name="nominal" id="nominalZakat" placeholder="{{ trans('homepage.placeholder_zakat') }}" min="1" required>
+											<label class="label-donasi" for="phoneZakat">{{ trans('homepage.phone') }}</label>
+											<input type="text" class="form-control input-data-donasi input-donasi-text" name="phone" id="phoneZakat" placeholder="{{ trans('homepage.placeholder_phone') }}" required>
+										</div>
+										<div class="col-xs-6 col-md-6 pl-0">
+											<label class="label-donasi" for="fullnameZakat">{{ trans('homepage.fullname') }}</label>
+											<input type="text" class="form-control input-data-donasi input-donasi-text" name="fullname" id="fullnameZakat" placeholder="{{ trans('homepage.placeholder_fullname') }}" required>
+											<label class="label-donasi" for="emailZakat">{{ trans('homepage.email') }}</label>
+											<input type="text" class="form-control input-data-donasi input-donasi-text" id="emailZakat" name="email" placeholder="{{ trans('homepage.placeholder_email') }}" required>
+										</div>
+										<div class="col-xs-12 col-md-12">
+											<label class="label-donasi" for="paymentMethodZakat">{{ trans('homepage.paymentMethod') }}</label>
+											<div>
+											<select class="form-control input-data-donasi input-donasi-text" id="paymentMethodZakat" name="paymentMethod" style="width: 100%;" required>
+												<option value="">{{ trans('homepage.placeholder_paymentMethod') }}</option>
+												<!-- <optgroup label="Mobile">
+													<option value="CIMB Click" data-img="{{ asset('images/payment_methods/cimb_clicks.png') }}">
+														OCTO Click (CIMB Click)
+													</option>
+													<option value="KlikBCA" data-img="{{ asset('images/payment_methods/klik_bca.jpg') }}">KlikBCA</option>
+												</optgroup> -->
+												<optgroup label="E-Wallet">
+													<option value="OVO" data-img="{{ asset('images/payment_methods/ovo.png') }}">OVO</option>
+													<!-- <option value="JeniusPay" data-img="{{ asset('images/payment_methods/jenius_pay.png') }}">JeniusPay</option>
+													<option value="LinkAja" data-img="{{ asset('images/payment_methods/link_aja.png') }}">LinkAja</option> -->
+													<option value="gopay" data-img="{{ asset('images/payment_methods/gopay.png') }}">Gopay</option>
+													<option value="DANA" data-img="{{ asset('images/payment_methods/dana.png') }}">DANA</option>
+													<option value="SA" data-img="{{ asset('images/payment_methods/shopee_pay.png') }}">Shopee Pay</option>
+												</optgroup>
+												<optgroup label="Virtual Account">
+													<!-- <option value="permata_va">VA Permata</option> -->
+													<option value="echannel" data-img="{{ asset('images/payment_methods/bank_mandiri.png') }}">VA Mandiri</option>
+													<option value="other_va">VA Universal</option>
+												</optgroup>
+												<optgroup label="Manual Transfer">
+													@foreach(config('web.bank') as $key => $item)
+														@if ($item['show'])
+															<option value="transfer_{{ $key }}" data-img="{{ asset('images/payment_methods/bank_'. $key .'.png') }}">{{ $item['bank'] }}</option>
+														@endif
+													@endforeach
+												</optgroup>
+											</select>
+											</div>
+										</div>
+									</div>
+									<div class="check-donasi-wrapper">
+										<input type="checkbox" class="check-donasi" id="is_anonim_zakat" value="1">
+										<label class="form-check-label label-donasi" for="is_anonim_zakat">{{ trans('homepage.hamba_allah_zakat') }}</label>
+									</div>
+									<div class="button-donasi-wrapper text-center">
+										<img src="{{ asset('loading.gif') }}" id="loading-zakat" style="display: none;">
+										<button type="submit" class="btn btn-blue-large" data-toggle="modal" data-target="#doaZakat" id="btn-zakat">{{ trans('homepage.bayar_zakat_sekarang') }}</button>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-12">
+									<br>
+									<div class="label-grey-title-wrapper">
+										<p class="label-title">{{ trans('homepage.hitung_desc') }}</p>
+									</div>
+									<div class="button-penerima-donasi-wrapper">
+										<button type="button" data-toggle="modal" data-target="#kalkulatorZakat" class="btn button-transparent pt-0">{{ trans('homepage.kalkulator') }}</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="galang-dana">
+		<div class="container-mobile">
+			<h1 class="text-center content-title">{{ trans('homepage.galang_dana_featured') }}</h1>
+			<!-- <p class="text-center content-subtitle">{{ trans('homepage.galang_dana_featured_desc') }}</p> -->
+			@include('contents.project._list-featured')
+			<div class="text-center">
+					<a href="{{ route('project.getIndex') }}" class="btn btn-blue">{{ trans('homepage.lihat_semua') }}</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="galang-dana">
+    <div class="container-mobile">
+      <h1 class="text-center content-title">{{ trans('homepage.galang_dana_terbaru') }}</h1>
+			<!-- <p class="text-center content-subtitle">{{ trans('homepage.galang_dana_terbaru_desc') }}</p> -->
+			@include('contents.project._list')
+			<div class="text-center">
+					<a href="{{ route('project.getIndex') }}" class="btn btn-blue">{{ trans('homepage.lihat_semua') }}</a>
+			</div>
+    </div>
+  </div>
+
+	<div class="modal fade" id="donaturTerakhir" tabindex="-1" role="dialog" aria-labelledby="donaturTerakhirLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="donaturTerakhirLabel">{{ trans('homepage.lihat_donatur_terakhir') }}</h4>
+				</div>
+				<div class="modal-body">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs">
+						<li role="presentation" class="active"><a href="#global" data-toggle="tab">Infak</a></li>
+						<li role="presentation"><a href="#terikat" data-toggle="tab">Infak tiap Campaign</a></li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div class="tab-pane active" id="global">
+							<table class="table table-bordered table-striped table-responsive">
+								<thead>
+									<tr>
+										<th>Tanggal</th>
+										<th>Nama</th>
+										<th>Nominal</th>
+									</tr>
+								</thead>
+								<tbody>
+									@foreach($donaturTerakhirList as $item)
+									<tr>
+										<td>{{ $item->created_at }}</td>
+										@if ($item->is_anonim)
+										<td>Hamba Allah</td>
+										@else
+										<td>{{ $item->fullname }}</td>
+										@endif
+										<td>{{ priceFormat($item->unique_code ? $item->amount + $item->unique_code : $item->amount) }}</td>
+									</tr>
+									@endforeach
+								</tbody>
+							</table>
+						</div>
+						<div class="tab-pane" id="terikat">
+							<table class="table table-bordered table-striped table-responsive">
+								<thead>
+									<tr>
+										<th>Tanggal</th>
+										<th>Campaign</th>
+										<th>Nama</th>
+										<th>Nominal</th>
+									</tr>
+								</thead>
+								<tbody>
+									@foreach($supporterTerakhirList as $item)
+									<tr>
+										<td>{{ $item->created_at }}</td>
+										<td>{{ $item->project->title }}</td>
+										@if ($item->is_anonim)
+										<td>Hamba Allah</td>
+										@else
+										<td>{{ $item->fullname }}</td>
+										@endif
+										<td>{{ priceFormat($item->money) }}</td>
+									</tr>
+									@endforeach
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="updateTerakhir" tabindex="-1" role="dialog" aria-labelledby="updateTerakhirLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="updateTerakhirLabel">{{ trans('homepage.lihat_update_terakhir') }}</h4>
+				</div>
+				<div class="modal-body">
+					<table class="table table-bordered table-striped table-responsive">
+						<thead>
+							<tr>
+								<th>Tanggal</th>
+								<th>Nama</th>
+								<th>Nominal</th>
+								<th>Tipe</th>
+							</tr>
+						</thead>
+						<tbody>
+							@foreach($zakatTerakhirList as $item)
+							<tr>
+								<td>{{ $item->created_at }}</td>
+								@if ($item->is_anonim)
+								<td>Hamba Allah</td>
+								@else
+								<td>{{ $item->fullname }}</td>
+								@endif
+								<td>{{ priceFormat($item->unique_code ? $item->amount + $item->unique_code : $item->amount) }}</td>
+								<td>{{ strtoupper($item->type) }}</td>
+							</tr>
+							@endforeach
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="kalkulatorZakat" tabindex="-1" role="dialog" aria-labelledby="kalkulatorZakatLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="kalkulatorZakatLabel">{{ trans('homepage.kalkulator') }}</h4>
+				</div>
+				<div class="modal-body">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs">
+						<li role="presentation" class="active"><a href="#zakat_perdagangan" data-toggle="tab">Zakat Perdagangan</a></li>
+						<li role="presentation"><a href="#zakat_emas" data-toggle="tab">Zakat Emas</a></li>
+						<li role="presentation"><a href="#zakat_tabungan" data-toggle="tab">Zakat Tabungan</a></li>
+						<li role="presentation"><a href="#zakat_penghasilan" data-toggle="tab">Zakat Penghasilan</a></li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div class="tab-pane active" id="zakat_perdagangan">
+							<h2>Zakat Perdagangan</h2>
+							Barang dagangan di sini termasuk tanah, rumah, kendaraan, ternak (selain kambing, sapi/kerbau dan unta), perhiasan dll yang diniatkan untuk dijual.<br /><br />
+							- Nishabnya senilai <strong>85 gram emas</strong>.<br />
+							- Ukuran zakatnya adalah sebesar <strong>2,5% atau 1/40</strong>.<br />
+							- Telah mencapai haul <strong>1 tahun hijriyah</strong>.
+							<br /><br />
+							<form>
+							<table class="table table-condensed">
+									<tr>
+										<th colspan="2" class="tableheader"><strong>Nishab</strong></th>
+									</tr>
+									<tr>
+										<td class="label_cols">Harga 1 gram emas murni</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="harga_emas" class="input_angka form-control" onkeyup="validasiAngka(this); zc_emas_nisab(); zc_mal_hitung();" value="" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Nishab</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="nisab_emas" class="input_angka form-control" disabled="disabled" value="" /> <input type="hidden" id="nisab_emas_float" value="" />
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<th colspan="2" class="tableheader"><strong>Harta</strong></th>
+									</tr>
+									<tr>
+										<td class="label_cols">Uang (Cash, Tabungan, dkk)</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="uang" class="input_angka form-control" onkeyup="validasiAngka(this); zc_dagang_total_harta();" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Stok Barang Dagangan</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="stok" class="input_angka form-control" onkeyup="validasiAngka(this); zc_dagang_total_harta();" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Piutang</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="piutang" class="input_angka form-control" onkeyup="validasiAngka(this); zc_dagang_total_harta();" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Total Harta Kena Zakat</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="total_harta" class="input_angka form-control" disabled="disabled" /> <input type="hidden" id="total_harta_float" />
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<th colspan="2" class="tableheader"><strong>Kewajiban</strong></th>
+									</tr>
+									<tr>
+										<td class="label_cols">Hutang</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="hutang" class="input_angka form-control" onkeyup="validasiAngka(this); zc_dagang_total_kewajiban();" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Biaya Lain</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="biaya" class="input_angka form-control" onkeyup="validasiAngka(this); zc_dagang_total_kewajiban();" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Total Kewajiban</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="total_kewajiban" class="input_angka form-control" disabled="disabled" /> <input type="hidden" id="total_kewajiban_float" />
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<th colspan="2" class="tableheader"><strong>Zakat</strong></th>
+									</tr>
+									<tr>
+										<td class="label_cols">Selisih harta dan kewajiban</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="selisih_harta" class="input_angka form-control" disabled="disabled" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Zakat</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zakat_harta" class="input_angka form-control" disabled="disabled" />
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<th colspan="2" class="tableheader" id="keterangan">&nbsp;</th>
+									</tr>
+							</table>
+							<input type="reset" class="btn btn-warning" value="Reset Perhitungan">
+							<input type="button" id="zakat_perdagangan_btn" class="btn btn-primary" value="Gunakan Perhitungan">
+							</form>
+						</div>
+						<div class="tab-pane" id="zakat_emas">
+							<h2>Zakat Emas</h2>
+							Untuk menghitung zakat emas yang telah tersimpan selama <strong>1 tahun hijriyah</strong>. Zakat yang dikeluarkan adalah sebesar <strong>2,5%</strong>.<br />
+							- Nishab emas adalah <strong>85 gram</strong>.<br />
+							<br /><br />
+							<form>
+								<table class="table table-condensed">
+
+									<tr>
+										<th colspan="2" class="tableheader"><strong>Yang dimiliki</strong></th>
+									</tr>
+									<tr>
+										<td class="label_cols">Emas</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<input type="text" id="emas" class="input_angka form-control" onkeyup="validasiAngka(this); zc_emas_perak();" />
+												<span class="input-group-addon">gram</span>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th colspan="2" class="tableheader"><strong>Zakat</strong></th>
+									</tr>
+									<tr>
+										<td class="label_cols">Zakat Emas</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<input type="text" id="zakat_emas2" class="input_angka form-control" disabled="disabled" />
+												<span class="input-group-addon">gram</span>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th colspan="2" class="tableheader"><strong>Zakat (jika dibayar dengan uang)</strong></th>
+									</tr>
+									<tr>
+										<td class="label_cols">Harga 1 gram emas</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="harga_emas2" class="input_angka form-control" onkeyup="validasiAngka(this); zc_emas_perak();" value="" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Zakat Emas</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zakat_emas_uang" class="input_angka form-control" disabled="disabled" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Total</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zakat_total_uang" class="input_angka form-control" disabled="disabled" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th colspan="2" class="tableheader" id="keterangan_emas">&nbsp;</th>
+									</tr>
+								</table>
+								<input type="reset" class="btn btn-warning" value="Reset Perhitungan">
+								<input type="button" id="zakat_emas_btn" class="btn btn-primary" value="Gunakan Perhitungan">
+							</form>
+						</div>
+						<div class="tab-pane" id="zakat_tabungan">
+							<h2>Zakat Tabungan</h2>
+							Metode perhitungannya sama dengan zakat emas. Yaitu, dengan nisab senilai <strong>85 gram emas</strong>. Sedangkan zakatnya adalah sebesar <strong>2,5%</strong>.
+							<br /><br />
+							<form>
+								<table class="table table-condensed">
+									<tr>
+										<th colspan="2" class="tableheader"><strong>Nishab</strong></th>
+									</tr>
+									<tr>
+										<td class="label_cols">Harga 1 gram emas</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zt_harga_emas" class="input_angka form-control" onkeyup="validasiAngka(this); zc_mal_nisab(); zc_tab_hitung();" value="" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Nishab</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zt_nisab" class="input_angka form-control" disabled="disabled" value="" /> <input type="hidden" id="zt_nisab_float" value="" />
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<th colspan="2" class="tableheader"><strong>Harta</strong></th>
+									</tr>
+									<tr>
+										<td class="label_cols">Uang tabungan</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zt_uang_tabungan" class="input_angka form-control" onkeyup="validasiAngka(this); zc_mal_total_harta();" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Total Harta</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zt_total_harta" class="input_angka form-control" disabled="disabled" /> <input type="hidden" id="zt_total_harta_float" />
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<th colspan="2" class="tableheader"><strong>Kewajiban</strong></th>
+									</tr>
+									<tr>
+										<td class="label_cols">Hutang </td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zt_hutang" class="input_angka form-control" onkeyup="validasiAngka(this); zc_mal_total_kewajiban();" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Total Kewajiban</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zt_total_kewajiban" class="input_angka form-control" disabled="disabled" /> <input type="hidden" id="zt_total_kewajiban_float" />
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<th colspan="2" class="tableheader"><strong>Zakat</strong></th>
+									</tr>
+									<tr>
+										<td class="label_cols">Selisih harta dan kewajiban</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zt_selisih_harta" class="input_angka form-control" disabled="disabled" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Zakat</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zt_zakat_harta" class="input_angka form-control" disabled="disabled" />
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<th colspan="2" class="tableheader" id="keterangan_tabungan">&nbsp;</th>
+									</tr>
+								</table>
+								<input type="reset" class="btn btn-warning" value="Reset Perhitungan">
+								<input type="button" id="zakat_tabungan_btn" class="btn btn-primary" value="Gunakan Perhitungan">
+							</form>
+						</div>
+						<div class="tab-pane" id="zakat_penghasilan">
+							<h2>Zakat Penghasilan</h2>
+							<form>
+								<table class="table table-condensed">
+									<tr>
+										<th colspan="2" class="tableheader"><strong>Nishab</strong></th>
+									</tr>
+									<tr>
+										<td class="label_cols">Harga 1 gram emas</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zp_harga_emas" class="input_angka form-control" onkeyup="validasiAngka(this); nisab_penghasilan(); zc_penghasilan_hitung();" value="" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Nishab</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zp_nisab" class="input_angka form-control" disabled="disabled" value="" /> <input type="hidden" id="zp_nisab_float" value="" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th colspan="2" class="tableheader"><strong>Harta</strong></th>
+									</tr>
+									<tr>
+										<td class="label_cols">Penghasilan Per Bulan</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zp_penghasilan" class="input_angka form-control" onkeyup="validasiAngka(this); zc_penghasilan();" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Total Harta</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zp_total_harta" class="input_angka form-control" disabled="disabled" /> <input type="hidden" id="zp_total_harta_float" />
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<th colspan="2" class="tableheader"><strong>Kewajiban</strong></th>
+									</tr>
+									<tr>
+										<td class="label_cols">Hutang </td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zp_hutang" class="input_angka form-control" onkeyup="validasiAngka(this); zc_penghasilan_kewajiban();" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Total Kewajiban</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zp_total_kewajiban" class="input_angka form-control" disabled="disabled" /> <input type="hidden" id="zp_total_kewajiban_float" />
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<th colspan="2" class="tableheader"><strong>Zakat</strong></th>
+									</tr>
+									<tr>
+										<td class="label_cols">Selisih harta dan kewajiban</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zp_selisih_harta" class="input_angka form-control" disabled="disabled" />
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td class="label_cols">Zakat</td>
+										<td class="value_cols">
+											<div class="input-group">
+												<span class="input-group-addon">Rp</span>
+												<input type="text" id="zp_zakat_harta" class="input_angka form-control" disabled="disabled" />
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<th colspan="2" class="tableheader" id="keterangan_penghasilan">&nbsp;</th>
+									</tr>
+								</table>
+								<input type="reset" class="btn btn-warning" value="Reset Perhitungan">
+								<input type="button" id="zakat_penghasilan_btn" class="btn btn-primary" value="Gunakan Perhitungan">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="successPayment" tabindex="-1" role="dialog" aria-labelledby="successPaymentLabel" data-backdrop="false">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header" style="background: #008797; color: white;">
+					<h4 class="modal-title" id="successPaymentLabel" style="font-weight: bold;">{{ trans('homepage.success_payment') }}</h4>
+				</div>
+				<div class="modal-body"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="modal fade" id="doa" tabindex="-1" role="dialog" aria-labelledby="doaLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="doaLabel">{{ trans('homepage.doa_infak') }}</h4>
+				</div>
+				<div class="modal-body">
+					<p class="text-right">آجَرَكَ اللهُ فِيْمَا اَعْطَيْتَ، وَبَارَكَ فِيْمَا اَبْقَيْتَ وَجَعَلَهُ لَكَ طَهُوْرًا</p>
+					<p>Semoga Allah memberi pahala atas apa yang telah Anda berikan, menjadikannya sebagai penyuci untuk Anda, dan memberkahi untuk Anda apa yang masih tersisa.</p>
+				</div>
+				<button type="button" data-dismiss="modal" class="btn btn-blue-large">{{ trans('homepage.aamiin') }}</button>
+			</div>
+		</div>
+	</div> -->
+
+	<div class="modal fade" id="doa-zakat" tabindex="-1" role="dialog" aria-labelledby="doa-zakatLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="doa-zakatLabel">{{ trans('homepage.doa_zakat') }}</h4>
+				</div>
+				<div class="modal-body">
+					<?php
+						use App\Models\Option;
+
+						$option = Option::where('key','doa_zakat')
+								->where('type','niat_zakat')
+								->select('value')
+								->first();
+
+						$messageText = $option->value;
+					?>
+
+					<?= $messageText ?>
+				</div>
+				<button type="button" data-dismiss="modal" class="btn btn-blue-large">{{ trans('homepage.aamiin') }}</button>
+			</div>
+		</div>
+	</div>
+
+	@if($banner_modal_popup)
+	<div class="modal fade" id="modalPopup" tabindex="-1" role="dialog" aria-labelledby="modalPopupLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<div class="modal-body">
+					<a href="{{ $banner_modal_popup->link }}" target="_blank">
+						<img src="{{ media($banner_modal_popup->photo,'large') }}" width="100%" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	@endif
+@stop
+
+@section('head')
+	@include('partials.meta', array(
+		'description' => "Zakat Kita - Platform digital zakat dan kemanusiaan Indonesia",
+		'keywords'=>'Campaign Sosial, Bantu Sesama, Yukdonasi Campaign Kreatif, Crowdfunding, Kitabisa, Gandeng Tangan, Kita Bisa',
+		'image'=>url('images/logo2.jpeg')))
+
+	<meta content="Zakat Kita" property="og:title" />
+	<link rel="stylesheet" href="{{ asset('css/homepage.css') }}">
+@stop
+
+@section('scripts')
+	<script src="{{ asset('js/homepage.js') }}"></script>
+	<script src="{{ url('js/elsyifa.js') }}"></script>
+	<script src="{{ url('js/kalkulator.js') }}"></script>
+	<script src="{{ url('assets/admin/js/select2.full.js') }}"></script>
+	<script src="{{ !config('services.midtrans.isProduction') ? 'https://app.sandbox.midtrans.com/snap/snap.js' : 'https://app.midtrans.com/snap/snap.js' }}" data-client-key="{{ config('services.midtrans.clientKey') }}"></script>
+	<script type="text/javascript">
+	@if (request('active') and request('active') == 'kalkulator-zakat')
+		$('#kalkulatorZakat').modal('show');
+	@else
+		@if ($banner_modal_popup)
+		$('#modalPopup').modal('show');
+		@endif
+	@endif
+	function submitFormInfak() {
+			// Kirim request ajax
+			$('#loading-infak').show();
+			$('#btn-infak').hide();
+			$.post("{{ url('midtrans/store/donation') }}",
+			{
+					_method: 'POST',
+					_token: '{{ csrf_token() }}',
+					amount: $('input#nominalDonasi').val().replace(/\D/g,''),
+					fullname: $('input#fullnameDonasi').val(),
+					phone: $('input#phoneDonasi').val(),
+					email: $('input#emailDonasi').val(),
+					is_anonim: $('input:checked#is_anonim_infak').val(),
+					payment_method: $('select#paymentMethodDonasi').val(),
+					code_referral: $('#code-referral').val() || undefined
+			},
+			function (data) {
+					var amount = $('input#nominalDonasi').val().replace(/\D/g,'');
+					fbq('track', 'Purchase', {
+						content_name: 'infak_umum',
+						currency: 'IDR',
+						value: amount,
+						content_ids: ['infak_umum'],
+						contents: [{'id': 'infak_umum', 'quantity': amount}]
+					});
+
+					$('input#nominalDonasi').val('');
+					$('input#fullnameDonasi').val('');
+					$('input#phoneDonasi').val('');
+					$('input#emailDonasi').val('');
+
+					$('#loading-infak').hide();
+					$('#btn-infak').show();
+					// var paymentMethod = $('select#paymentMethodDonasi').val();
+
+					// if (paymentMethod.includes("transfer_")) {
+						// manual transfer
+						$('#successPayment .modal-body').html(data);
+						$('#successPayment').modal('show');
+						// $('#doa').modal('show');
+					// }else {
+						// midtrans
+					// 	snap.pay(data.snap_token, {
+					// 			showOrderId: false,
+					// 			language: 'id',
+					// 			onSuccess: function (result) {
+					// 					location.reload();
+					// 			},
+					// 			onPending: function (result) {
+					// 					location.reload();
+					// 			},
+					// 			onError: function (result) {
+					// 					location.reload();
+					// 			}
+					// 	});
+					// }
+			});
+			return false;
+	}
+	function submitFormZakat() {
+			// Kirim request ajax
+			$('#loading-zakat').show();
+			$('#btn-zakat').hide();
+			$.post("{{ url('midtrans/store/zakat') }}",
+			{
+					_method: 'POST',
+					_token: '{{ csrf_token() }}',
+					type: $('input#jenisZakat').val(),
+					amount: $('input#nominalZakat').val().replace(/\D/g,''),
+					fullname: $('input#fullnameZakat').val(),
+					phone: $('input#phoneZakat').val(),
+					email: $('input#emailZakat').val(),
+					is_anonim: $('input:checked#is_anonim_zakat').val(),
+					payment_method: $('select#paymentMethodZakat').val(),
+					code_referral: $('#code-referral').val() || undefined
+			},
+			function (data, status) {
+					var amount = $('input#nominalZakat').val().replace(/\D/g,'');
+					var type = 'zakat_' + $('input#jenisZakat').val().toLowerCase();
+					fbq('track', 'Purchase', {
+						content_name: type,
+						currency: 'IDR',
+						value: amount,
+						content_ids: [type],
+						contents: [{'id': type, 'quantity': amount}]
+					});
+
+					$('input#nominalZakat').val('');
+					$('input#fullnameZakat').val('');
+					$('input#phoneZakat').val('');
+					$('input#emailZakat').val('');
+
+					$('#loading-zakat').hide();
+					$('#btn-zakat').show();
+
+					// var paymentMethod = $('select#paymentMethodZakat').val();
+
+					// if (paymentMethod.includes("transfer_")) {
+						// manual transfer
+						$('#successPayment .modal-body').html(data);
+						$('#successPayment').modal('show');
+						$('#doa-zakat').modal('show');
+					// }else {
+					// 	// midtrans
+					// 	snap.pay(data.snap_token, {
+					// 			showOrderId: false,
+					// 			language: 'id',
+					// 			onSuccess: function (result) {
+					// 					location.reload();
+					// 			},
+					// 			onPending: function (result) {
+					// 					location.reload();
+					// 			},
+					// 			onError: function (result) {
+					// 					location.reload();
+					// 			}
+					// 	});
+					// }
+			});
+			return false;
+	}
+	</script>
+  <script type="text/javascript">
+
+function formatState (state) {
+	var elem = state.element;
+	if(elem == null) return state.text;
+	var tagName = elem.tagName;
+	var exclude = ['', 'other_va'];
+	if(tagName != 'OPTION' || (exclude.includes(elem.value))) {
+		return $(`<b>${state.text}</b>`);
+	}
+  var res = `
+		<div class="payment-method-item">
+			<div class="payment-method-item-image">
+				<img src="${state.element.getAttribute('data-img')}" />
+			</div>
+			<div class="payment-method-item-text">
+				${state.text}
+			</div>
+		</div>
+	`;
+  return $(res);
+};
+  $(document).ready(function() {
+			// $('#doa').on('hidden.bs.modal', function (e) {
+			// 	$('body').addClass("modal-open");
+			// });
+
+			$('#paymentMethodDonasi,#paymentMethodZakat').select2({
+				templateResult: formatState,
+				templateSelection: formatState,
+			});
+			$('#doa-zakat').on('hidden.bs.modal', function (e) {
+				$('body').addClass("modal-open");
+			});
+
+      $('.open-modal').click(function(){
+          var target = $(this).attr('data-target');
+
+          $('#'+target+'.modal-box').fadeIn(300);
+          // $('body').css('overflow', 'hidden');
+      });
+
+      $('.modal-box .modal-box-bg').click(function(){
+          $('.modal-box').fadeOut(300);
+          // $('body').css('overflow', 'auto');
+      });
+
+      $('.modal-box .modal-box-section-close').click(function(){
+          $('.modal-box').fadeOut(300);
+          // $('body').css('overflow', 'auto');
+      });
+
+			$('.btn-nominal').click(function(){
+				var val =	$(this).val();
+				$('#nominalDonasi').val(val);
+			});
+
+			$('.btn-jenis-zakat').click(function(){
+				var val =	$(this).val();
+				$('.btn-jenis-zakat').removeClass('active');
+				$(this).addClass('active');
+				$('#jenisZakat').val(val);
+			});
+
+			$('#zakat_perdagangan_btn').click(function(){
+				var nominal = $('#zakat_harta').val().replace(/\./g, '');
+				$('#nominalZakat').val(parseInt(nominal));
+				$('#kalkulatorZakat').modal('hide');
+			});
+
+			$('#zakat_emas_btn').click(function(){
+				var nominal = $('#zakat_total_uang').val().replace(/\./g, '');
+				$('#nominalZakat').val(parseInt(nominal));
+				$('#kalkulatorZakat').modal('hide');
+			});
+
+			$('#zakat_tabungan_btn').click(function(){
+				var nominal = $('#zt_zakat_harta').val().replace(/\./g, '');
+				$('#nominalZakat').val(parseInt(nominal));
+				$('#kalkulatorZakat').modal('hide');
+			});
+
+			$('#zakat_penghasilan_btn').click(function(){
+				var nominal = $('#zp_zakat_harta').val().replace(/\./g, '');
+				$('#nominalZakat').val(parseInt(nominal));
+				$('#kalkulatorZakat').modal('hide');
+			});
+
+			@if (auth()->check() && auth()->user()->is_internal)
+			$('.btn-copy-referral').on('click', function() {
+				var link = "{{ url() . '/?r=' . auth()->user()->code_referral }}";
+
+				navigator.clipboard.writeText(link).then(function(clipText) {
+					alert("{{ trans('homepage.salin_link_referral') }}");
+				});
+			});
+			@endif
+  });
+  </script>
+@stop

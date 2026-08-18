@@ -1,0 +1,1 @@
+[30-Oct-2022 10:41:25 UTC] PHP Fatal error:  Interface 'PHPUnit_Exception' not found in /home/zakatkit/public_html/vendor/phpunit/phpunit/src/Runner/Exception.php on line 14

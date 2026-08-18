@@ -1,0 +1,4 @@
+[28-Dec-2021 16:41:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/Fixtures/MethodWithNullableReturnType.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/Fixtures/MethodWithNullableReturnType.php on line 26

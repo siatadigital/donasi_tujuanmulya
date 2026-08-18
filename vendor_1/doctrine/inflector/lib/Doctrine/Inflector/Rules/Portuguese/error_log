@@ -1,0 +1,4 @@
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Doctrine\Inflector\GenericLanguageInflectorFactory' not found in /home/zakatkit/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Portuguese/InflectorFactory.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/Portuguese/InflectorFactory.php on line 10

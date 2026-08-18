@@ -1,0 +1,14 @@
+[28-Dec-2021 16:41:28 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/Loader/LoaderTestCase.php:8
+Stack trace:
+#0 /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/Loader/EvalLoaderTest.php(8): require_once()
+#1 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/Loader/LoaderTestCase.php on line 8
+[28-Dec-2021 16:41:28 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/Loader/LoaderTestCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/Loader/LoaderTestCase.php on line 8
+[28-Dec-2021 16:41:29 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/Loader/LoaderTestCase.php:8
+Stack trace:
+#0 /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/Loader/RequireLoaderTest.php(8): require_once()
+#1 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/Loader/LoaderTestCase.php on line 8

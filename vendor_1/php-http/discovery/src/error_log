@@ -1,0 +1,32 @@
+[28-Dec-2021 16:41:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Http\Discovery\ClassDiscovery' not found in /home/zakatkit/public_html/vendor/php-http/discovery/src/MessageFactoryDiscovery.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/php-http/discovery/src/MessageFactoryDiscovery.php on line 15
+[28-Dec-2021 16:41:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Http\Discovery\ClassDiscovery' not found in /home/zakatkit/public_html/vendor/php-http/discovery/src/StreamFactoryDiscovery.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/php-http/discovery/src/StreamFactoryDiscovery.php on line 15
+[28-Dec-2021 16:41:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Http\Discovery\ClassDiscovery' not found in /home/zakatkit/public_html/vendor/php-http/discovery/src/Psr18ClientDiscovery.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/php-http/discovery/src/Psr18ClientDiscovery.php on line 13
+[28-Dec-2021 16:41:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Http\Discovery\Exception\NotFoundException' not found in /home/zakatkit/public_html/vendor/php-http/discovery/src/NotFoundException.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/php-http/discovery/src/NotFoundException.php on line 12
+[28-Dec-2021 16:41:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Http\Discovery\ClassDiscovery' not found in /home/zakatkit/public_html/vendor/php-http/discovery/src/Psr17FactoryDiscovery.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/php-http/discovery/src/Psr17FactoryDiscovery.php on line 18
+[28-Dec-2021 16:41:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Http\Discovery\ClassDiscovery' not found in /home/zakatkit/public_html/vendor/php-http/discovery/src/HttpAsyncClientDiscovery.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/php-http/discovery/src/HttpAsyncClientDiscovery.php on line 13
+[28-Dec-2021 16:41:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Http\Discovery\ClassDiscovery' not found in /home/zakatkit/public_html/vendor/php-http/discovery/src/UriFactoryDiscovery.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/php-http/discovery/src/UriFactoryDiscovery.php on line 15
+[28-Dec-2021 16:41:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Http\Discovery\ClassDiscovery' not found in /home/zakatkit/public_html/vendor/php-http/discovery/src/HttpClientDiscovery.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/php-http/discovery/src/HttpClientDiscovery.php on line 13

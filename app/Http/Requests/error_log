@@ -1,0 +1,28 @@
+[30-Jun-2021 12:44:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/zakatkit/public_html/app/Http/Requests/Request.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Requests/Request.php on line 7
+[13-Jul-2021 13:47:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/zakatkit/public_html/app/Http/Requests/Request.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Requests/Request.php on line 7
+[15-Jul-2021 15:37:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/zakatkit/public_html/app/Http/Requests/Request.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Requests/Request.php on line 7
+[27-Jul-2021 13:34:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/zakatkit/public_html/app/Http/Requests/Request.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Requests/Request.php on line 7
+[14-Aug-2021 23:10:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/zakatkit/public_html/app/Http/Requests/Request.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Requests/Request.php on line 7
+[28-Aug-2021 18:59:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/zakatkit/public_html/app/Http/Requests/Request.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Requests/Request.php on line 7
+[11-Sep-2021 14:46:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/zakatkit/public_html/app/Http/Requests/Request.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Requests/Request.php on line 7

@@ -1,0 +1,8 @@
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Example/StopOnFailureExceptionSpec.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Example/StopOnFailureExceptionSpec.php on line 9
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Example/NotEqualExceptionSpec.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Exception/Example/NotEqualExceptionSpec.php on line 7

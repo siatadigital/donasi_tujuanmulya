@@ -1,0 +1,4 @@
+[28-Dec-2021 16:41:27 UTC] PHP Fatal error:  Uncaught Error: Class 'DebugBar\DataCollector\DataCollector' not found in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/Support/Clockwork/ClockworkCollector.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/Support/Clockwork/ClockworkCollector.php on line 15

@@ -1,0 +1,56 @@
+[30-Jun-2021 12:44:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/zakatkit/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[30-Jun-2021 12:44:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/zakatkit/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[13-Jul-2021 13:47:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/zakatkit/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[13-Jul-2021 13:47:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/zakatkit/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[15-Jul-2021 15:37:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/zakatkit/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[15-Jul-2021 15:37:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/zakatkit/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[27-Jul-2021 13:34:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/zakatkit/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[27-Jul-2021 13:34:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/zakatkit/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[14-Aug-2021 23:10:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/zakatkit/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[14-Aug-2021 23:10:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/zakatkit/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[28-Aug-2021 18:59:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/zakatkit/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[28-Aug-2021 18:59:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/zakatkit/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[11-Sep-2021 14:46:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/zakatkit/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[11-Sep-2021 14:46:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/zakatkit/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7

@@ -1,0 +1,16 @@
+[26-Oct-2021 21:09:58 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php on line 15
+[26-Oct-2021 21:09:59 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php on line 15
+[26-Oct-2021 21:11:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Psr\Log\AbstractLogger' not found in /home/zakatkit/public_html/vendor/psr/log/Psr/Log/Test/TestLogger.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psr/log/Psr/Log/Test/TestLogger.php on line 57
+[26-Oct-2021 21:11:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Psr\Log\AbstractLogger' not found in /home/zakatkit/public_html/vendor/psr/log/Psr/Log/Test/TestLogger.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psr/log/Psr/Log/Test/TestLogger.php on line 57

@@ -1,0 +1,12 @@
+[28-Dec-2021 16:41:32 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/ExpectationFactorySpec.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/ExpectationFactorySpec.php on line 14
+[28-Dec-2021 16:41:32 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/CallerSpec.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/CallerSpec.php on line 18
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/WrappedObjectSpec.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/WrappedObjectSpec.php on line 11

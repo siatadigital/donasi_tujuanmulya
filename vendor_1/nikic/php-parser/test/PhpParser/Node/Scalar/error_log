@@ -1,0 +1,16 @@
+[26-Oct-2021 21:08:24 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Node/Scalar/MagicConstTest.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Node/Scalar/MagicConstTest.php on line 5
+[26-Oct-2021 21:08:25 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Node/Scalar/MagicConstTest.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Node/Scalar/MagicConstTest.php on line 5
+[26-Oct-2021 21:08:27 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Node/Scalar/StringTest.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Node/Scalar/StringTest.php on line 5
+[26-Oct-2021 21:08:28 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Node/Scalar/StringTest.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/test/PhpParser/Node/Scalar/StringTest.php on line 5

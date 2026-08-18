@@ -1,0 +1,28 @@
+[14-Aug-2021 23:11:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/zakatkit/public_html/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/bootstrap/app.php on line 14
+[28-Aug-2021 19:00:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/zakatkit/public_html/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/bootstrap/app.php on line 14
+[11-Sep-2021 14:47:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/zakatkit/public_html/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/bootstrap/app.php on line 14
+[11-Oct-2021 16:02:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/zakatkit/public_html/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/bootstrap/app.php on line 14
+[28-Dec-2021 16:40:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/zakatkit/public_html/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/bootstrap/app.php on line 14
+[09-Jan-2022 04:07:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/zakatkit/public_html/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/bootstrap/app.php on line 14
+[09-Aug-2022 21:39:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/zakatkit/public_html/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/bootstrap/app.php on line 14

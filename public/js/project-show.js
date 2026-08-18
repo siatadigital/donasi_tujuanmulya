@@ -1,0 +1,1 @@
+$((function(){$(window).scroll((function(){$(window).scrollTop()>=778&&$(window).width()>767?($(".nav-controls").addClass("fixed"),$("#btn-support-fixed").fadeIn()):($(".nav-controls.fixed").removeClass("fixed"),$("#btn-support-fixed").fadeOut())}))}));

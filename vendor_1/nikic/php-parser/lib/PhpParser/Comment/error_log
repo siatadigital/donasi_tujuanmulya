@@ -1,0 +1,4 @@
+[28-Dec-2021 16:41:27 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Comment' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Comment/Doc.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Comment/Doc.php on line 5

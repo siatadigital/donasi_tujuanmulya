@@ -1,0 +1,8 @@
+[28-Dec-2021 16:41:31 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Loader/Transformer/InMemoryTypeHintIndexSpec.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Loader/Transformer/InMemoryTypeHintIndexSpec.php on line 9
+[28-Dec-2021 16:41:32 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Loader/Transformer/TypeHintRewriterSpec.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Loader/Transformer/TypeHintRewriterSpec.php on line 10

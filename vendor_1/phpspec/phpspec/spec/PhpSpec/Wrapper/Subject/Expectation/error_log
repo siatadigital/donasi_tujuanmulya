@@ -1,0 +1,20 @@
+[28-Dec-2021 16:41:41 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/Expectation/DecoratorSpec.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/Expectation/DecoratorSpec.php on line 11
+[28-Dec-2021 16:41:41 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/Expectation/NegativeSpec.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/Expectation/NegativeSpec.php on line 11
+[28-Dec-2021 16:41:41 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/Expectation/PositiveSpec.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/Expectation/PositiveSpec.php on line 9
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/Expectation/ConstructorDecoratorSpec.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/Expectation/ConstructorDecoratorSpec.php on line 12
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/Expectation/DispatcherDecoratorSpec.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Wrapper/Subject/Expectation/DispatcherDecoratorSpec.php on line 15

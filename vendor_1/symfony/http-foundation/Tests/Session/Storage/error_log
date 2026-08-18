@@ -1,0 +1,80 @@
+[12-Oct-2021 07:20:40 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/PhpBridgeSessionStorageTest.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/PhpBridgeSessionStorageTest.php on line 28
+[12-Oct-2021 07:20:41 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/PhpBridgeSessionStorageTest.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/PhpBridgeSessionStorageTest.php on line 28
+[12-Oct-2021 07:20:58 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockArraySessionStorageTest.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockArraySessionStorageTest.php on line 24
+[12-Oct-2021 07:20:59 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockArraySessionStorageTest.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockArraySessionStorageTest.php on line 24
+[12-Oct-2021 07:22:16 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockFileSessionStorageTest.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockFileSessionStorageTest.php on line 24
+[12-Oct-2021 07:22:17 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockFileSessionStorageTest.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockFileSessionStorageTest.php on line 24
+[12-Oct-2021 07:22:18 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MetadataBagTest.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MetadataBagTest.php on line 22
+[12-Oct-2021 07:22:19 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MetadataBagTest.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MetadataBagTest.php on line 22
+[12-Oct-2021 07:22:29 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/NativeSessionStorageTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/NativeSessionStorageTest.php on line 33
+[12-Oct-2021 07:22:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/NativeSessionStorageTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/NativeSessionStorageTest.php on line 33
+[26-Oct-2021 21:14:03 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockArraySessionStorageTest.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockArraySessionStorageTest.php on line 24
+[26-Oct-2021 21:14:04 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockArraySessionStorageTest.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockArraySessionStorageTest.php on line 24
+[26-Oct-2021 21:14:05 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/PhpBridgeSessionStorageTest.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/PhpBridgeSessionStorageTest.php on line 28
+[26-Oct-2021 21:14:06 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/PhpBridgeSessionStorageTest.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/PhpBridgeSessionStorageTest.php on line 28
+[26-Oct-2021 21:14:07 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/NativeSessionStorageTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/NativeSessionStorageTest.php on line 33
+[26-Oct-2021 21:14:09 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/NativeSessionStorageTest.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/NativeSessionStorageTest.php on line 33
+[26-Oct-2021 21:14:10 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockFileSessionStorageTest.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockFileSessionStorageTest.php on line 24
+[26-Oct-2021 21:14:11 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockFileSessionStorageTest.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MockFileSessionStorageTest.php on line 24
+[26-Oct-2021 21:14:14 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MetadataBagTest.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MetadataBagTest.php on line 22
+[26-Oct-2021 21:14:15 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MetadataBagTest.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/Storage/MetadataBagTest.php on line 22

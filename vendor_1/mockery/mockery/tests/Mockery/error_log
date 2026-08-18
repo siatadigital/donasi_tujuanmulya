@@ -1,0 +1,89 @@
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockClassWithFinalWakeupTest.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockClassWithFinalWakeupTest.php on line 26
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/WithFormatterExpectationTest.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/WithFormatterExpectationTest.php on line 22
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/ExpectationTest.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/ExpectationTest.php on line 24
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockeryCanMockMultipleInterfacesWhichOverlapTest.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockeryCanMockMultipleInterfacesWhichOverlapTest.php on line 27
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/GlobalHelpersTest.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/GlobalHelpersTest.php on line 23
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/NamedMockTest.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/NamedMockTest.php on line 24
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/RecorderTest.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/RecorderTest.php on line 24
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockingParameterAndReturnTypesTest.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockingParameterAndReturnTypesTest.php on line 28
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockTest.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockTest.php on line 24
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/DemeterChainTest.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/DemeterChainTest.php on line 24
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockingVoidMethodsTest.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockingVoidMethodsTest.php on line 29
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/AdhocTest.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/AdhocTest.php on line 27
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockingProtectedMethodsTest.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockingProtectedMethodsTest.php on line 26
+[28-Dec-2021 16:41:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; MockeryTest_OldStyleConstructor has a deprecated constructor in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/ContainerTest.php on line 1692
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/ContainerTest.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/ContainerTest.php on line 25
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/SpyTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/SpyTest.php on line 8
+[28-Dec-2021 16:41:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockingNullableMethodsTest.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockingNullableMethodsTest.php on line 31
+[28-Dec-2021 16:41:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockingVariadicArgumentsTest.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockingVariadicArgumentsTest.php on line 26
+[28-Dec-2021 16:41:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/HamcrestExpectationTest.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/HamcrestExpectationTest.php on line 24
+[28-Dec-2021 16:41:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockClassWithUnknownTypeHintTest.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockClassWithUnknownTypeHintTest.php on line 21
+[28-Dec-2021 16:41:24 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/LoaderTest.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/LoaderTest.php on line 22
+[28-Dec-2021 16:41:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockingMethodsWithNullableParametersTest.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockingMethodsWithNullableParametersTest.php on line 30
+[28-Dec-2021 16:41:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Mockery\Adapter\Phpunit\MockeryTestCase' not found in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockingInternalModuleClassWithOptionalParameterByReferenceTest.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/mockery/mockery/tests/Mockery/MockingInternalModuleClassWithOptionalParameterByReferenceTest.php on line 21

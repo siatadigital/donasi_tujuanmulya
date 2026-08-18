@@ -1,0 +1,24 @@
+[12-Oct-2021 07:20:54 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\SessionBagInterface' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/AttributeBagInterface.php on line 21
+[12-Oct-2021 07:20:55 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\SessionBagInterface' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/AttributeBagInterface.php on line 21
+[12-Oct-2021 07:20:56 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\Attribute\AttributeBagInterface' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/AttributeBag.php on line 17
+[12-Oct-2021 07:20:57 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\Attribute\AttributeBagInterface' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/AttributeBag.php on line 17
+[12-Oct-2021 07:21:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/NamespacedAttributeBag.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/NamespacedAttributeBag.php on line 20
+[12-Oct-2021 07:21:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/NamespacedAttributeBag.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/NamespacedAttributeBag.php on line 20
+[26-Oct-2021 21:14:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/NamespacedAttributeBag.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/NamespacedAttributeBag.php on line 20
+[26-Oct-2021 21:14:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/NamespacedAttributeBag.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/NamespacedAttributeBag.php on line 20
+[26-Oct-2021 21:14:43 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\Attribute\AttributeBagInterface' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/AttributeBag.php on line 17
+[26-Oct-2021 21:14:44 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\Attribute\AttributeBagInterface' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/AttributeBag.php on line 17
+[26-Oct-2021 21:14:54 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\SessionBagInterface' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/AttributeBagInterface.php on line 21
+[26-Oct-2021 21:14:55 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\SessionBagInterface' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Attribute/AttributeBagInterface.php on line 21

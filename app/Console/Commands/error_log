@@ -1,0 +1,28 @@
+[30-Jun-2021 12:43:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Console\Command' not found in /home/zakatkit/public_html/app/Console/Commands/Inspire.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Console/Commands/Inspire.php on line 8
+[13-Jul-2021 13:46:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Console\Command' not found in /home/zakatkit/public_html/app/Console/Commands/Inspire.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Console/Commands/Inspire.php on line 8
+[15-Jul-2021 15:37:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Console\Command' not found in /home/zakatkit/public_html/app/Console/Commands/Inspire.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Console/Commands/Inspire.php on line 8
+[27-Jul-2021 13:34:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Console\Command' not found in /home/zakatkit/public_html/app/Console/Commands/Inspire.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Console/Commands/Inspire.php on line 8
+[14-Aug-2021 23:09:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Console\Command' not found in /home/zakatkit/public_html/app/Console/Commands/Inspire.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Console/Commands/Inspire.php on line 8
+[28-Aug-2021 18:58:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Console\Command' not found in /home/zakatkit/public_html/app/Console/Commands/Inspire.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Console/Commands/Inspire.php on line 8
+[11-Sep-2021 14:45:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Console\Command' not found in /home/zakatkit/public_html/app/Console/Commands/Inspire.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Console/Commands/Inspire.php on line 8

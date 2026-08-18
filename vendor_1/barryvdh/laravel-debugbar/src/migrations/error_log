@@ -1,0 +1,36 @@
+[26-Oct-2021 21:05:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php on line 6
+[26-Oct-2021 21:05:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php on line 6
+[09-Nov-2021 14:55:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php on line 6
+[09-Nov-2021 14:55:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php on line 6
+[19-Nov-2021 17:32:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php on line 6
+[19-Nov-2021 17:32:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php on line 6
+[03-Dec-2021 10:22:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php on line 6
+[03-Dec-2021 10:22:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php on line 6
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php on line 6

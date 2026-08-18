@@ -1,0 +1,36 @@
+[28-Dec-2021 16:41:41 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/TruncatingStringTypePresenterSpec.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/TruncatingStringTypePresenterSpec.php on line 9
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/QuotingStringTypePresenterSpec.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/QuotingStringTypePresenterSpec.php on line 8
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/BooleanTypePresenterSpec.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/BooleanTypePresenterSpec.php on line 8
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/ArrayTypePresenterSpec.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/ArrayTypePresenterSpec.php on line 8
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/ObjectTypePresenterSpec.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/ObjectTypePresenterSpec.php on line 8
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/BaseExceptionTypePresenterSpec.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/BaseExceptionTypePresenterSpec.php on line 8
+[28-Dec-2021 16:41:43 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/NullTypePresenterSpec.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/NullTypePresenterSpec.php on line 8
+[28-Dec-2021 16:41:43 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/CallableTypePresenterSpec.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/CallableTypePresenterSpec.php on line 9
+[28-Dec-2021 16:41:43 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/ComposedValuePresenterSpec.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Value/ComposedValuePresenterSpec.php on line 9

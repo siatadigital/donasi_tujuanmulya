@@ -1,0 +1,56 @@
+[30-Jun-2021 12:43:58 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Auth/AuthController.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Auth/AuthController.php on line 16
+[30-Jun-2021 12:44:00 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Auth/PasswordController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Auth/PasswordController.php on line 8
+[13-Jul-2021 13:47:14 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Auth/AuthController.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Auth/AuthController.php on line 16
+[13-Jul-2021 13:47:16 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Auth/PasswordController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Auth/PasswordController.php on line 8
+[15-Jul-2021 15:37:44 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Auth/AuthController.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Auth/AuthController.php on line 16
+[15-Jul-2021 15:37:46 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Auth/PasswordController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Auth/PasswordController.php on line 8
+[27-Jul-2021 13:34:40 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Auth/AuthController.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Auth/AuthController.php on line 16
+[27-Jul-2021 13:34:42 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Auth/PasswordController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Auth/PasswordController.php on line 8
+[14-Aug-2021 23:10:24 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Auth/AuthController.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Auth/AuthController.php on line 16
+[14-Aug-2021 23:10:26 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Auth/PasswordController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Auth/PasswordController.php on line 8
+[28-Aug-2021 18:59:02 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Auth/AuthController.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Auth/AuthController.php on line 16
+[28-Aug-2021 18:59:04 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Auth/PasswordController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Auth/PasswordController.php on line 8
+[11-Sep-2021 14:45:56 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Auth/AuthController.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Auth/AuthController.php on line 16
+[11-Sep-2021 14:45:58 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/zakatkit/public_html/app/Http/Controllers/Auth/PasswordController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Http/Controllers/Auth/PasswordController.php on line 8

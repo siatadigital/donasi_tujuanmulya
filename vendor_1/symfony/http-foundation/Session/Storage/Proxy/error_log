@@ -1,0 +1,32 @@
+[12-Oct-2021 07:20:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/NativeProxy.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/NativeProxy.php on line 19
+[12-Oct-2021 07:20:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/NativeProxy.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/NativeProxy.php on line 19
+[12-Oct-2021 07:22:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php on line 17
+[12-Oct-2021 07:22:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php on line 17
+[26-Oct-2021 21:13:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/NativeProxy.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/NativeProxy.php on line 19
+[26-Oct-2021 21:13:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/NativeProxy.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/NativeProxy.php on line 19
+[26-Oct-2021 21:14:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php on line 17
+[26-Oct-2021 21:14:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php on line 17

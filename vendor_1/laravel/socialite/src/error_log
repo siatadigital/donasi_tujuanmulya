@@ -1,0 +1,9 @@
+[28-Dec-2021 16:41:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Manager' not found in /home/zakatkit/public_html/vendor/laravel/socialite/src/SocialiteManager.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/laravel/socialite/src/SocialiteManager.php on line 12
+[28-Dec-2021 16:41:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/zakatkit/public_html/vendor/laravel/socialite/src/SocialiteServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/laravel/socialite/src/SocialiteServiceProvider.php on line 7
+[28-Dec-2021 16:41:16 UTC] PHP Fatal error:  Interface 'Laravel\Socialite\Contracts\User' not found in /home/zakatkit/public_html/vendor/laravel/socialite/src/AbstractUser.php on line 7

@@ -1,0 +1,28 @@
+[30-Jun-2021 12:43:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/zakatkit/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Console/Kernel.php on line 8
+[13-Jul-2021 13:46:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/zakatkit/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Console/Kernel.php on line 8
+[15-Jul-2021 15:37:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/zakatkit/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Console/Kernel.php on line 8
+[27-Jul-2021 13:33:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/zakatkit/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Console/Kernel.php on line 8
+[14-Aug-2021 23:09:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/zakatkit/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Console/Kernel.php on line 8
+[28-Aug-2021 18:58:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/zakatkit/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Console/Kernel.php on line 8
+[11-Sep-2021 14:45:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/zakatkit/public_html/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Console/Kernel.php on line 8

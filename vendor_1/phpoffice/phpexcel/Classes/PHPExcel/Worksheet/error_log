@@ -1,0 +1,17 @@
+[28-Dec-2021 16:41:31 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Worksheet_CellIterator' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Worksheet/ColumnCellIterator.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Worksheet/ColumnCellIterator.php on line 28
+[28-Dec-2021 16:41:31 UTC] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Worksheet/BaseDrawing.php on line 28
+[28-Dec-2021 16:41:31 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Worksheet_Dimension' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Worksheet/ColumnDimension.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Worksheet/ColumnDimension.php on line 28
+[28-Dec-2021 16:41:32 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Worksheet_BaseDrawing' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Worksheet/MemoryDrawing.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Worksheet/MemoryDrawing.php on line 28
+[28-Dec-2021 16:41:32 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Worksheet_Drawing' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Worksheet/HeaderFooterDrawing.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Worksheet/HeaderFooterDrawing.php on line 28

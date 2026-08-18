@@ -1,0 +1,16 @@
+[12-Oct-2021 07:21:13 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/SessionTest.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/SessionTest.php on line 27
+[12-Oct-2021 07:21:14 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/SessionTest.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/SessionTest.php on line 27
+[26-Oct-2021 21:14:39 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/SessionTest.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/SessionTest.php on line 27
+[26-Oct-2021 21:14:40 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/SessionTest.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/http-foundation/Tests/Session/SessionTest.php on line 27

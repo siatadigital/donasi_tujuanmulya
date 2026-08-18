@@ -1,0 +1,4 @@
+[28-Dec-2021 16:41:34 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Settings' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Chart/Renderer/jpgraph.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Chart/Renderer/jpgraph.php on line 3

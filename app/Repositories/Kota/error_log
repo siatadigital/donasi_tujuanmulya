@@ -1,0 +1,28 @@
+[30-Jun-2021 12:44:56 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Repositories\Base\BaseRepository' not found in /home/zakatkit/public_html/app/Repositories/Kota/KotaRepository.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Repositories/Kota/KotaRepository.php on line 8
+[13-Jul-2021 13:48:28 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Repositories\Base\BaseRepository' not found in /home/zakatkit/public_html/app/Repositories/Kota/KotaRepository.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Repositories/Kota/KotaRepository.php on line 8
+[15-Jul-2021 15:38:43 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Repositories\Base\BaseRepository' not found in /home/zakatkit/public_html/app/Repositories/Kota/KotaRepository.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Repositories/Kota/KotaRepository.php on line 8
+[27-Jul-2021 13:35:40 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Repositories\Base\BaseRepository' not found in /home/zakatkit/public_html/app/Repositories/Kota/KotaRepository.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Repositories/Kota/KotaRepository.php on line 8
+[14-Aug-2021 23:11:24 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Repositories\Base\BaseRepository' not found in /home/zakatkit/public_html/app/Repositories/Kota/KotaRepository.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Repositories/Kota/KotaRepository.php on line 8
+[28-Aug-2021 19:00:03 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Repositories\Base\BaseRepository' not found in /home/zakatkit/public_html/app/Repositories/Kota/KotaRepository.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Repositories/Kota/KotaRepository.php on line 8
+[11-Sep-2021 14:47:02 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Repositories\Base\BaseRepository' not found in /home/zakatkit/public_html/app/Repositories/Kota/KotaRepository.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Repositories/Kota/KotaRepository.php on line 8

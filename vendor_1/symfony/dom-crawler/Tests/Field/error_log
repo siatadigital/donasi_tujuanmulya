@@ -1,0 +1,24 @@
+[28-Dec-2021 16:41:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\DomCrawler\Tests\Field\FormFieldTestCase' not found in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Tests/Field/ChoiceFormFieldTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Tests/Field/ChoiceFormFieldTest.php on line 16
+[28-Dec-2021 16:41:25 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Tests/Field/FormFieldTestCase.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Tests/Field/FormFieldTestCase.php on line 16
+[28-Dec-2021 16:41:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\DomCrawler\Tests\Field\FormFieldTestCase' not found in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Tests/Field/FormFieldTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Tests/Field/FormFieldTest.php on line 16
+[28-Dec-2021 16:41:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\DomCrawler\Tests\Field\FormFieldTestCase' not found in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Tests/Field/InputFormFieldTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Tests/Field/InputFormFieldTest.php on line 16
+[28-Dec-2021 16:41:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\DomCrawler\Tests\Field\FormFieldTestCase' not found in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Tests/Field/TextareaFormFieldTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Tests/Field/TextareaFormFieldTest.php on line 16
+[28-Dec-2021 16:41:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\DomCrawler\Tests\Field\FormFieldTestCase' not found in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Tests/Field/FileFormFieldTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/dom-crawler/Tests/Field/FileFormFieldTest.php on line 16

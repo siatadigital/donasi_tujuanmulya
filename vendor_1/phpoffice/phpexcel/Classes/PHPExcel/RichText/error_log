@@ -1,0 +1,5 @@
+[28-Dec-2021 16:41:30 UTC] PHP Fatal error:  Interface 'PHPExcel_RichText_ITextElement' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/RichText/TextElement.php on line 26
+[28-Dec-2021 16:41:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_RichText_TextElement' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/RichText/Run.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/RichText/Run.php on line 26

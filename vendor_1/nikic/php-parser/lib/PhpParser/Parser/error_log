@@ -1,0 +1,9 @@
+[28-Dec-2021 16:41:29 UTC] PHP Fatal error:  Interface 'PhpParser\Parser' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Parser/Multiple.php on line 8
+[28-Dec-2021 16:41:29 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\ParserAbstract' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Parser/Php7.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Parser/Php7.php on line 18
+[28-Dec-2021 16:41:29 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\ParserAbstract' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Parser/Php5.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Parser/Php5.php on line 18

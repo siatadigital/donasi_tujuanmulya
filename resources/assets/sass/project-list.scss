@@ -1,0 +1,254 @@
+//Project List
+.project-list-content{
+  margin: 62px 0px;
+  padding: 0 20px;
+}
+
+//project-detail
+.img-detail-banner{
+  width: 100%;
+  border-radius: 5px;
+}
+.form-donasi-container{
+	padding: 64px 105px 0px 0px;
+}
+.form-donasi-wrapper{
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 30px;
+}
+.space-margin{
+  margin-top: 20px;
+}
+.form-donasi-subtitle{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #333333;
+}
+.row-margin{
+  margin-right: 0px;
+}
+.project-detail-title{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #333333;
+}
+.project-detail-content-wrapper{
+  padding: 0 16px 0 0px;
+}
+.small-label{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.padding-left-0{
+  padding-left: 0px;
+}
+.padding-right-0{
+  padding-right: 0px;
+}
+.detail-galang-dana-wrapper{
+  padding-top: 15px;
+}
+.detail-galang-dana-profile{
+  width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.detail-galang-dana-name-wrapper{
+  padding: 10px 0 0px 5px;
+}
+.small-label-grey{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.03em;
+  color: #999999;
+}
+.small-label-bold{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+  color: #333333;
+}
+.blue-title-600{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: #008797;
+}
+.small-label-grey-14{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 6px;
+  letter-spacing: 0.03em;
+  color: #999999;
+}
+.small-title-600{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #333333;
+}
+.margin-0{
+  margin: 0px;
+}
+.margin-bottom-20{
+  margin-bottom: 20px;
+}
+.padding-top-5{
+  padding-top: 5px;
+}
+.padding-right-5{
+  padding-right: 5px;
+}
+.padding-right-10{
+  padding-right: 10px;
+}
+.width-27{
+  width: 27%;
+}
+.width-31{
+  width: 31%;
+}
+.small-progress-bar{
+  height: 5px;
+    width: 155px;
+    background-color: #EDEDED;
+    border-radius: 5px;
+}
+.share-icon{
+  font-size: 21px;
+}
+.detail-tab-header-wrapper{
+  width: 100%;
+  border: none;
+}
+.detail-tab-header{
+  text-align: center;
+  margin: 20px 0px;
+  border: 1px solid #eeeeee;
+}
+.detail-tab-header-left{
+  border-radius: 5px 0px 0px 5px;
+}
+.detail-tab-header-right{
+  border-radius: 0px 5px 5px 0px;
+}
+.nav-tabs>.detail-tab-header-left.active>a, .nav-tabs>.detail-tab-header-left.active>a:focus, .nav-tabs>.detail-tab-header-left.active>a:hover{
+  border: 1px solid #008797;
+  margin-right: 0px;
+  background: #008797;
+  border-radius: 5px 0px 0px 5px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.nav-tabs>.detail-tab-header-center.active>a, .nav-tabs>.detail-tab-header-center.active>a:focus, .nav-tabs>.detail-tab-header-center.active>a:hover{
+  border: 1px solid #008797;
+  margin-right: 0px;
+  border-radius: 0px;
+  background: #008797;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.nav-tabs>.detail-tab-header-right.active>a, .nav-tabs>.detail-tab-header-right.active>a:focus, .nav-tabs>.detail-tab-header-right.active>a:hover{
+  border: 1px solid #008797;
+  margin-right: 0px;
+  border-radius:  0px 5px 5px 0px;
+  background: #008797;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.detail-tab-content-wrapper{
+  margin: 20px 0px 50px 12px;
+}
+.tab-description-content-wrapper{
+  padding-right: 10px;
+}
+.tab-info-content-wrapper{
+  padding: 0px 15px;
+}
+.node-info{
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #C4C4C4;
+}
+.line-info{
+  background-color: #CCCCCC;
+  height: 100%;
+  width: 2px;
+  margin-left: 20px;
+}
+.donatur-info-bar{
+  background: #F5F6F8;
+  border-radius: 5px;
+  padding: 20px;
+}
+.padding-top-12{
+  padding-top: 12px;
+}
+.info-bar{
+  background: #F5F6F8;
+  border-radius: 5px;
+  padding: 20px;
+}
+.info-wrapper{
+  height: 100%;
+}
+.btn-share{
+	color:#333333;
+	&:hover {
+		color: #008797;
+		text-decoration: none;
+	}
+}
+.padding-top-25{
+	padding-top: 25px;
+}
+.padding-0{
+	padding: 0px;
+}

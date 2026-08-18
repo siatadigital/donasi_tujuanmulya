@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["user-photos.js"],"file":"user-photos.js","sourcesContent":["$(function(){\n\t$(\"#justifiedPhotos\").justifiedGallery({\n\t\trowHeight : 250,\n\t\tlastRow : 'justify',\n\t\tmargins : 3\n\t});\n\n\t$(\"#justifiedPhotos a\").colorbox({rel:'group',transition:'fade'});\n});\n"]}

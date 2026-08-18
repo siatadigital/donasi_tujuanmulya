@@ -1,0 +1,4 @@
+[12-Oct-2021 07:22:00 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\SessionInterface' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Session.php on line 25
+[12-Oct-2021 07:22:01 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\SessionInterface' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Session.php on line 25
+[26-Oct-2021 21:14:47 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\SessionInterface' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Session.php on line 25
+[26-Oct-2021 21:14:48 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\SessionInterface' not found in /home/zakatkit/public_html/vendor/symfony/http-foundation/Session/Session.php on line 25

@@ -1,0 +1,32 @@
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/OneTimeGeneratorSpec.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/OneTimeGeneratorSpec.php on line 9
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/SpecificationGeneratorSpec.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/SpecificationGeneratorSpec.php on line 13
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/MethodGeneratorSpec.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/MethodGeneratorSpec.php on line 13
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/NamedConstructorGeneratorSpec.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/NamedConstructorGeneratorSpec.php on line 12
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/ConfirmingGeneratorSpec.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/ConfirmingGeneratorSpec.php on line 10
+[28-Dec-2021 16:41:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/ReturnConstantGeneratorSpec.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/ReturnConstantGeneratorSpec.php on line 12
+[28-Dec-2021 16:41:34 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/NewFileNotifyingGeneratorSpec.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/NewFileNotifyingGeneratorSpec.php on line 13
+[28-Dec-2021 16:41:34 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/ClassGeneratorSpec.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/CodeGenerator/Generator/ClassGeneratorSpec.php on line 14

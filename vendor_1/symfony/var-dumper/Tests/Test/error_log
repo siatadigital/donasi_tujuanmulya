@@ -1,0 +1,18 @@
+[26-Oct-2021 21:15:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\VarDumper\Test\VarDumperTestCase' not found in /home/zakatkit/public_html/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitRequire54.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitRequire54.php on line 17
+[26-Oct-2021 21:15:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\VarDumper\Test\VarDumperTestCase' not found in /home/zakatkit/public_html/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitRequire54.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitRequire54.php on line 17
+[26-Oct-2021 21:15:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\VarDumper\Test\VarDumperTestCase' not found in /home/zakatkit/public_html/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitRequire54.php:17
+Stack trace:
+#0 /home/zakatkit/public_html/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitTest.php(14): require()
+#1 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitRequire54.php on line 17
+[26-Oct-2021 21:15:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\VarDumper\Test\VarDumperTestCase' not found in /home/zakatkit/public_html/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitRequire54.php:17
+Stack trace:
+#0 /home/zakatkit/public_html/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitTest.php(14): require()
+#1 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitRequire54.php on line 17

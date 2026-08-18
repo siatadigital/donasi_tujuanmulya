@@ -1,0 +1,12 @@
+[28-Dec-2021 16:41:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Exception' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Chart/Exception.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Chart/Exception.php on line 28
+[28-Dec-2021 16:41:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Chart_Properties' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Chart/Axis.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Chart/Axis.php on line 10
+[28-Dec-2021 16:41:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Chart_Properties' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Chart/GridLines.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Chart/GridLines.php on line 10

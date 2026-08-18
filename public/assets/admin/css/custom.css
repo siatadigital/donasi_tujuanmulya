@@ -1,0 +1,53 @@
+.input-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.input-row input {
+  border-right: 0px;
+}
+
+.button-input {
+  font-size: 20px;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  border-left: 0px;
+  background: white;
+  outline: none;
+}
+
+.btn-send-message {
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  background-color: #5cb85c;
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+  z-index: 9;
+  transition: all .1s ease-in-out;
+}
+
+.btn-send-message:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+.btn-send-message:focus {
+  color: white;
+}
+
+table.dataTable tr th.select-checkbox.selected::after {
+  content: "✔";
+  margin-top: -11px;
+  margin-left: -4px;
+  text-align: center;
+  text-shadow: rgb(176, 190, 217) 1px 1px, rgb(176, 190, 217) -1px -1px, rgb(176, 190, 217) 1px -1px, rgb(176, 190, 217) -1px 1px;
+}

@@ -1,0 +1,24 @@
+[26-Oct-2021 21:10:35 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Util/MirrorTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Util/MirrorTest.php on line 17
+[26-Oct-2021 21:10:36 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Util/MirrorTest.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Util/MirrorTest.php on line 17
+[26-Oct-2021 21:10:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Util/StrTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Util/StrTest.php on line 16
+[26-Oct-2021 21:10:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Util/StrTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Util/StrTest.php on line 16
+[26-Oct-2021 21:10:39 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Util/DocblockTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Util/DocblockTest.php on line 16
+[26-Oct-2021 21:10:40 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Util/DocblockTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Util/DocblockTest.php on line 16

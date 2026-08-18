@@ -1,0 +1,12 @@
+[28-Dec-2021 16:41:23 UTC] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Worksheet.php on line 28
+[28-Dec-2021 16:41:24 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Style_Supervisor' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Style.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Style.php on line 28
+[28-Dec-2021 16:41:24 UTC] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/RichText.php on line 28
+[28-Dec-2021 16:41:24 UTC] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Comment.php on line 28
+[28-Dec-2021 16:41:25 UTC] PHP Warning:  Use of undefined constant PHPEXCEL_ROOT - assumed 'PHPEXCEL_ROOT' (this will throw an Error in a future version of PHP) in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Autoloader.php on line 70
+[28-Dec-2021 16:41:25 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Shared_String' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Autoloader.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Autoloader.php on line 11

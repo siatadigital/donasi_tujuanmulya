@@ -1,0 +1,8 @@
+[28-Dec-2021 16:41:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Barryvdh\Debugbar\Controllers\BaseController' not found in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/Controllers/OpenHandlerController.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/Controllers/OpenHandlerController.php on line 7
+[28-Dec-2021 16:41:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Barryvdh\Debugbar\Controllers\BaseController' not found in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/Controllers/AssetController.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/barryvdh/laravel-debugbar/src/Controllers/AssetController.php on line 5

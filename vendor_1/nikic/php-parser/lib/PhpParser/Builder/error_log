@@ -1,0 +1,12 @@
+[28-Dec-2021 16:41:31 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\BuilderAbstract' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Builder/Property.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Builder/Property.php on line 8
+[28-Dec-2021 16:41:32 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\BuilderAbstract' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Builder/Param.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Builder/Param.php on line 8
+[28-Dec-2021 16:41:32 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Builder\Declaration' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Builder/FunctionLike.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Builder/FunctionLike.php on line 9

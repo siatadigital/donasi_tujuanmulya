@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["project-support.js"],"file":"project-support.js","sourcesContent":["$(function(){\n\t$(\".image-picker\").imagepicker();\n});"]}

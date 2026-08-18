@@ -1,0 +1,21 @@
+<?php
+return [
+    'title' => 'Daftar Akun Baru',
+    'title_head' => 'Gabung dengan yukdonasi.org',
+    'desc_head' => 'Menjadi donatur tetap dan semangat sedekah',
+    'fullname' => 'Nama Lengkap',
+    'fullname_placeholder' => 'Ketik nama lengkap disini...',
+    'username' => 'Nama Pengguna',
+    'username_placeholder' => 'Buat nama yang unik tanpa spasi',
+    'email' => 'Alamat Email',
+    'email_placeholder' => 'Ketik alamat email disini...',
+    'password' => 'Kata Sandi',
+    'password_placeholder' => 'Jangan mudah ditebak. (min: 6 karakter)',
+    'password_conf' => 'Konfirmasi Kata Sandi',
+    'password_conf_placeholder' => 'Ketik ulang kata sandi anda',
+    'phone' => 'No. HP / Whatsapp',
+    'phone_placeholder' => 'Ketik no. hp / whatsapp disini...',
+    'register' => 'Daftar Akun',
+    'login' => 'Sudah Punya Akun',
+    'register_fb' => 'Daftar Dengan Facebook',
+];

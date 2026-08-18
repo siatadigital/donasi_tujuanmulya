@@ -1,0 +1,5 @@
+[28-Dec-2021 16:41:31 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/OLE.php on line 288
+[28-Dec-2021 16:41:31 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_Shared_File' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/ZipArchive.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Shared/ZipArchive.php on line 4

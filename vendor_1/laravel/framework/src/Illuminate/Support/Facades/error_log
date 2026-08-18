@@ -1,0 +1,16 @@
+[12-Oct-2021 06:56:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Facade' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Session.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Session.php on line 9
+[12-Oct-2021 06:56:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Facade' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Session.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Session.php on line 9
+[26-Oct-2021 21:07:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Facade' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Session.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Session.php on line 9
+[26-Oct-2021 21:07:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Facade' not found in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Session.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Session.php on line 9

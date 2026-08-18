@@ -1,0 +1,8 @@
+[26-Oct-2021 21:13:18 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Reflection/ReflectionConstantTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Reflection/ReflectionConstantTest.php on line 16
+[26-Oct-2021 21:13:19 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Reflection/ReflectionConstantTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/Reflection/ReflectionConstantTest.php on line 16

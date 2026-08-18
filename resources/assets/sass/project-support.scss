@@ -1,0 +1,40 @@
+#money{
+	height: 50px;
+    font-size: 33px;
+}
+#support-paper{
+	background-color: #0088CC;
+	color: white;
+	padding: 10px 14px 1px;
+	border-radius: 11px;
+}
+ul.thumbnails.image_picker_selector{
+	width: 530px;
+	margin: 0 auto;
+}
+ul.thumbnails.image_picker_selector li .thumbnail {
+    padding: 2px 18px;
+}
+ul.thumbnails.image_picker_selector > li {
+    margin: 0px 10px;
+}
+ul.thumbnails.image_picker_selector li .thumbnail {
+	background-color: transparent;
+	border: solid rgba(128, 128, 128, 0.12) 3px;
+	// box-shadow: 0px 0px 8px -2px #0088cc;
+}
+ul.thumbnails.image_picker_selector li .thumbnail.selected {
+	background-color: transparent;
+	border-color: #0088cc;
+	border: solid #0088cc 3px;
+	box-shadow: 0px 0px 8px -2px #0088cc;
+}
+.radio-custom{
+	background-color: whitesmoke;
+	color: black;
+	padding: 10px 20px 16px;
+	border-radius: 10px;
+	input[type="radio"]{
+		margin: 12px 0px 0px -18px;
+	}
+}

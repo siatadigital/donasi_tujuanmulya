@@ -1,0 +1,164 @@
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Closure.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Closure.php on line 9
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Include_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Include_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ArrayItem.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ArrayItem.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Array_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Array_.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ShellExec.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ShellExec.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/AssignOp.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/AssignOp.php on line 7
+[28-Dec-2021 16:41:37 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Isset_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Isset_.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PropertyFetch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PropertyFetch.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/MethodCall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/MethodCall.php on line 8
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PostDec.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PostDec.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Instanceof_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Instanceof_.php on line 8
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Assign.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Assign.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ClassConstFetch.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ClassConstFetch.php on line 8
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/List_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/List_.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PostInc.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PostInc.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ErrorSuppress.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ErrorSuppress.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/New_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/New_.php on line 8
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Clone_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Clone_.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ArrayDimFetch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ArrayDimFetch.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Eval_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Eval_.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/FuncCall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/FuncCall.php on line 8
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BitwiseNot.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BitwiseNot.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BooleanNot.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BooleanNot.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/AssignRef.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/AssignRef.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ConstFetch.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ConstFetch.php on line 8
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Empty_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Empty_.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/UnaryMinus.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/UnaryMinus.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ClosureUse.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ClosureUse.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/StaticPropertyFetch.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/StaticPropertyFetch.php on line 8
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Ternary.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Ternary.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/StaticCall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/StaticCall.php on line 8
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Exit_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Exit_.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Print_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Print_.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Variable.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Variable.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PreDec.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PreDec.php on line 7
+[28-Dec-2021 16:41:38 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/YieldFrom.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/YieldFrom.php on line 7
+[28-Dec-2021 16:41:39 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/UnaryPlus.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/UnaryPlus.php on line 7
+[28-Dec-2021 16:41:39 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Yield_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Yield_.php on line 7
+[28-Dec-2021 16:41:41 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Node\Expr' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PreInc.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PreInc.php on line 7

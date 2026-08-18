@@ -1,0 +1,21 @@
+<?php
+return [
+    'title' => 'Register New Account',
+    'title_head' => 'Join with Zakat Kita',
+    'desc_head' => 'Become a permanent donor and spirit of alms',
+    'fullname' => 'Fullname',
+    'fullname_placeholder' => 'Type fullname here...',
+    'username' => 'Username',
+    'username_placeholder' => 'Create a unique username without spaces',
+    'email' => 'Email',
+    'email_placeholder' => 'Type email here...',
+    'password' => 'Password',
+    'password_placeholder' => 'Don\'t be predictable. (min: 6 characters)',
+    'password_conf' => 'Password Confirmation',
+    'password_conf_placeholder' => 'Retype your password',
+    'phone' => 'Phone / Whatsapp',
+    'phone_placeholder' => 'Type phone / whatsapp here...',
+    'register' => 'Register Now',
+    'login' => 'Already Have Account',
+    'register_fb' => 'Register With Facebook',
+];

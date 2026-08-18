@@ -1,0 +1,20 @@
+[28-Dec-2021 16:41:14 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestSuite' not found in /home/zakatkit/public_html/vendor/symfony/polyfill-util/TestListenerForV7.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/polyfill-util/TestListenerForV7.php on line 24
+[28-Dec-2021 16:41:14 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestSuite' not found in /home/zakatkit/public_html/vendor/symfony/polyfill-util/TestListenerForV6.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/polyfill-util/TestListenerForV6.php on line 23
+[28-Dec-2021 16:41:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Polyfill\Util\BinaryOnFuncOverload' not found in /home/zakatkit/public_html/vendor/symfony/polyfill-util/Binary.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/polyfill-util/Binary.php on line 15
+[28-Dec-2021 16:41:14 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestSuite' not found in /home/zakatkit/public_html/vendor/symfony/polyfill-util/TestListenerForV5.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/polyfill-util/TestListenerForV5.php on line 17
+[28-Dec-2021 16:41:15 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Runner\Version' not found in /home/zakatkit/public_html/vendor/symfony/polyfill-util/TestListener.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/polyfill-util/TestListener.php on line 18

@@ -1,0 +1,5 @@
+[28-Dec-2021 16:41:25 UTC] PHP Warning:  Class 'Symfony\Component\Debug\Tests\Fixtures\NotPSR0bis' not found in /home/zakatkit/public_html/vendor/symfony/debug/Tests/Fixtures/ClassAlias.php on line 3
+[28-Dec-2021 16:41:25 UTC] PHP Fatal error:  Uncaught Exception: boo in /home/zakatkit/public_html/vendor/symfony/debug/Tests/Fixtures/Throwing.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/debug/Tests/Fixtures/Throwing.php on line 3

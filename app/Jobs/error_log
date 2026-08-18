@@ -1,0 +1,39 @@
+[30-Jun-2021 12:44:11 UTC] PHP Fatal error:  Trait 'Illuminate\Bus\Queueable' not found in /home/zakatkit/public_html/app/Jobs/Job.php on line 7
+[30-Jun-2021 12:44:12 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Jobs\Job' not found in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php on line 12
+[13-Jul-2021 13:47:30 UTC] PHP Fatal error:  Trait 'Illuminate\Bus\Queueable' not found in /home/zakatkit/public_html/app/Jobs/Job.php on line 20
+[13-Jul-2021 13:47:31 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Jobs\Job' not found in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php on line 12
+[15-Jul-2021 15:37:57 UTC] PHP Fatal error:  Trait 'Illuminate\Bus\Queueable' not found in /home/zakatkit/public_html/app/Jobs/Job.php on line 20
+[15-Jul-2021 15:37:58 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Jobs\Job' not found in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php on line 12
+[27-Jul-2021 13:34:53 UTC] PHP Fatal error:  Trait 'Illuminate\Bus\Queueable' not found in /home/zakatkit/public_html/app/Jobs/Job.php on line 20
+[27-Jul-2021 13:34:54 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Jobs\Job' not found in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php on line 12
+[14-Aug-2021 23:10:38 UTC] PHP Fatal error:  Trait 'Illuminate\Bus\Queueable' not found in /home/zakatkit/public_html/app/Jobs/Job.php on line 20
+[14-Aug-2021 23:10:39 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Jobs\Job' not found in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php on line 12
+[28-Aug-2021 18:59:15 UTC] PHP Fatal error:  Trait 'Illuminate\Bus\Queueable' not found in /home/zakatkit/public_html/app/Jobs/Job.php on line 20
+[28-Aug-2021 18:59:17 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Jobs\Job' not found in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php on line 12
+[11-Sep-2021 14:46:11 UTC] PHP Fatal error:  Trait 'Illuminate\Bus\Queueable' not found in /home/zakatkit/public_html/app/Jobs/Job.php on line 20
+[11-Sep-2021 14:46:12 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Jobs\Job' not found in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php on line 12
+[11-Oct-2022 01:57:23 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Jobs\Job' not found in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Jobs/SendPaymentWaitJob.php on line 12

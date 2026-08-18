@@ -1,0 +1,8 @@
+[26-Oct-2021 21:11:11 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/phpunit/phpunit/tests/_files/BankAccountTest.test.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpunit/phpunit/tests/_files/BankAccountTest.test.php on line 16
+[26-Oct-2021 21:11:12 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/phpunit/phpunit/tests/_files/BankAccountTest.test.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpunit/phpunit/tests/_files/BankAccountTest.test.php on line 16

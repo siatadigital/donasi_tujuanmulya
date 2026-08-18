@@ -1,0 +1,12 @@
+[28-Dec-2021 16:41:24 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/debug/Tests/FatalErrorHandler/UndefinedFunctionFatalErrorHandlerTest.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/debug/Tests/FatalErrorHandler/UndefinedFunctionFatalErrorHandlerTest.php on line 18
+[28-Dec-2021 16:41:25 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/debug/Tests/FatalErrorHandler/UndefinedMethodFatalErrorHandlerTest.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/debug/Tests/FatalErrorHandler/UndefinedMethodFatalErrorHandlerTest.php on line 18
+[28-Dec-2021 16:41:25 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/zakatkit/public_html/vendor/symfony/debug/Tests/FatalErrorHandler/ClassNotFoundFatalErrorHandlerTest.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/symfony/debug/Tests/FatalErrorHandler/ClassNotFoundFatalErrorHandlerTest.php on line 22

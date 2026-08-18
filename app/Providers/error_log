@@ -1,0 +1,140 @@
+[30-Jun-2021 12:44:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/zakatkit/public_html/app/Providers/AppServiceProvider.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/AppServiceProvider.php on line 18
+[30-Jun-2021 12:44:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/zakatkit/public_html/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/AuthServiceProvider.php on line 8
+[30-Jun-2021 12:44:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/zakatkit/public_html/app/Providers/EventServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/EventServiceProvider.php on line 8
+[30-Jun-2021 12:44:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/zakatkit/public_html/app/Providers/PaymentNotifServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/PaymentNotifServiceProvider.php on line 7
+[30-Jun-2021 12:44:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/zakatkit/public_html/app/Providers/RouteServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/RouteServiceProvider.php on line 8
+[13-Jul-2021 13:48:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/zakatkit/public_html/app/Providers/AppServiceProvider.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/AppServiceProvider.php on line 18
+[13-Jul-2021 13:48:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/zakatkit/public_html/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/AuthServiceProvider.php on line 8
+[13-Jul-2021 13:48:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/zakatkit/public_html/app/Providers/EventServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/EventServiceProvider.php on line 8
+[13-Jul-2021 13:48:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/zakatkit/public_html/app/Providers/PaymentNotifServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/PaymentNotifServiceProvider.php on line 7
+[13-Jul-2021 13:48:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/zakatkit/public_html/app/Providers/RouteServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/RouteServiceProvider.php on line 8
+[15-Jul-2021 15:38:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/zakatkit/public_html/app/Providers/AppServiceProvider.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/AppServiceProvider.php on line 18
+[15-Jul-2021 15:38:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/zakatkit/public_html/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/AuthServiceProvider.php on line 8
+[15-Jul-2021 15:38:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/zakatkit/public_html/app/Providers/EventServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/EventServiceProvider.php on line 8
+[15-Jul-2021 15:38:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/zakatkit/public_html/app/Providers/PaymentNotifServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/PaymentNotifServiceProvider.php on line 7
+[15-Jul-2021 15:38:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/zakatkit/public_html/app/Providers/RouteServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/RouteServiceProvider.php on line 8
+[27-Jul-2021 13:35:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/zakatkit/public_html/app/Providers/AppServiceProvider.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/AppServiceProvider.php on line 18
+[27-Jul-2021 13:35:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/zakatkit/public_html/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/AuthServiceProvider.php on line 8
+[27-Jul-2021 13:35:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/zakatkit/public_html/app/Providers/EventServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/EventServiceProvider.php on line 8
+[27-Jul-2021 13:35:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/zakatkit/public_html/app/Providers/PaymentNotifServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/PaymentNotifServiceProvider.php on line 7
+[27-Jul-2021 13:35:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/zakatkit/public_html/app/Providers/RouteServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/RouteServiceProvider.php on line 8
+[14-Aug-2021 23:11:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/zakatkit/public_html/app/Providers/AppServiceProvider.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/AppServiceProvider.php on line 18
+[14-Aug-2021 23:11:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/zakatkit/public_html/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/AuthServiceProvider.php on line 8
+[14-Aug-2021 23:11:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/zakatkit/public_html/app/Providers/EventServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/EventServiceProvider.php on line 8
+[14-Aug-2021 23:11:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/zakatkit/public_html/app/Providers/PaymentNotifServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/PaymentNotifServiceProvider.php on line 7
+[14-Aug-2021 23:11:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/zakatkit/public_html/app/Providers/RouteServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/RouteServiceProvider.php on line 8
+[28-Aug-2021 18:59:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/zakatkit/public_html/app/Providers/AppServiceProvider.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/AppServiceProvider.php on line 18
+[28-Aug-2021 18:59:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/zakatkit/public_html/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/AuthServiceProvider.php on line 8
+[28-Aug-2021 18:59:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/zakatkit/public_html/app/Providers/EventServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/EventServiceProvider.php on line 8
+[28-Aug-2021 18:59:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/zakatkit/public_html/app/Providers/PaymentNotifServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/PaymentNotifServiceProvider.php on line 7
+[28-Aug-2021 18:59:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/zakatkit/public_html/app/Providers/RouteServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/RouteServiceProvider.php on line 8
+[11-Sep-2021 14:46:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/zakatkit/public_html/app/Providers/AppServiceProvider.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/AppServiceProvider.php on line 18
+[11-Sep-2021 14:46:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/zakatkit/public_html/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/AuthServiceProvider.php on line 8
+[11-Sep-2021 14:46:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/zakatkit/public_html/app/Providers/EventServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/EventServiceProvider.php on line 8
+[11-Sep-2021 14:46:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/zakatkit/public_html/app/Providers/PaymentNotifServiceProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/PaymentNotifServiceProvider.php on line 7
+[11-Sep-2021 14:46:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/zakatkit/public_html/app/Providers/RouteServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Providers/RouteServiceProvider.php on line 8

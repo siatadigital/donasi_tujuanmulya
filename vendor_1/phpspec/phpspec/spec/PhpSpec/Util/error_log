@@ -1,0 +1,17 @@
+[28-Dec-2021 16:41:26 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Util/ClassFileAnalyserSpec.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Util/ClassFileAnalyserSpec.php on line 8
+[28-Dec-2021 16:41:26 UTC] PHP Fatal error:  Trait 'spec\PhpSpec\Util\ExampleTrait' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Util/ExampleObjectUsingTrait.php on line 7
+[28-Dec-2021 16:41:26 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Util/ReservedWordsMethodNameCheckerSpec.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Util/ReservedWordsMethodNameCheckerSpec.php on line 8
+[28-Dec-2021 16:41:26 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Util/InstantiatorSpec.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Util/InstantiatorSpec.php on line 8
+[28-Dec-2021 16:41:26 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Util/MethodAnalyserSpec.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Util/MethodAnalyserSpec.php on line 9

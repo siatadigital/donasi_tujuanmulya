@@ -1,0 +1,11 @@
+.paper-block .block-item-paper{
+    box-shadow: 0px 0px 6px -2px;
+}
+.paper-block article.paper-inside {
+    word-wrap: break-word;
+    section.content{
+        height: auto !important;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+}

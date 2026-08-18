@@ -1,0 +1,1 @@
+[28-Dec-2021 16:41:16 UTC] PHP Fatal error:  Interface 'League\Fractal\ScopeFactoryInterface' not found in /home/zakatkit/public_html/vendor/league/fractal/src/ScopeFactory.php on line 16

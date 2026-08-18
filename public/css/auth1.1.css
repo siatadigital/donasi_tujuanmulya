@@ -1,0 +1,86 @@
+body {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    color: #fff
+}
+
+@media screen and (max-width:767px) {
+    body {
+        padding-top: 80px
+    }
+}
+
+.paper-white {
+    padding: 35px 30px 5px;
+    border-radius: 5px;
+    color: grey;
+    margin-bottom: 10px
+}
+
+.checkbox {
+    display: initial !important
+}
+
+.input-wrapper,
+.input-wrapper-register {
+    max-width: 400px;
+    background: #F5F6F8;
+    border-radius: 5px;
+    margin: 0 auto
+}
+
+.btn-lg-blue {
+    background-color: #ea8e26;
+    border-radius: 5px;
+    color: #fff
+}
+
+.btn-lg-white {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #ea8e26;
+    border: 1px solid #ea8e26
+}
+
+.btn-register-wrapper {
+    padding-top: 35px;
+    padding-bottom: 15px
+}
+
+.space {
+    margin: 20px
+}
+
+.forgot-text-wrapper {
+    max-width: 300px;
+    margin: 0 auto
+}
+
+.forgot-text {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: .03em;
+    color: #000
+}
+
+.btn-forgot-wrapper {
+    padding-top: 15px
+}
+
+.input-wrapper-forgot,
+.input-wrapper-reset {
+    max-width: 400px;
+    background: #F5F6F8;
+    border-radius: 5px;
+    margin: 0 auto
+}
+
+.padding-top-25 {
+    padding-top: 25px
+}

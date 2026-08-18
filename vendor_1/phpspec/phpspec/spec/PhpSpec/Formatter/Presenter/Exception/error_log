@@ -1,0 +1,24 @@
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Exception/TaggingExceptionElementPresenterSpec.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Exception/TaggingExceptionElementPresenterSpec.php on line 11
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Exception/SimpleExceptionElementPresenterSpec.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Exception/SimpleExceptionElementPresenterSpec.php on line 10
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Exception/HtmlPhpSpecExceptionPresenterSpec.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Exception/HtmlPhpSpecExceptionPresenterSpec.php on line 8
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Exception/SimpleExceptionPresenterSpec.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Exception/SimpleExceptionPresenterSpec.php on line 12
+[28-Dec-2021 16:41:43 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Exception/CallArgumentsPresenterSpec.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Exception/CallArgumentsPresenterSpec.php on line 14
+[28-Dec-2021 16:41:46 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpSpec\ObjectBehavior' not found in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Exception/GenericPhpSpecExceptionPresenterSpec.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/phpspec/phpspec/spec/PhpSpec/Formatter/Presenter/Exception/GenericPhpSpecExceptionPresenterSpec.php on line 9

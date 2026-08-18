@@ -1,0 +1,21 @@
+[28-Dec-2021 16:41:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Laravel\Socialite\Two\AbstractProvider' not found in /home/zakatkit/public_html/vendor/laravel/socialite/src/Two/GoogleProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/laravel/socialite/src/Two/GoogleProvider.php on line 7
+[28-Dec-2021 16:41:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Laravel\Socialite\Two\AbstractProvider' not found in /home/zakatkit/public_html/vendor/laravel/socialite/src/Two/FacebookProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/laravel/socialite/src/Two/FacebookProvider.php on line 8
+[28-Dec-2021 16:41:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Laravel\Socialite\Two\AbstractProvider' not found in /home/zakatkit/public_html/vendor/laravel/socialite/src/Two/LinkedInProvider.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/laravel/socialite/src/Two/LinkedInProvider.php on line 7
+[28-Dec-2021 16:41:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Laravel\Socialite\Two\AbstractProvider' not found in /home/zakatkit/public_html/vendor/laravel/socialite/src/Two/GithubProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/laravel/socialite/src/Two/GithubProvider.php on line 8
+[28-Dec-2021 16:41:19 UTC] PHP Fatal error:  Interface 'Laravel\Socialite\Contracts\Provider' not found in /home/zakatkit/public_html/vendor/laravel/socialite/src/Two/AbstractProvider.php on line 13
+[28-Dec-2021 16:41:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Laravel\Socialite\AbstractUser' not found in /home/zakatkit/public_html/vendor/laravel/socialite/src/Two/User.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/laravel/socialite/src/Two/User.php on line 7

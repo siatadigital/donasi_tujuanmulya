@@ -1,0 +1,28 @@
+[30-Jun-2021 12:45:00 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Repositories\Base\BaseRepository' not found in /home/zakatkit/public_html/app/Repositories/Project/ProjectRepository.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Repositories/Project/ProjectRepository.php on line 13
+[13-Jul-2021 13:48:32 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Repositories\Base\BaseRepository' not found in /home/zakatkit/public_html/app/Repositories/Project/ProjectRepository.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Repositories/Project/ProjectRepository.php on line 13
+[15-Jul-2021 15:38:46 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Repositories\Base\BaseRepository' not found in /home/zakatkit/public_html/app/Repositories/Project/ProjectRepository.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Repositories/Project/ProjectRepository.php on line 13
+[27-Jul-2021 13:35:43 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Repositories\Base\BaseRepository' not found in /home/zakatkit/public_html/app/Repositories/Project/ProjectRepository.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Repositories/Project/ProjectRepository.php on line 13
+[14-Aug-2021 23:11:28 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Repositories\Base\BaseRepository' not found in /home/zakatkit/public_html/app/Repositories/Project/ProjectRepository.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Repositories/Project/ProjectRepository.php on line 13
+[28-Aug-2021 19:00:07 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Repositories\Base\BaseRepository' not found in /home/zakatkit/public_html/app/Repositories/Project/ProjectRepository.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Repositories/Project/ProjectRepository.php on line 13
+[11-Sep-2021 14:47:06 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Repositories\Base\BaseRepository' not found in /home/zakatkit/public_html/app/Repositories/Project/ProjectRepository.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/app/Repositories/Project/ProjectRepository.php on line 13

@@ -1,0 +1,1120 @@
+[30-Jun-2021 12:45:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 6
+[30-Jun-2021 12:45:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 6
+[30-Jun-2021 12:45:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php on line 6
+[30-Jun-2021 12:45:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php on line 6
+[30-Jun-2021 12:45:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php on line 6
+[30-Jun-2021 12:45:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php on line 6
+[30-Jun-2021 12:45:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php on line 6
+[30-Jun-2021 12:45:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php on line 6
+[30-Jun-2021 12:45:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php on line 6
+[30-Jun-2021 12:45:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php on line 6
+[30-Jun-2021 12:45:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php on line 6
+[30-Jun-2021 12:45:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php on line 6
+[30-Jun-2021 12:45:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php on line 6
+[30-Jun-2021 12:45:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php on line 6
+[30-Jun-2021 12:45:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php on line 6
+[30-Jun-2021 12:45:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php on line 6
+[30-Jun-2021 12:45:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php on line 6
+[30-Jun-2021 12:45:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php on line 7
+[30-Jun-2021 12:45:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php on line 7
+[30-Jun-2021 12:45:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php on line 6
+[30-Jun-2021 12:45:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php on line 6
+[30-Jun-2021 12:45:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php on line 6
+[30-Jun-2021 12:45:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php on line 6
+[30-Jun-2021 12:45:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php on line 6
+[30-Jun-2021 12:45:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php on line 6
+[30-Jun-2021 12:45:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php on line 6
+[30-Jun-2021 12:45:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php on line 6
+[30-Jun-2021 12:45:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php on line 6
+[30-Jun-2021 12:45:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php on line 6
+[13-Jul-2021 13:49:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 6
+[13-Jul-2021 13:49:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 6
+[13-Jul-2021 13:49:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php on line 6
+[13-Jul-2021 13:49:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php on line 6
+[13-Jul-2021 13:49:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php on line 6
+[13-Jul-2021 13:49:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php on line 6
+[13-Jul-2021 13:49:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php on line 6
+[13-Jul-2021 13:49:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php on line 6
+[13-Jul-2021 13:49:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php on line 6
+[13-Jul-2021 13:49:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php on line 6
+[13-Jul-2021 13:49:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php on line 6
+[13-Jul-2021 13:49:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php on line 6
+[13-Jul-2021 13:49:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php on line 6
+[13-Jul-2021 13:49:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php on line 6
+[13-Jul-2021 13:49:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php on line 6
+[13-Jul-2021 13:49:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php on line 6
+[13-Jul-2021 13:49:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php on line 6
+[13-Jul-2021 13:49:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php on line 7
+[13-Jul-2021 13:49:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php on line 7
+[13-Jul-2021 13:49:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php on line 6
+[13-Jul-2021 13:49:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php on line 6
+[13-Jul-2021 13:49:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php on line 6
+[13-Jul-2021 13:49:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php on line 6
+[13-Jul-2021 13:49:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php on line 6
+[13-Jul-2021 13:49:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php on line 6
+[13-Jul-2021 13:49:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php on line 6
+[13-Jul-2021 13:49:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php on line 6
+[13-Jul-2021 13:49:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php on line 6
+[13-Jul-2021 13:49:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php on line 6
+[15-Jul-2021 15:39:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 6
+[15-Jul-2021 15:39:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 6
+[15-Jul-2021 15:39:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php on line 6
+[15-Jul-2021 15:39:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php on line 6
+[15-Jul-2021 15:39:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php on line 6
+[15-Jul-2021 15:39:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php on line 6
+[15-Jul-2021 15:39:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php on line 6
+[15-Jul-2021 15:39:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php on line 6
+[15-Jul-2021 15:39:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php on line 6
+[15-Jul-2021 15:39:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php on line 6
+[15-Jul-2021 15:39:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php on line 6
+[15-Jul-2021 15:39:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php on line 6
+[15-Jul-2021 15:39:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php on line 6
+[15-Jul-2021 15:39:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php on line 6
+[15-Jul-2021 15:39:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php on line 6
+[15-Jul-2021 15:39:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php on line 6
+[15-Jul-2021 15:39:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php on line 6
+[15-Jul-2021 15:39:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php on line 7
+[15-Jul-2021 15:39:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php on line 7
+[15-Jul-2021 15:39:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php on line 6
+[15-Jul-2021 15:39:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php on line 6
+[15-Jul-2021 15:39:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php on line 6
+[15-Jul-2021 15:39:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php on line 6
+[15-Jul-2021 15:39:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php on line 6
+[15-Jul-2021 15:39:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php on line 6
+[15-Jul-2021 15:39:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php on line 6
+[15-Jul-2021 15:39:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php on line 6
+[15-Jul-2021 15:39:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php on line 6
+[15-Jul-2021 15:39:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php on line 6
+[27-Jul-2021 13:36:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 6
+[27-Jul-2021 13:36:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 6
+[27-Jul-2021 13:36:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php on line 6
+[27-Jul-2021 13:36:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php on line 6
+[27-Jul-2021 13:36:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php on line 6
+[27-Jul-2021 13:36:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php on line 6
+[27-Jul-2021 13:36:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php on line 6
+[27-Jul-2021 13:36:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php on line 6
+[27-Jul-2021 13:36:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php on line 6
+[27-Jul-2021 13:36:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php on line 6
+[27-Jul-2021 13:36:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php on line 6
+[27-Jul-2021 13:36:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php on line 6
+[27-Jul-2021 13:36:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php on line 6
+[27-Jul-2021 13:36:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php on line 6
+[27-Jul-2021 13:36:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php on line 6
+[27-Jul-2021 13:36:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php on line 6
+[27-Jul-2021 13:36:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php on line 6
+[27-Jul-2021 13:36:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php on line 7
+[27-Jul-2021 13:36:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php on line 7
+[27-Jul-2021 13:36:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php on line 6
+[27-Jul-2021 13:36:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php on line 6
+[27-Jul-2021 13:36:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php on line 6
+[27-Jul-2021 13:36:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php on line 6
+[27-Jul-2021 13:36:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php on line 6
+[27-Jul-2021 13:36:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php on line 6
+[27-Jul-2021 13:36:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php on line 6
+[27-Jul-2021 13:36:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php on line 6
+[27-Jul-2021 13:36:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php on line 6
+[27-Jul-2021 13:36:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php on line 6
+[27-Jul-2021 13:36:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_05_29_093628_create_payment_method_groups_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_05_29_093628_create_payment_method_groups_table.php on line 6
+[27-Jul-2021 13:36:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_05_29_093631_create_payment_methods_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_05_29_093631_create_payment_methods_table.php on line 6
+[27-Jul-2021 13:36:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_06_21_180408_create_blog_viewers_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_06_21_180408_create_blog_viewers_table.php on line 6
+[14-Aug-2021 23:11:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 6
+[14-Aug-2021 23:11:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 6
+[14-Aug-2021 23:11:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php on line 6
+[14-Aug-2021 23:11:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php on line 6
+[14-Aug-2021 23:11:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php on line 6
+[14-Aug-2021 23:11:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php on line 6
+[14-Aug-2021 23:11:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php on line 6
+[14-Aug-2021 23:12:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php on line 6
+[14-Aug-2021 23:12:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php on line 6
+[14-Aug-2021 23:12:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php on line 6
+[14-Aug-2021 23:12:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php on line 6
+[14-Aug-2021 23:12:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php on line 6
+[14-Aug-2021 23:12:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php on line 6
+[14-Aug-2021 23:12:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php on line 6
+[14-Aug-2021 23:12:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php on line 6
+[14-Aug-2021 23:12:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php on line 6
+[14-Aug-2021 23:12:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php on line 6
+[14-Aug-2021 23:12:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php on line 7
+[14-Aug-2021 23:12:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php on line 7
+[14-Aug-2021 23:12:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php on line 6
+[14-Aug-2021 23:12:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php on line 6
+[14-Aug-2021 23:12:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php on line 6
+[14-Aug-2021 23:12:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php on line 6
+[14-Aug-2021 23:12:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php on line 6
+[14-Aug-2021 23:12:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php on line 6
+[14-Aug-2021 23:12:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php on line 6
+[14-Aug-2021 23:12:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php on line 6
+[14-Aug-2021 23:12:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php on line 6
+[14-Aug-2021 23:12:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php on line 6
+[14-Aug-2021 23:12:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_05_29_093628_create_payment_method_groups_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_05_29_093628_create_payment_method_groups_table.php on line 6
+[14-Aug-2021 23:12:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_05_29_093631_create_payment_methods_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_05_29_093631_create_payment_methods_table.php on line 6
+[14-Aug-2021 23:12:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_06_21_180408_create_blog_viewers_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_06_21_180408_create_blog_viewers_table.php on line 6
+[28-Aug-2021 19:00:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 6
+[28-Aug-2021 19:00:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 6
+[28-Aug-2021 19:00:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php on line 6
+[28-Aug-2021 19:00:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php on line 6
+[28-Aug-2021 19:00:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php on line 6
+[28-Aug-2021 19:00:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php on line 6
+[28-Aug-2021 19:00:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php on line 6
+[28-Aug-2021 19:00:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php on line 6
+[28-Aug-2021 19:00:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php on line 6
+[28-Aug-2021 19:00:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php on line 6
+[28-Aug-2021 19:00:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php on line 6
+[28-Aug-2021 19:00:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php on line 6
+[28-Aug-2021 19:00:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php on line 6
+[28-Aug-2021 19:00:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php on line 6
+[28-Aug-2021 19:00:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php on line 6
+[28-Aug-2021 19:00:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php on line 6
+[28-Aug-2021 19:00:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php on line 6
+[28-Aug-2021 19:00:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php on line 7
+[28-Aug-2021 19:00:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php on line 7
+[28-Aug-2021 19:00:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php on line 6
+[28-Aug-2021 19:00:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php on line 6
+[28-Aug-2021 19:00:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php on line 6
+[28-Aug-2021 19:00:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php on line 6
+[28-Aug-2021 19:00:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php on line 6
+[28-Aug-2021 19:00:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php on line 6
+[28-Aug-2021 19:00:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php on line 6
+[28-Aug-2021 19:00:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php on line 6
+[28-Aug-2021 19:00:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php on line 6
+[28-Aug-2021 19:01:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php on line 6
+[28-Aug-2021 19:01:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_05_29_093628_create_payment_method_groups_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_05_29_093628_create_payment_method_groups_table.php on line 6
+[28-Aug-2021 19:01:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_05_29_093631_create_payment_methods_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_05_29_093631_create_payment_methods_table.php on line 6
+[28-Aug-2021 19:01:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_06_21_180408_create_blog_viewers_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_06_21_180408_create_blog_viewers_table.php on line 6
+[11-Sep-2021 14:47:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 6
+[11-Sep-2021 14:47:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 6
+[11-Sep-2021 14:47:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php on line 6
+[11-Sep-2021 14:47:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php on line 6
+[11-Sep-2021 14:47:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php on line 6
+[11-Sep-2021 14:47:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php on line 6
+[11-Sep-2021 14:47:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php on line 6
+[11-Sep-2021 14:47:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php on line 6
+[11-Sep-2021 14:47:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php on line 6
+[11-Sep-2021 14:47:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php on line 6
+[11-Sep-2021 14:47:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php on line 6
+[11-Sep-2021 14:47:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php on line 6
+[11-Sep-2021 14:47:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php on line 6
+[11-Sep-2021 14:47:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php on line 6
+[11-Sep-2021 14:47:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php on line 6
+[11-Sep-2021 14:47:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php on line 6
+[11-Sep-2021 14:47:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php on line 6
+[11-Sep-2021 14:47:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php on line 7
+[11-Sep-2021 14:47:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php on line 7
+[11-Sep-2021 14:47:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php on line 6
+[11-Sep-2021 14:47:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php on line 6
+[11-Sep-2021 14:47:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php on line 6
+[11-Sep-2021 14:47:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php on line 6
+[11-Sep-2021 14:47:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php on line 6
+[11-Sep-2021 14:47:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php on line 6
+[11-Sep-2021 14:48:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php on line 6
+[11-Sep-2021 14:48:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php on line 6
+[11-Sep-2021 14:48:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php on line 6
+[11-Sep-2021 14:48:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php on line 6
+[11-Sep-2021 14:48:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_05_29_093628_create_payment_method_groups_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_05_29_093628_create_payment_method_groups_table.php on line 6
+[11-Sep-2021 14:48:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_05_29_093631_create_payment_methods_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_05_29_093631_create_payment_methods_table.php on line 6
+[11-Sep-2021 14:48:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_06_21_180408_create_blog_viewers_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_06_21_180408_create_blog_viewers_table.php on line 6
+[26-Oct-2021 20:46:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php on line 6
+[26-Oct-2021 20:46:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094842_create_projects_table.php on line 6
+[26-Oct-2021 20:46:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php on line 6
+[26-Oct-2021 20:46:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_160919_create_kotas_table.php on line 6
+[26-Oct-2021 20:46:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php on line 6
+[26-Oct-2021 20:46:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153718_create_user_dashboard_privileges_table.php on line 6
+[26-Oct-2021 20:46:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php on line 6
+[26-Oct-2021 20:46:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_16_122052_create_updates_table.php on line 6
+[26-Oct-2021 20:46:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php on line 6
+[26-Oct-2021 20:46:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021329_create_donation_updates_table.php on line 6
+[26-Oct-2021 20:46:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php on line 6
+[26-Oct-2021 20:46:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_23_110414_create_banners_table.php on line 6
+[26-Oct-2021 20:46:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php on line 6
+[26-Oct-2021 20:46:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094860_create_user_favorites_table.php on line 6
+[26-Oct-2021 20:46:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php on line 7
+[26-Oct-2021 20:46:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_025148_create_menu_admins_table.php on line 7
+[26-Oct-2021 20:46:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php on line 6
+[26-Oct-2021 20:46:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_08_083808_create_category_table.php on line 6
+[26-Oct-2021 20:46:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 6
+[26-Oct-2021 20:46:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_000000_create_users_table.php on line 6
+[26-Oct-2021 20:46:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php on line 7
+[26-Oct-2021 20:46:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2019_09_12_064151_create_user_privileges_table.php on line 7
+[26-Oct-2021 20:46:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php on line 6
+[26-Oct-2021 20:46:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2016_01_11_155001_create_provinsis_table.php on line 6
+[26-Oct-2021 20:46:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php on line 6
+[26-Oct-2021 20:46:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000001_create_user_socials_table.php on line 6
+[26-Oct-2021 20:46:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php on line 6
+[26-Oct-2021 20:46:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_04_06_141516_create_zakat_table.php on line 6
+[26-Oct-2021 20:46:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_06_21_180408_create_blog_viewers_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_06_21_180408_create_blog_viewers_table.php on line 6
+[26-Oct-2021 20:46:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_06_21_180408_create_blog_viewers_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_06_21_180408_create_blog_viewers_table.php on line 6
+[26-Oct-2021 20:46:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php on line 6
+[26-Oct-2021 20:46:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_23_101521_create_events_table.php on line 6
+[26-Oct-2021 20:47:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_05_29_093631_create_payment_methods_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_05_29_093631_create_payment_methods_table.php on line 6
+[26-Oct-2021 20:47:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_05_29_093631_create_payment_methods_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_05_29_093631_create_payment_methods_table.php on line 6
+[26-Oct-2021 20:47:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php on line 6
+[26-Oct-2021 20:47:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094921_create_blogs_table.php on line 6
+[26-Oct-2021 20:47:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php on line 6
+[26-Oct-2021 20:47:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121007_create_blog_categories_table.php on line 6
+[26-Oct-2021 20:47:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_05_29_093628_create_payment_method_groups_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_05_29_093628_create_payment_method_groups_table.php on line 6
+[26-Oct-2021 20:47:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2021_05_29_093628_create_payment_method_groups_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2021_05_29_093628_create_payment_method_groups_table.php on line 6
+[26-Oct-2021 20:47:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php on line 6
+[26-Oct-2021 20:47:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_000000_create_options_table.php on line 6
+[26-Oct-2021 20:47:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php on line 6
+[26-Oct-2021 20:47:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_03_03_021258_create_donations_table.php on line 6
+[26-Oct-2021 20:47:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php on line 6
+[26-Oct-2021 20:47:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_07_08_153618_create_dashboard_items_table.php on line 6
+[26-Oct-2021 20:47:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php on line 6
+[26-Oct-2021 20:47:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2017_09_06_190325_create_events_users_table.php on line 6
+[26-Oct-2021 20:47:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php on line 6
+[26-Oct-2021 20:47:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_104752_create_group_privileges_table.php on line 6
+[26-Oct-2021 20:47:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php on line 6
+[26-Oct-2021 20:47:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_121230_create_group_privilege_details_table.php on line 6
+[26-Oct-2021 20:47:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php on line 6
+[26-Oct-2021 20:47:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094850_create_rewards_table.php on line 6
+[26-Oct-2021 20:47:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php on line 6
+[26-Oct-2021 20:47:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094857_create_supporters_table.php on line 6
+[26-Oct-2021 20:47:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 6
+[26-Oct-2021 20:47:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 6
+[26-Oct-2021 20:47:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php on line 6
+[26-Oct-2021 20:47:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094940_create_media_table.php on line 6
+[26-Oct-2021 20:47:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php on line 6
+[26-Oct-2021 20:47:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2020_05_05_132705_create_project_withdraws_table.php on line 6
+[26-Oct-2021 20:47:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php on line 6
+[26-Oct-2021 20:47:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2015_09_03_094931_create_comments_table.php on line 6
+[31-Oct-2022 16:02:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/zakatkit/public_html/database/migrations/2022_08_30_210505_create_oauth_bcas_table.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/database/migrations/2022_08_30_210505_create_oauth_bcas_table.php on line 6

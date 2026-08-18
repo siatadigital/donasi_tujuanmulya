@@ -1,0 +1,4 @@
+[28-Dec-2021 16:41:26 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\Lexer' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Lexer/Emulative.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/Lexer/Emulative.php on line 10

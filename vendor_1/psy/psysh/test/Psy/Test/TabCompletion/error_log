@@ -1,0 +1,8 @@
+[26-Oct-2021 21:11:31 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/TabCompletion/AutoCompleterTest.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/TabCompletion/AutoCompleterTest.php on line 21
+[26-Oct-2021 21:11:32 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/TabCompletion/AutoCompleterTest.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/psy/psysh/test/Psy/Test/TabCompletion/AutoCompleterTest.php on line 21

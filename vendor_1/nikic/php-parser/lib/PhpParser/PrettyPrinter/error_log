@@ -1,0 +1,4 @@
+[28-Dec-2021 16:41:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PhpParser\PrettyPrinterAbstract' not found in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php on line 16

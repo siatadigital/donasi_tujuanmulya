@@ -1,0 +1,1 @@
+[28-Dec-2021 16:41:42 UTC] PHP Fatal error:  Interface 'PHPExcel_IComparable' not found in /home/zakatkit/public_html/vendor/phpoffice/phpexcel/Classes/PHPExcel/Worksheet/Drawing/Shadow.php on line 28

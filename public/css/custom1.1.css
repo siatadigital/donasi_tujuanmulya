@@ -1,0 +1,61 @@
+.input-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.input-row input {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right: 0px;
+}
+
+.button-input {
+  font-size: 20px;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  border-left: 0px;
+  background: white;
+  outline: none;
+}
+
+.galang-dana-name-profile {
+  display: flex;
+  align-items: center;
+}
+
+.icon-check {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background: #ea8e26;
+  display: flex;
+}
+
+.icon-check i {
+  color: white;
+  font-size: 8px;
+  margin: auto;
+}
+
+.icon-org {
+  width: 24px;
+  height: 12px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ea8e26;
+  display: flex;
+}
+
+.icon-org span {
+  font-weight: bold;
+  color: #ea8e26;
+  font-size: 6px;
+  margin: auto;
+}
+
+#avatar-crop {
+  display: block;
+  max-width: 100%;
+}

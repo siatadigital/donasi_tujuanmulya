@@ -1,0 +1,32 @@
+[30-Jun-2021 12:48:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function route() in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php on line 65
+[30-Jun-2021 12:53:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function route() in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php on line 65
+[13-Jul-2021 13:52:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function route() in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php on line 65
+[15-Jul-2021 15:42:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function route() in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php on line 65
+[27-Jul-2021 13:38:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function route() in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php on line 65
+[14-Aug-2021 23:14:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function route() in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php on line 65
+[28-Aug-2021 19:03:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function route() in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php on line 65
+[11-Sep-2021 14:50:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function route() in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/zakatkit/public_html/resources/views/contents/project/show.blade.php on line 65

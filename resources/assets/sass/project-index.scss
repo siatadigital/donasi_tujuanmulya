@@ -1,0 +1,38 @@
+@import "var";
+body{
+	background-color: #fbfbfb;
+}
+div#carousel-popular {
+    height: 400px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    background-color: $red;
+    color: white;
+	header {
+	    height: 175px;
+	    overflow: hidden;
+	    margin-bottom: 10px;
+	}
+}
+
+@media screen and(max-width:992px){
+	div#carousel-popular {
+	    height: 410px;
+	    padding-top: 80px;
+	}
+}
+
+@media screen and(max-width:767px){
+	div#carousel-popular {
+	    height: 600px;
+	    padding-top: 15px;
+		header {
+		    height: 188px;
+		    overflow: hidden;
+		    margin-bottom: 10px;
+		}
+	}
+	section.text-left{
+		text-align:center !important;
+	}
+}
