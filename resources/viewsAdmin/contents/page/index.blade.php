@@ -219,7 +219,12 @@
   @endif
 
   document.addEventListener('DOMContentLoaded', function () {
-       const chart = Highcharts.chart('container1', {
+       var chartContainer = document.getElementById('container1');
+       if (!chartContainer || typeof Highcharts === 'undefined') {
+           return;
+       }
+
+       const chart = Highcharts.chart(chartContainer, {
            chart: {
                type: 'line'
            },
