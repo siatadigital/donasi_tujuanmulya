@@ -502,10 +502,9 @@
 				$('#btn-donasi').hide();
 				var reward_id = $('#reward-id-array').val() !== "" ? $('#reward-id-array').val() : undefined;
 				var amount = reward_id ? $('#total-amount').val() : $('input#nominal').val().replace(/\D/g,'');
-				$.post("{{ url('midtrans/store/project') }}",
-				{
+				var paymentData = {
 						_method: 'POST',
-						_token: '{{ csrf_token() }}',
+						_token: $('meta[name="csrf-token"]').attr('content'),
 						user_id: $('input#user_id').val(),
 						project_id: $('input#project_id').val(),
 						money: amount,
@@ -518,8 +517,18 @@
 						payment_method: $('select#paymentMethod').val(),
 						code_referral: $('#code-referral').val() || undefined,
 						reward_id: reward_id,
-				},
-				function (data, status) {
+				};
+
+				function sendPayment(retry) {
+					paymentData._token = $('meta[name="csrf-token"]').attr('content');
+					$.ajax({
+						url: "{{ url('midtrans/store/project') }}",
+						type: 'POST',
+						data: paymentData,
+						headers: {
+							'X-CSRF-TOKEN': paymentData._token
+						},
+						success: function (data, status) {
 					fbq('track', 'Purchase', {
 						content_name: 'infak_umum',
 						currency: 'IDR',
@@ -578,7 +587,30 @@
 						// 			}
 						// 	});
 						// }
-				});
+						},
+						error: function (xhr) {
+							var response = xhr.responseJSON || {};
+							if (!retry && xhr.status === 419 && response.csrf_token) {
+								$('meta[name="csrf-token"]').attr('content', response.csrf_token);
+								paymentData._token = response.csrf_token;
+								sendPayment(true);
+								return;
+							}
+
+							$('#loading-donasi').hide();
+							$('#btn-donasi').show();
+							if (xhr.status === 419) {
+								alert('Sesi halaman sudah berubah. Halaman akan dimuat ulang.');
+								window.location.reload();
+								return;
+							}
+
+							alert('Pembayaran gagal diproses. Silakan coba lagi.');
+						}
+					});
+				}
+
+				sendPayment(false);
 				return false;
 		}
 

@@ -4,6 +4,7 @@ namespace App\Exceptions;
 
 use Exception;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Illuminate\Session\TokenMismatchException;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
@@ -18,6 +19,7 @@ class Handler extends ExceptionHandler
     protected $dontReport = [
         HttpException::class,
         ModelNotFoundException::class,
+        TokenMismatchException::class,
     ];
 
     /**
@@ -48,6 +50,13 @@ class Handler extends ExceptionHandler
     {
         if ($e instanceof ModelNotFoundException) {
             $e = new NotFoundHttpException($e->getMessage(), $e);
+        }
+
+        if ($e instanceof TokenMismatchException && ($request->ajax() || $request->wantsJson())) {
+            return response()->json([
+                'message' => 'Sesi halaman sudah berubah. Token CSRF diperbarui.',
+                'csrf_token' => csrf_token(),
+            ], 419);
         }
 
         return parent::render($request, $e);
