@@ -268,9 +268,9 @@ class PageController extends Controller
         $allDashboardPrivileges = $user->dashboardPrivileges;
         $dashboardPrivileges = $allDashboardPrivileges->where('can_access', 1);
 
-        // Older admin accounts may not have dashboard privilege rows yet.
-        // Superadmins retain access until those rows are configured explicitly.
-        if ($user->is_superadmin && $allDashboardPrivileges->isEmpty()) {
+        // Superadmins must always see the dashboard. Older records may contain
+        // privilege rows with can_access = 0 from an incomplete setup.
+        if ((int) $user->is_superadmin === 1) {
             $isChartAreaAccessible = true;
             $isChartAkadAccessible = true;
             $isChartMethodAccessible = true;
